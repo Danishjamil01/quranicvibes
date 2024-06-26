@@ -1,38 +1,38 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { SplashScreenComponent } from './component/splash-screen/splash-screen.component';
-import { PhoneloginComponent } from './component/phonelogin/phonelogin.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { WelcomeComponent } from './component/welcome/welcome.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LoginComponent } from './component/login/login.component';
-import { EmailVerifyComponent } from './component/email-verify/email-verify.component';
-import { SignupfreeComponent } from './component/signupfree/signupfree.component';
-import { CreatepasswordComponent } from './component/createpassword/createpassword.component';
-import { DobComponent } from './component/dob/dob.component';
-import { FacebookLoginProvider, SocialAuthServiceConfig, SocialLoginModule } from '@abacritt/angularx-social-login';
-import { ChoosesingerComponent } from './component/choosesinger/choosesinger.component';
-import { HomeComponent } from './component/home/home.component';
-import { BottomTabComponent } from './bottom-tab/bottom-tab.component';
-import { SearchComponent } from './search/search.component';
-import { LiabraryComponent } from './liabrary/liabrary.component';
-import { PremiumComponent } from './premium/premium.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ShortsComponent } from './component/shorts/shorts.component';
-import { ArtistSongListComponent } from './component/artist-song-list/artist-song-list.component';
-import { BayansComponent } from './component/bayans/bayans.component';
 import { YouTubePlayerModule } from '@angular/youtube-player';
-import { ShowsComponent } from './component/shows/shows.component';
-import { FSingerComponent } from './component/f-singer/f-singer.component';
-import { VibeComponent } from './component/vibe/vibe.component';
-import { ScholarComponent } from './component/scholar/scholar.component';
-import { PodcastComponent } from './component/podcast/podcast.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
-import { ReadQuranComponent } from './component/read-quran/read-quran.component';
-import { AllChapterComponent } from './component/all-chapter/all-chapter.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { AppRoutingModule } from '../src/app/app-routing.module';
+import { AppComponent } from '../src/app/app.component';
+import { AllChapterComponent } from '../src/app/component/all-chapter/all-chapter.component';
+import { ReadQuranComponent } from '../src/app/component/read-quran/read-quran.component';
+import { PodcastComponent } from '../src/app/component/podcast/podcast.component';
+import { ScholarComponent } from '../src/app/component/scholar/scholar.component';
+import { VibeComponent } from '../src/app/component/vibe/vibe.component';
+import { FSingerComponent } from '../src/app/component/f-singer/f-singer.component';
+import { ShowsComponent } from '../src/app/component/shows/shows.component';
+import { BayansComponent } from '../src/app/component/bayans/bayans.component';
+import { ArtistSongListComponent } from '../src/app/component/artist-song-list/artist-song-list.component';
+import { ShortsComponent } from '../src/app/component/shorts/shorts.component';
+import { PremiumComponent } from '../src/app/premium/premium.component';
+import { LiabraryComponent } from '../src/app/liabrary/liabrary.component';
+import { SearchComponent } from '../src/app/search/search.component';
+import { BottomTabComponent } from '../src/app/bottom-tab/bottom-tab.component';
+import { HomeComponent } from '../src/app/component/home/home.component';
+import { ChoosesingerComponent } from '../src/app/component/choosesinger/choosesinger.component';
+import { DobComponent } from '../src/app/component/dob/dob.component';
+import { CreatepasswordComponent } from '../src/app/component/createpassword/createpassword.component';
+import { SignupfreeComponent } from '../src/app/component/signupfree/signupfree.component';
+import { EmailVerifyComponent } from '../src/app/component/email-verify/email-verify.component';
+import { LoginComponent } from '../src/app/component/login/login.component';
+import { WelcomeComponent } from '../src/app/component/welcome/welcome.component';
+import { PhoneloginComponent } from '../src/app/component/phonelogin/phonelogin.component';
+import { SplashScreenComponent } from '../src/app/component/splash-screen/splash-screen.component';
+
 
 @NgModule({
   declarations: [
@@ -67,7 +67,6 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
-    SocialLoginModule,
     ReactiveFormsModule,
     HttpClientModule,
     YouTubePlayerModule,
