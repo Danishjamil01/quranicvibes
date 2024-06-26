@@ -32,7 +32,7 @@ import { PodcastComponent } from './component/podcast/podcast.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { ReadQuranComponent } from './component/read-quran/read-quran.component';
 import { AllChapterComponent } from './component/all-chapter/all-chapter.component';
-
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -75,19 +75,8 @@ import { AllChapterComponent } from './component/all-chapter/all-chapter.compone
   ],
   providers: [
     {
-      provide: 'SocialAuthServiceConfig',
-      useValue: {
-        autoLogin: false,
-        providers: [
-          {
-            id: FacebookLoginProvider.PROVIDER_ID,
-            provider: new FacebookLoginProvider('2186116975072852')
-          }
-        ],
-        onError: (err) => {
-          console.error(err);
-        }
-      } as SocialAuthServiceConfig,
+      provide: LocationStrategy,
+      useClass: HashLocationStrategy
     }
   ],
   bootstrap: [AppComponent]
