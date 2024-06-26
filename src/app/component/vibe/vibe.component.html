@@ -1,0 +1,38 @@
+<section class="main-section">
+    <div class="banner-img">
+        <div style="background-image:url('assets/images/vibes/poster1.jpg');"></div>
+    </div>
+    <div class="popular">
+        <span style="color: #fff;">Popular reciters</span><span style="color: #b8b8b8;">See all</span>
+    </div>
+    <div class="artist">
+        <div *ngFor="let list of artist">
+            <div
+                style="border-radius: 50%;border: 2px solid #3b3b3b;height: 80px;width: 80px;display: flex;align-items: center;justify-content: center;overflow: hidden;">
+                <img src="{{list.image}}" alt="" style="border-radius: 50%;width: 100%;height: 70px;width: 70px;">
+            </div>
+            <p class="truncate"
+                style="padding: 0;margin: 0;text-align: center;color: #fff;font-size: 10px;white-space: nowrap;overflow: hidden;">
+                {{list.name}}</p>
+        </div>
+    </div>
+
+    <div class="Mostly" style="display: flex;align-items: center;justify-content: space-between;padding: 15px 10px;">
+        <span style="color: #fff;">Mostly Listen</span><span style="color: #b8b8b8;">See all</span>
+    </div>
+    <div class="surah" style="padding: 10px;">
+        <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+            <div ngxSlickItem *ngFor="let slide of slides" class="slide" [ngStyle]="{background:slide.bg}">
+                <img src="{{slide.img}}" alt="" style="width: 140px;">
+            </div>
+        </ngx-slick-carousel>
+
+
+    </div>
+
+
+
+
+
+
+</section>

@@ -1,0 +1,106 @@
+.main-section {
+    height: 100vh;
+    background-color: #F5F5DC;
+
+    .main-header {
+        text-align: center;
+        padding: 13px;
+
+        h5 {
+            font-size: 38px;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            font-family: lateef;
+        }
+    }
+
+    .content {
+        background-color: #F5F5DC;
+        height: 80vh;
+        overflow-y: auto;
+        text-align: right;
+
+        .content-header {
+            h5 {
+                font-size: 30px;
+                padding: 0;
+                margin: 0;
+                text-align: center;
+                font-family: lateef;
+            }
+        }
+        p{
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .page {
+        .aayat-list {
+            list-style: none;
+
+            .aayat {
+                border-bottom: 1px solid #ccc;
+                text-align: center;
+                padding: 7px;
+
+                span {
+                    font-size: 28px;
+                    margin: 0;
+                    cursor: pointer;
+                    font-family: 'lateef';
+                }
+            }
+
+            .tafseer {
+                height: 50vh;
+                overflow-y: auto;
+                b{
+                    font-family: 'Lateef';
+                }
+                p{
+                    font-family: 'Jameel Noori Nastaleeq';
+                }
+                // padding: 18px;
+            }
+        }
+
+        .aayat-list:nth-child(1) {
+            border-top: 1px solid #ccc;
+        }
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.dropdown-content.open {
+    max-height: 500px;
+    border-bottom: 1px solid #ccc;
+    opacity: 1;
+    transition: .5s;
+}
+
+.dropdown-content.close {
+    max-height: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+.numbering {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

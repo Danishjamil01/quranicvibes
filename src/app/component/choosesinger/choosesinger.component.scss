@@ -1,0 +1,52 @@
+.artist input::placeholder {
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.artist input {
+  background-color: #fff;
+}
+
+.choose-aalim button {
+  padding: 6px 22px;
+  border-radius: 25px;
+  background: transparent;
+  color: #000000;
+  border: 1px solid #6a6a6a;
+  font-size: 15px;
+  white-space: nowrap;
+  /* Ensures text stays in one line */
+}
+
+.choose-aalim {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.choose-aalim button.selected {
+  background-color: #155780;
+  border: 1px solid #155780;
+  color: #fff;
+}
+
+.selected-image img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.selected-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.selected-image:not(:first-child) {
+  margin-left: -10% !important;
+}
+
+

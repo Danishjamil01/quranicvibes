@@ -1,0 +1,602 @@
+[
+    {
+        "id": "1",
+        "juzname": "الٓمٓ",
+        "juz": "پہلا پارہ",
+        "aayat": "141",
+        "bgcolor": "#F5F5DC",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Fatiha (1:1)",
+        "end": " Al-Baqarah (2:141)",
+        "versename": "۞ سُورةُ الفاتِحَةِ مَكِيَّةٌ ۞",
+        "details": [
+            {
+                "totalverses": "141",
+                "totalrukus": "10",
+                "totalsajdas": "1",
+                "fullparah": ""
+            }
+        ],
+        "allverse": [
+            {
+                "versenum": "1",
+                "verse": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ"
+            },
+            {
+                "versenum": "2",
+                "verse": "الرَّحْمَـٰنِ الرَّحِيمِ"
+            },
+            {
+                "versenum": "3",
+                "verse": "مَالِكِ يَوْمِ الدِّينِ"
+            },
+            {
+                "versenum": "4",
+                "verse": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
+            },
+            {
+                "versenum": "5",
+                "verse": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ"
+            },
+            {
+                "versenum": "6",
+                "verse": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَاالضَّالِّينَ"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "juzname": "سَيَقُولُ",
+        "juz": "پہلا پارہ",
+        "aayat": "111",
+        "bgcolor": "#FFE4C4",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Baqarah (2:142)",
+        "end": " Al-Baqarah (2:252)",
+        "details": [
+            {
+                "totalverses": "141",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ],
+        "allverse": [
+            {
+                "versenum": "2",
+                "verse": "سَيَقُولُ"
+            },
+            {
+                "versenum": "2",
+                "verse": "الرَّحْمَـٰنِ الرَّحِيمِ"
+            },
+            {
+                "versenum": "3",
+                "verse": "مَالِكِ يَوْمِ الدِّينِ"
+            },
+            {
+                "versenum": "4",
+                "verse": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
+            },
+            {
+                "versenum": "5",
+                "verse": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ"
+            },
+            {
+                "versenum": "6",
+                "verse": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَاالضَّالِّينَ"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "juzname": "تِلْكَ ٱلرُّسُلُ",
+        "juz": "پہلا پارہ",
+        "aayat": "126 ",
+        "bgcolor": "#FFDEAD",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Baqarah (2:253)",
+        "end": " Surah Al-Imran (3:92)",
+        "details": [
+            {
+                "totalverses": "126",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "juzname": "لَن تَنَالُوا۟",
+        "juz": "پہلا پارہ",
+        "aayat": "176 ",
+        "bgcolor": "#FDF5E6",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Imran (3:93)",
+        "end": " An-Nisa (4:23)",
+        "details": [
+            {
+                "totalverses": "176",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "juzname": "وَٱلْمُحْصَنَاتُ",
+        "juz": "پہلا پارہ",
+        "aayat": "124 ",
+        "bgcolor": "#FAEBD7",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " An-Nisa (4:24)",
+        "end": " An-Nisa (4:147)",
+        "details": [
+            {
+                "totalverses": "124",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "juzname": "لَا يُحِبُّ ٱللَّهُ",
+        "juz": "پہلا پارہ",
+        "aayat": "165 ",
+        "bgcolor": "#FFFACD",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " An-Nisa (4:148)",
+        "end": " Al-Ma'idah (5:81)",
+        "details": [
+            {
+                "totalverses": "165",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "juzname": "وَإِذَا سَمِعُوا۟",
+        "juz": "پہلا پارہ",
+        "aayat": "206 ",
+        "bgcolor": "#FFEFD5",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Ma'idah (5:82)",
+        "end": " Al-An'am (6:110)",
+        "details": [
+            {
+                "totalverses": "206",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "juzname": "وَلَوْ أَنَّنَا",
+        "juz": "پہلا پارہ",
+        "aayat": "136 ",
+        "bgcolor": "#FFF8DC",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-An'am (6:111)",
+        "end": " Al-A'raf (7:87)",
+        "details": [
+            {
+                "totalverses": "136",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "juzname": "قَدْ أَفْلَحَ",
+        "juz": "پہلا پارہ",
+        "aayat": "151 ",
+        "bgcolor": "#FFF5EE",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-A'raf (7:88)",
+        "end": " Al-Anfal (8:40)",
+        "details": [
+            {
+                "totalverses": "151",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "juzname": "وَٱعْلَمُوا۟",
+        "juz": "پہلا پارہ",
+        "aayat": "173 ",
+        "bgcolor": "#F0FFF0",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Anfal (8:41)",
+        "end": " At-Tawbah (9:92)",
+        "details": [
+            {
+                "totalverses": "173",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "juzname": "يَعْتَذِرُونَ",
+        "juz": "پہلا پارہ",
+        "aayat": "181  ",
+        "bgcolor": "#F5FFFA",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " At-Tawbah (9:93)",
+        "end": " Hud (11:5)",
+        "details": [
+            {
+                "totalverses": "181",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "juzname": "وَمَا مِن دَآبَّةٍ",
+        "juz": "پہلا پارہ",
+        "aayat": "182  ",
+        "bgcolor": "#F0FFFF",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Hud (11:6)",
+        "end": " Yusuf (12:52)",
+        "details": [
+            {
+                "totalverses": "182",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "juzname": "وَمَآ أُبَرِّئُ",
+        "juz": "پہلا پارہ",
+        "aayat": "154 ",
+        "bgcolor": "#F0F8FF",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Yusuf (12:53)",
+        "end": " Ibrahim (14:52)",
+        "details": [
+            {
+                "totalverses": "154",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "juzname": "رُّبَمَا",
+        "juz": "پہلا پارہ",
+        "aayat": "183 ",
+        "bgcolor": "#E6E6FA",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Hijr (15:1)",
+        "end": " An-Nahl (16:128)",
+        "details": [
+            {
+                "totalverses": "183",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "juzname": "سُبْحَٰنَ ٱلَّذِى",
+        "juz": "پہلا پارہ",
+        "aayat": "185 ",
+        "bgcolor": "#FFF0F5",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Isra (17:1)",
+        "end": " Al-Kahf (18:74)",
+        "details": [
+            {
+                "totalverses": "185",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "juzname": "قَالَ أَلَمْ",
+        "juz": "پہلا پارہ",
+        "aayat": "269  ",
+        "bgcolor": "#FFFAFA",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Kahf (18:75)",
+        "end": " Ta-Ha (20:135)",
+        "details": [
+            {
+                "totalverses": "269",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "juzname": "ٱقْتَرَبَ",
+        "juz": "پہلا پارہ",
+        "aayat": "182  ",
+        "bgcolor": "#FFE4E1",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Anbiya (21:1)",
+        "end": " Al-Hajj (22:78)",
+        "details": [
+            {
+                "totalverses": "182",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "juzname": "قَدْ أَفْلَحَ",
+        "juz": "پہلا پارہ",
+        "aayat": "176  ",
+        "bgcolor": "#F5F5F5",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Mu'minun (23:1)",
+        "end": " Al-Furqan (25:20)",
+        "details": [
+            {
+                "totalverses": "176",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "juzname": "وَقَالَ ٱلَّذِينَ",
+        "juz": "پہلا پارہ",
+        "aayat": "151  ",
+        "bgcolor": "#DCDCDC",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Furqan (25:21)",
+        "end": " An-Naml (27:55)",
+        "details": [
+            {
+                "totalverses": "151",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "juzname": "أَمَّنْ خَلَقَ",
+        "juz": "پہلا پارہ",
+        "aayat": "153  ",
+        "bgcolor": "#D3D3D3",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " An-Naml (27:56)",
+        "end": " Al-Ankabut (29:45)",
+        "details": [
+            {
+                "totalverses": "153",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "juzname": "ٱتْلُ مَآ أُوحِىَ",
+        "juz": "پہلا پارہ",
+        "aayat": "178  ",
+        "bgcolor": "#C0C0C0",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Ankabut (29:46)",
+        "end": " Al-Azhab (33:30)",
+        "details": [
+            {
+                "totalverses": "178",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "juzname": "وَمَن يَقْنُتْ",
+        "juz": "پہلا پارہ",
+        "aayat": "169 ",
+        "bgcolor": "#A9A9A9",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Azhab (33:31)",
+        "end": " Ya-Sin (36:27)",
+        "color": "#fff",
+        "details": [
+            {
+                "totalverses": "169",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "juzname": "وَمَا لِىَ",
+        "juz": "پہلا پارہ",
+        "aayat": "182  ",
+        "bgcolor": "#808080",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Ya-Sin (36:28)",
+        "end": " Az-Zumar (39:31)",
+        "color": "#fff",
+        "details": [
+            {
+                "totalverses": "182",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "juzname": "فَمَنْ أَظْلَمُ",
+        "juz": "پہلا پارہ",
+        "aayat": "174  ",
+        "bgcolor": "#696969",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Az-Zumar (39:32)",
+        "end": " Fussilat (41:46)",
+        "color": "#fff",
+        "details": [
+            {
+                "totalverses": "174",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "25",
+        "juzname": "إِلَيْهِ يُرَدُّ",
+        "juz": "پہلا پارہ",
+        "aayat": "181  ",
+        "bgcolor": "#778899",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Fussilat (41:47)",
+        "end": " Al-Jathiya (45:37)",
+        "color": "#fff",
+        "details": [
+            {
+                "totalverses": "181",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "26",
+        "juzname": "حٓمٓ",
+        "juz": "پہلا پارہ",
+        "aayat": "182  ",
+        "bgcolor": "#708090",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Ahqaf (46:1)",
+        "end": " Az-Zariyat (51:30)",
+        "color": "#fff",
+        "details": [
+            {
+                "totalverses": "182",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "27",
+        "juzname": "قَالَ فَمَا خَطْبُكُمْ",
+        "juz": "پہلا پارہ",
+        "aayat": "179  ",
+        "bgcolor": "#2F4F4F",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Az-Zariyat (51:31)",
+        "end": " Al-Hadid (57:29)",
+        "color": "#fff",
+        "details": [
+            {
+                "totalverses": "179",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "28",
+        "juzname": "قَدْ أَفْلَحَ",
+        "juz": "پہلا پارہ",
+        "aayat": "137  ",
+        "bgcolor": "#B0C4DE",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Mujadila (58:1)",
+        "end": " At-Tahrim (66:12)",
+        "details": [
+            {
+                "totalverses": "137",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "29",
+        "juzname": "تَبَارَكَ ٱلَّذِى",
+        "juz": "پہلا پارہ",
+        "aayat": "431 ",
+        "bgcolor": "#ADD8E6",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " Al-Mulk (67:1)",
+        "end": " Al-Mursalat (77:50)",
+        "details": [
+            {
+                "totalverses": "431",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    },
+    {
+        "id": "30",
+        "juzname": "عَمَّ",
+        "juz": "پہلا پارہ",
+        "aayat": "564 ",
+        "bgcolor": "#87CEEB",
+        "description": "Starts from ",
+        "surah": "Surah",
+        "from": " An-Naba (78:1)",
+        "end": " An-Nas (114:6)",
+        "details": [
+            {
+                "totalverses": "564",
+                "totalrukus": "10",
+                "totalsajdas": "1"
+            }
+        ]
+    }
+]

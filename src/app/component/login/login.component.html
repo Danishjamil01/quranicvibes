@@ -1,0 +1,120 @@
+<section class="main-section">
+
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+  <div class="circle3"></div>
+  <div class="circle4"></div>
+
+  <div class="logo">
+    <img src="assets/images/logo/logo.png" alt="">
+  </div>
+
+  <div class="login-container">
+
+    <div class="tab-section">
+      <ul class="tab-list">
+        <li [ngClass]="{ 'active': isMobileLogin }" (click)="selectTab('mobile')">Mobile Login</li>
+        <li [ngClass]="{ 'active': isEmailLogin }" (click)="selectTab('email')">Email Login</li>
+        <div class="border-highlight" [ngStyle]="{'left': isMobileLogin ? '0' : '50%'}"></div>
+      </ul>
+    </div>
+
+    <div class="tab-content">
+      <div *ngIf="isMobileLogin">
+        <div *ngIf="isMobileContainer" class="mobile-container">
+          <div class="mt-5 heading-title">
+            <p class="bold-text">Your phone number</p>
+            <p class="light-text">Please confirm your country code <br>and
+              enter your mobile
+              number</p>
+          </div>
+          <br>
+          <div (click)="chooseCountry()" class="country-access">
+            <span>{{selectedEmoji}}</span>
+            <div class="flex-box">
+              <input type="text" [(ngModel)]="selectedCountryName" [placeholder]="selectedCountryName ? '' :'Country'"
+                readonly><i class="bi bi-chevron-right"></i>
+            </div>
+          </div>
+          <br>
+
+          <div [@vibrate]="vibrationState" class="mobile-input">
+            &nbsp;&nbsp;<span>{{selectedCountryCode ? selectedCountryCode : '+91'}}</span>&nbsp;&nbsp;
+            <input type="tel" placeholder="Enter Your Mobile Number" [(ngModel)]="phoneNumber"
+              [attr.maxlength]="getPhoneNumberMaxLength()">
+          </div>
+          <div class="login-btn mt-5">
+            <button (click)="enterMobileOtp()"><i class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="isEmailLogin">
+        <div *ngIf="isEmailContainer" class="mt-5 email-container">
+          <div class="heading-title">
+            <p class="bold-text">Your Email Address</p>
+            <p class="light-text">Please enter your Email address</p>
+          </div>
+          <br>
+          <div class="email-id">
+            &nbsp;&nbsp;&nbsp;<i class="bi bi-envelope"></i>&nbsp;&nbsp;&nbsp;<input type="email"
+              placeholder="Enter your Email address" required>
+          </div>
+          <div class="login-btn mt-5">
+            <button type="submit" (click)="enterEmailOtp()"><i class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="otp-container mt-4" *ngIf="isOtp">
+        <i class="bi bi-arrow-left" (click)="onBack()"></i>
+        <b>Enter Code</b>
+        <div class="heading-title">
+          <p class="light-text">We'have sent an SMS with an activation code
+            to your <br><span>{{isMobileLogin ? 'phone +91 xxxxxxxxxx' : 'Email'}}</span></p>
+        </div>
+        <div class="otp-input-container">
+          <input class="otp-input" type="number" [(ngModel)]="otp[0]" (keyup)="moveToNext($event, 1)" maxlength="1">
+          <input class="otp-input" type="number" [(ngModel)]="otp[1]" (keyup)="moveToNext($event, 2)" maxlength="1">
+          <input class="otp-input" type="number" [(ngModel)]="otp[2]" (keyup)="moveToNext($event, 3)" maxlength="1">
+          <input class="otp-input" type="number" [(ngModel)]="otp[3]" (keyup)="moveToNext($event, 4)" maxlength="1">
+        </div>
+
+        <div class="verify-btn mt-3" (click)="routeToNext()">
+          <button>Verify OTP</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+<!-- country-code  -->
+<div class="offcanvas offcanvas-start all-country-list" tabindex="-1" id="countrycodemodal"
+  aria-labelledby="offcanvasExampleLabel">
+  <div class="choose-country" *ngIf="isChooseCountry">
+    <div class="flex-box">
+      <i class="bi bi-arrow-left" (click)="closeCountryCodeModal()"></i>
+      <h5>Choose a country</h5>
+    </div>
+    <i class="bi bi-search" (click)="searchCountry()"></i>
+  </div>
+  <div class="search-country" *ngIf="isSearchCountry">
+    <i class="bi bi-arrow-left" (click)="closeSearchCountry()"></i>
+    <input type="search" #searchInput [(ngModel)]="searchTerm" (input)="filterCountries()" placeholder="Search">
+  </div>
+  <div class="offcanvas-body">
+    <div *ngFor="let country of filteredCountries" class="filtered-country">
+      <ul class="select-country" (click)="selectCountry(country)">
+        <li class="emoji"><span>{{country.emoji}}</span>
+          <span>{{country.name}}</span>
+        </li>
+        <li class="dial-code">{{country.dial_code}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- country-code  -->

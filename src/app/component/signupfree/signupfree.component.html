@@ -1,0 +1,147 @@
+<section style="background-color: #000;height: 100vh;">
+  <div style="display: flex;align-items: center;gap: 70px;">
+    <div class="back" (click)="onback()" style="padding: 14px;">
+      <i style="font-size: 25px;color: #fff;" class="bi bi-arrow-left"></i>
+    </div>
+    <div style="color: #fff;font-family: system-ui;">
+      <span style="font-size: 18px;">Create account</span>
+    </div>
+  </div>
+
+  <div *ngIf="showEmailSection">
+    <div class="email-section" style="padding: 35px 16px 0;">
+      <h2 style="color: #fff;font-family: system-ui;">What's your email?</h2>
+      <input type="email"
+        style="background-color: #727272;outline: none;border: none;width: 100%;padding: 6px;border-radius: 4px;"
+        [(ngModel)]="email" (input)="checkEmailValidity()">
+      <div class="mt-2">
+        <span style="color: #fff;font-family: system-ui;">You'll need to confirm this email later.</span>
+      </div>
+    </div>
+    <div (click)="routetopass()" class="next" style="text-align: center;padding-top: 30px;">
+      <button style="font-size: 15px;color: #000; font-size: 12px;
+      color: #000;
+      padding: 12px 32px;
+      border-radius: 25px;font-weight: 500;border: none;" [disabled]="!isEmailValid">Next</button>
+    </div>
+  </div>
+
+  <section *ngIf="showPassword">
+    <div class="email-section" style="padding: 35px 16px 0;">
+      <h2 style="color: #fff;font-family: system-ui;">Create password</h2>
+      <div style="position: relative;">
+        <input required [type]="changetype?'password':'text'" type="password" [(ngModel)]="password"
+          (input)="checkPasswordValidity()"
+          style="background-color: #727272;outline: none;border: none;width: 100%;padding: 6px;border-radius: 4px;">
+        <div class="show_pass" style="    position: absolute;color: #fff;
+      top: 12%;
+      right: 3%;">
+          <i [ngClass]="visible? 'bi bi-eye-fill':'bi bi-eye-slash'" (click)="showPass()"></i>
+        </div>
+      </div>
+      <div class="mt-2">
+        <span style="color: #fff;font-family: system-ui;">Use at least 8 characters.</span>
+      </div>
+    </div>
+    <div (click)="onDob()" class="next" style="text-align: center;padding-top: 30px;">
+      <button style="font-size: 15px;color: #000; font-size: 12px;
+    color: #000;
+    padding: 12px 32px;
+    border-radius: 25px;font-weight: 500;border: none;" [disabled]="!isPasswordValid">Next</button>
+    </div>
+  </section>
+
+
+
+  <section *ngIf="showdob">
+    <div class="email-section" style="padding: 35px 16px 0;">
+      <h2 style="color: #fff;font-family: system-ui;">What's yopur date of birth?</h2>
+    </div>
+    <div style="padding: 20px;">
+      <input type="date" style="    width: 100%;
+    border: none;
+    padding: 7px;
+    background: #727272;
+    color: #fff;">
+    </div>
+
+    <div class="next" style="text-align: center;padding-top: 30px;">
+      <button style="font-size: 15px;color: #000; font-size: 12px;
+    color: #000;
+    padding: 12px 32px;
+    border-radius: 25px;font-weight: 500;border: none;" (click)="onGender()">Next</button>
+    </div>
+  </section>
+
+
+
+
+  <div class="gender_selection" *ngIf="showGender">
+
+    <div class="email-section" style="padding: 35px 16px 0;">
+      <h2 style="color: #fff;font-family: system-ui;">What's your gender?</h2>
+    </div>
+
+    <!-- <div class="gender">
+      <button>Female</button>
+      <button>Male</button>
+      <button>Non-binary</button>
+      <button>Other</button>
+      <button>Prefer not to say</button>
+    </div> -->
+
+    <div class="gender">
+      <button (click)="routeToterm()" *ngFor="let gender of genders">{{gender.name}}</button>
+    </div>
+
+  </div>
+
+
+
+  <div class="termsandcondition" *ngIf="showTerms">
+    <div class="" style="padding: 35px 16px 0;">
+      <h2 style="color: #fff;font-family: system-ui;">What's your name?</h2>
+      <input type="text"
+        style="background-color: #727272;outline: none;border: none;width: 100%;padding: 6px;border-radius: 4px;">
+      <div class="mt-2" style="border-bottom: 1px solid;padding: 0 0 18px;">
+        <span style="color: #fff;font-family: system-ui;">This appears on your QuranicVibes profile.</span>
+      </div>
+
+      <div>
+        <div class="mt-3">
+          <span>By tapping "Create account", you again to the QuranicVibes Terms of Use.</span>
+        </div>
+        <div class="mt-3">
+          <span style="color: rgb(0, 175, 0);">Terms of Use</span>
+        </div>
+        <div class="mt-3">
+          <span>To learn more about how QuranicVibes collects, Uses,shares and protects your personal data, please see the
+            QuranicVibes Privacy Policy.</span>
+          <p style="color: rgb(0, 175, 0);">Privacy Policy</p>
+        </div>
+
+      </div>
+      <div class="options">
+        <div style="display: flex;">
+          <span>I would prefer not to recieve marketing message from QuranicVibes.</span>
+          <i [ngClass]="option? 'bi bi-circle':'bi bi-check-circle'" style="color: #fff;font-size: 20px;"
+            (click)="chooseOption()"></i>
+        </div>
+        <div style="display: flex;" class="mt-3">
+          <span>Share my registration data with QuranicVibes's content providers for marketing purposes</span>
+          <i [ngClass]="option1? 'bi bi-circle':'bi bi-check-circle'" style="color: #fff;font-size: 20px;"
+            (click)="chooseOption1()"></i>
+        </div>
+      </div>
+
+      <div class="create" style="padding-top: 85px;text-align: center;">
+        <button (click)="routeTosinger()"
+          style="padding: 7px 25px;border-radius: 25px;color: #000;background-color: #fff;font-weight: 500;border: none;">Create
+          account</button>
+      </div>
+      <div class="captcha text-center" style="padding-top: 20px">
+        <span style="color: #727272;">PROTECTED BY RECAPTCHA</span>
+      </div>
+    </div>
+  </div>
+</section>

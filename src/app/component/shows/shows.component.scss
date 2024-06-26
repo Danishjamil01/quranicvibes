@@ -1,0 +1,40 @@
+.comment-section {
+    position: fixed;
+    bottom: 65vh;
+    /* Start off-screen */
+    left: 0;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    height: 60vh;
+    transition: bottom 0.5s;
+    overflow: scroll;
+    /* Use CSS for transition */
+    padding: 5px 10px;
+    // width: 400px;
+    // margin: auto;
+} 
+
+.title-header {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: -1.3%;
+    background-color: white;
+    z-index: 1;
+    /* Ensure it stays above the scrolling content */
+}
+
+.open {
+    bottom: 0;
+    /* Move the section into view */
+}
+
+.closed {
+    bottom: -65vh;
+    /* Move the section off-screen */
+}
+
+
+

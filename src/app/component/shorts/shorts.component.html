@@ -1,0 +1,152 @@
+<!-- 
+
+
+<div style="position: relative;">
+    <div class="video-container" style="height: fit-content;">
+        <div class="video-wrapper" #videoWrapper>
+          <div class="video" *ngFor="let video of allShortsData">
+            <video controls (ended)="nextVideo()" [src]="video.src"></video>
+          </div>
+        </div>
+      </div>
+      
+    <section class="main-section" *ngFor="let short of allShortsData" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 200;">
+        <div class="header">
+            <span>{{ short.reel }}</span>
+            <i class="{{ short.cameraIcon }}"></i>
+        </div>
+    
+        <div class="options">
+            <ul>
+                <li>
+                    <div class="like">
+                        <i class="{{ short.likeIcon }}"></i><br>
+                        <span>{{ short.vid[0].totalLike }}</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="comment">
+                        <i class="{{ short.commentIcon }}"></i><br>
+                        <span>{{ short.vid[0].totalComment }}</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="share">
+                        <i class="{{ short.shareIcon }}"></i><br>
+                        <span>{{ short.vid[0].totalShare }}</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="option">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </li>
+                <li class="main-sound">
+                    <div class="sound">
+                        <img src="" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+ -->
+
+
+<!-- <div class="video-container" #videoWrapper>
+    <div class="video-wrapper">
+      <div class="video" *ngFor="let short of allShortsData">
+        <video style="height: 100vh;" #videoPlayer controls (ended)="nextVideo()" [muted]="isMuted" [src]="short.vid[0].video"></video>
+        <div class="interactions">
+          <i class="{{ short.likeIcon }}"></i> {{ short.vid[0].totalLike }}
+          <i class="{{ short.commentIcon }}"></i> {{ short.vid[0].totalComment }}
+          <i class="{{ short.shareIcon }}"></i> {{ short.vid[0].totalShare }}
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+<!-- <div *ngFor="let short of allShortsData">
+    <video #videoPlayer autoplay (ended)="restartVideo()" [muted]="isMuted" style="height: 100vh;object-fit: unset;"
+        [src]="short.video" frameborder="0"></video>
+</div> -->
+
+<div style="background: #ADD8E6; height: 100vh;padding-top:70px;">
+    <!-- <div class="saved"
+        style=" display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px;">
+        <h1 style="font-family: 'Lateef'; font-size: 3rem; color: #000000; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);">
+            أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ</h1>
+        <div class="tafseer"
+            style="margin-top: 20px; padding: 20px 15px; border-radius: 10px; background-color: rgba(255,255,255,0.9); max-width: 80%; text-align: center; box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
+            <p style="font-family: 'Jameel Noori Nastaleeq'; font-size: 30px; color: #333;padding: 0;margin: 0;word-spacing: 6px;">میں اللہ کی پناہ مانگتا ہوں شیطان مردود سے۔</p>
+            <p style="text-align: center;padding: 2px;margin: 0;font-family: 'Jameel Noori Nastaleeq';font-size: 18px;">
+                تفسیر 👉</p>
+        </div>
+        <button style="font-family: 'Lateef'; font-size: 1.2rem; color: #333; margin-top: 40px;padding: 5px 15px;border: none;background-color: transparent;border-radius: 4px;font-family: 'Jameel Noori Nastaleeq';background-color: #fff;">quran.icvibes</button>
+        <div style="margin-top: 20px; display: flex; justify-content: center;">
+            <a href="https://www.facebook.com/quran.icvibes"
+                style="text-decoration: none; color: #3b5998; margin: 0 10px;"><i class="bi bi-facebook"
+                    style="font-size: 1.5rem;"></i></a>
+            <a href="https://www.instagram.com/quran.icvibes"
+                style="text-decoration: none; color: #e4405f; margin: 0 10px;"><i class="bi bi-instagram"
+                    style="font-size: 1.5rem;"></i></a>
+            <a href="https://www.youtube.com/quran.icvibes"
+                style="text-decoration: none; color: #cd201f; margin: 0 10px;"><i class="bi bi-youtube"
+                    style="font-size: 1.5rem;"></i></a>
+            <a href="https://www.whatsapp.com/quran.icvibes"
+                style="text-decoration: none; color: #25D366; margin: 0 10px;"><i class="bi bi-whatsapp"
+                    style="font-size: 1.5rem;"></i></a>
+        </div>
+    </div> -->
+
+    <div style="padding: 10px 25px ">
+        <div style=" padding: 20px; border-radius: 10px; max-width: 400px; margin: 0 auto;">
+            <h1
+                style="font-family: 'Lateef'; text-align: center; font-size: 35px; color: #333; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+                :(A'udhu)بِاللَّهِ</h1>
+            <div class="tafseer"
+                style="margin-top: 20px; padding: 10px; border-radius: 35px; text-align: center; background-color: #fff;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
+                <p
+                    style="font-family: 'Jameel Noori Nastaleeq'; font-size: 30px; color: #333; padding: 0; margin: 0; word-spacing: 6px;">
+                    اللہ سے یا اللہ کے ساتھ</p>
+            </div>
+            <br>
+            <h1 style="text-align: right; font-size: 35px;text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-family: 'Jameel Noori Nastaleeq'; color: #000000;">وضاحت
+            </h1>
+                <p style="text-align: end; color: #000000;font-size: 22px;font-family: 'Jameel Noori Nastaleeq';word-spacing: 5px;">یہ ظاہر کرتا ہے کہ پناہ اور حفاظت اللہ سے طلب کی جا رہی ہے، جو سب سے عظیم ہے۔</p>
+        </div>
+
+        <br>
+        <!-- <h1
+            style="font-family: 'Lateef';text-align: end; font-size: 35px; color: #000000; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);">
+            :(Billahi)بِاللَّهِ </h1>
+        <div class="tafseer"
+            style="margin-top: 20px; padding: 10px; border-radius: 10px; background-color: rgba(255,255,255,0.9); max-width: 60%; text-align: center; box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
+            <p
+                style="font-family: 'Jameel Noori Nastaleeq'; font-size: 30px; color: #333;padding: 0;margin: 0;word-spacing: 6px;">
+                اللہ سے یا اللہ کے ساتھ</p>
+        </div> -->
+        <!-- <h1
+            style="font-family: 'Lateef';text-align: end; font-size: 35px; color: #000000; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);">
+            :(Min Ash-Shaytan)مِنَ الشَّيْطَانِ </h1>
+        <div class="tafseer"
+            style="margin-top: 20px; padding: 10px; border-radius: 10px; background-color: rgba(255,255,255,0.9); max-width: 60%; text-align: center; box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
+            <p
+                style="font-family: 'Jameel Noori Nastaleeq'; font-size: 30px; color: #333;padding: 0;margin: 0;word-spacing: 6px;">
+                شیطان سے</p>
+        </div>
+        <br>
+        <h1
+            style="font-family: 'Lateef';text-align: end; font-size: 35px; color: #000000; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);">
+            :(Ar-Rajim)الرَّجِيمِ  </h1>
+        <div class="tafseer"
+            style="margin-top: 20px; padding: 10px; border-radius: 10px; background-color: rgba(255,255,255,0.9); max-width: 60%; text-align: center; box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
+            <p
+                style="font-family: 'Jameel Noori Nastaleeq'; font-size: 30px; color: #333;padding: 0;margin: 0;word-spacing: 6px;">
+                مردود یا پتھر مارا ہوا</p>
+        </div> -->
+    </div>
+    <br><br>
+    <button (click)="savePageAsImage()">save img</button>
+</div>

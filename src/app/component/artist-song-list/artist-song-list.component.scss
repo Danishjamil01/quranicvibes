@@ -1,0 +1,380 @@
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.arrow-back {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    i {
+        font-size: 20px;
+    }
+}
+
+.heding-content {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    // background-image: ;
+    background-size: cover;
+    background-position: center center;
+    height: 220px;
+    background-color: #bf975f;
+    padding: 5px 10px;
+    width: 400px;
+}
+
+.mid-section {
+    // overflow-y: scroll;
+    position: relative;
+    z-index: 2;
+    top: -55px;
+
+    .singer-name {
+        text-align: center;
+        color: #fff;
+        font-size: 45px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .content {
+        height: auto;
+        // background: linear-gradient(to bottom, hsl(36, 26%, 25%),hsl(35,70,10%), hsl(34, 70%, 4%));
+    
+
+    }
+}
+
+.name {
+    position: absolute;
+    width: 400px;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    gap: 15px;
+
+    span {
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+
+.scrolled .name {
+    opacity: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.check {
+    z-index: 1000 !important;
+}
+
+video {
+    width: 100%;
+}
+
+.instruction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .child-instr {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .shortvid {
+        height: 50px;
+        width: 35px;
+        border-radius: 4px;
+        overflow: hidden;
+        border: 2px solid #9f9f9f;
+    }
+}
+
+.lyrics-container {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+
+.mid-section {
+
+    .content {
+        padding: 15px;
+
+        .listener {
+            span {
+                color: #fff;
+            }
+        }
+
+        .instruction {
+            .child-instr {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                .shortvid {
+                    height: 50px;
+                    width: 35px;
+                    border-radius: 4px;
+                    overflow: hidden;
+                    border: 2px solid #9f9f9f;
+
+                    video {
+                        height: 50px;
+                        width: 35px;
+                        object-fit: cover;
+                    }
+                }
+
+                .follow {
+                    button {
+                        background: transparent;
+                        font-size: 15px;
+                        padding: 2px 8px;
+                        border-radius: 5px;
+                        color: #fff;
+                    }
+                }
+
+                .singer-profile {
+                    i {
+                        color: #9f9f9f;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .listening-mode {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                .shuffle {
+                    i {
+                        color: #bf975f;
+                        font-size: 25px;
+                    }
+                }
+
+                .playbutton {
+                    height: 45px;
+                    width: 45px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+
+                    i {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .popular {
+            .popularText {
+                font-size: 23px;
+                color: #fff;
+                margin: 0;
+                padding: 0;
+            }
+
+            .songlist {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .slno {
+                    width: 10%;
+
+                    span {
+                        color: #fff;
+                    }
+                }
+
+                .thumbnail {
+                    width: 20%;
+
+                    img {
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 4px;
+                    }
+                }
+
+                .song {
+                    width: 60%;
+
+                    .lyrics {
+                        span {
+                            color: #fff;
+                        }
+
+                        .total-listener {
+                            color: #9f9f9f;
+                            padding: 0;
+                            margin: 0;
+                        }
+                    }
+                }
+
+                .options {
+                    width: 10%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    i {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .showSong {
+            position: fixed;
+            bottom: 8.5%;
+            width: 96%;
+            left: 2%;
+        
+
+            .showsong-child {
+                padding: 5px 15px;
+                background: linear-gradient(to bottom, hsl(36, 26%, 25%), hsl(35, 70%, 10%), hsl(34, 70%, 4%));
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-radius: 4px !important;
+
+                .thumbnail {
+                    img {
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 4px;
+                    }
+                }
+
+                .song {
+                    .songdetails {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .singer-name {
+                            color: #9f9f9f;
+                            padding: 0;
+                            margin: 0;
+                            font-size: 15px;
+                        }
+
+                        img {
+                            width: 20px;
+                            mix-blend-mode: lighten;
+                        }
+                    }
+                }
+
+                .play {
+                    i {
+                        color: #fff;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// offcanvs
+.audio {
+    audio {
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Style the audio controls */
+    audio::-webkit-media-controls {
+        background-color: transparent;
+        border-radius: 5px;
+    }
+
+    /* Style the volume slider */
+    audio::-webkit-media-slider-thumb {
+        background-color: transparent;
+    }
+}
+
+.controls {
+    .listening-mode {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+
+        .shuffle {
+            i {
+                color: #bf975f;
+                font-size: 25px;
+            }
+        }
+
+        .backward {
+            i {
+                color: #868686;
+            }
+        }
+
+        .forward {
+            i {
+                color: #fff;
+            }
+        }
+
+        .clock {
+            i {
+                color: #fff;
+            }
+        }
+
+        .playbutton {
+            height: 45px;
+            width: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+
+            i {
+                font-size: 20px;
+                color: #000;
+            }
+        }
+    }
+}
+
+// offcanvs

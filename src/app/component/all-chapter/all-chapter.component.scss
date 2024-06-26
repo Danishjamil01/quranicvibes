@@ -1,0 +1,58 @@
+
+.all-chapter-section {
+.heading{
+    display: flex;align-items: center;justify-content: space-between;background-color: pink;padding: 10px 20px;
+    h4{
+        text-align: center;
+    }
+    input{
+        background: transparent;
+        border: 1px solid #fff;
+        padding: 6px 7px;
+        outline: none;
+        border-radius: 7px;
+        width: 60%;
+    }
+    i{
+        -webkit-text-stroke: .5px;font-size: 20px;
+    }
+}
+    .all-chapter {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        justify-content: space-between;
+        padding: 20px 15px;
+        margin: 0;
+        flex-wrap: wrap;
+
+        .all-chapter-list {
+            padding: 0;
+            margin: 0;
+            position: relative;
+
+
+            li {
+                height: 70px;
+                width: 70px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                font-family: 'Amiri', serif;
+                font-weight: 500;
+                text-align: center;
+                color: #000000;
+                font-family: 'lateef';
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+            span {
+                position: absolute;
+                opacity: 0;
+            }
+        }
+    }
+}

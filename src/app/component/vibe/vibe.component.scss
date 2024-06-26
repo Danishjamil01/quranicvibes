@@ -1,0 +1,44 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main-section {
+  margin-top: 70px;
+  .banner-img {
+    padding: 10px;
+
+    div {
+      height:170px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      background-position: center center;
+      border-radius: 10px;
+    }
+  }
+  .popular{
+    display: flex;align-items: center;justify-content: space-between;padding: 15px 10px;
+  }
+  .artist{
+    display: flex;padding: 10px;gap: 10px; align-items: center;flex-wrap: nowrap;overflow-x: scroll;
+  }
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 15ch;
+  text-align: center;
+}
+
+
+.slide {
+  height: 150px;
+  // width: 0px;
+  margin: 0 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

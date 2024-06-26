@@ -1,0 +1,166 @@
+<section style="background-color: #000;height: auto;">
+  <div class="banner-tabs">
+    <div class="profile">
+      <li (click)="openProfile()">D</li>
+    </div>
+    <div class="tabList">
+      <button *ngFor="let button of tabs" [class.selected]="button === selectedTab" (click)="selectTab(button)">
+        {{ button }}
+      </button>
+    </div>
+  </div>
+
+  <section *ngIf="isShowAll" style="margin-top: 70px;">
+    <div class="something-else" style="padding:12px  15px  0;">
+      <h2 style="color: #fff;">Try something else</h2>
+
+      <div class="mt-4" style="display: flex;overflow-x: scroll;gap: 20px;">
+        <div class="new-hits" *ngFor="let collection of newhits">
+          <div class="poster">
+            <img src="{{collection.image}}" alt="" style="width: 210px;height: 112px;border-radius:4px;">
+          </div>
+          <div class="about">
+            <p class="twoLineText" style="color: #9f9f9f;font-size: 13px;">{{collection.about}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="more-like mt-4" style="display: flex;align-items: center;gap: 10px;padding: 15px 15px;">
+      <div class="artist" style="height: 50px;width: 50px;border-radius: 50%;">
+        <img src="assets/images/more like/maher zain.png" alt="" style="width: 100%;border-radius: 50%;">
+      </div>
+      <div>
+        <span style="color: #9f9f9f;font-size: 14px;">More like</span>
+        <h5 style="color: #fff;font-size: 24px;">Maher Zain</h5>
+      </div>
+    </div>
+
+    <div class="mix-singer" style="display: flex;overflow-x: scroll;gap: 20px;padding:12px 15px;">
+      <div class="singer" *ngFor="let singer of mixsinger" (click)="routeToSingersData(singer)">
+        <img src="{{singer.image}}" alt="" style="width: 150px;height: 160px;border-radius:4px;object-fit: cover;">
+        <p class="twoLineText" style="color: #9f9f9f;font-size: 13px;">{{singer.about}}</p>
+      </div>
+    </div>
+
+    <div class="bayans mt-4" style="padding:12px  15px  0;">
+      <h2 style="color: #fff;">bayans to try</h2>
+      <div class="bayaan" style="display: flex;overflow-x: scroll;gap: 20px;">
+        <div *ngFor="let bayan of bayans" (click)="routeToScholarsData(bayan)">
+          <div class="thumbnail">
+            <img src="{{bayan.thumbnail}}" alt=""
+              style="width: 220px;height: 160px;border-radius:4px;object-fit: contain;">
+          </div>
+          <div class="title">
+            <p style="font-size: 12px;color: #1abc54;">{{bayan.title}}</p>
+          </div>
+          <div class="name">
+            <p style="color: #fff;font-size: 15px;">{{bayan.name}}</p>
+          </div>
+          <div class="description">
+            <p class="twoLineText" style="color: #9f9f9f;font-size: 12px;">{{bayan.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="shows mt-4" style="padding:12px  15px  0;">
+      <h2 style="color: #fff;">Shows to try</h2>
+      <div class="show" style="display: flex;overflow-x: scroll;gap: 20px;">
+        <div *ngFor="let show of shows" (click)="routeToShows(show)">
+          <div class="thumbnail">
+            <img src="{{show.thumbnail}}" alt=""
+              style="width: 220px;height: 160px;border-radius:4px;object-fit: contain;">
+          </div>
+          <div class="title">
+            <p style="font-size: 12px;color: #1abc54;">{{show.title}}</p>
+          </div>
+          <div class="name">
+            <p style="color: #9f9f9f;font-size: 15px;">{{show.name}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="freshnaat mt-4" style="padding:12px  15px  0;">
+      <h2 style="color: #fff;">Fresh new naat</h2>
+      <div class="fresh" style="display: flex;overflow-x: scroll;gap: 20px;">
+        <div *ngFor="let naat of fresh">
+          <div class="thumbnail">
+            <img src="{{naat.thumbnail}}" alt=""
+              style="width: 220px;height: 140px;border-radius:4px;object-fit: cover;">
+          </div>
+          <div class="singer mt-2">
+            <p style="color: #1abc54;font-size: 12px;">{{naat.singer}}</p>
+          </div>
+          <div class="lyrics">
+            <p class="oneLineText" style="color: #9f9f9f;font-size: 12px;">{{naat.lyrics}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="more-like1 mt-4" style="display: flex;align-items: center;gap: 10px;padding: 15px 15px;">
+      <div class="artist" style="height: 50px;width: 50px;border-radius: 50%;">
+        <img src="assets/images/more like/Syeda Areeba Fatima.png" alt=""
+          style="height: 50px;width: 50px;border-radius: 50%;object-fit: cover;">
+      </div>
+      <div>
+        <span style="color: #9f9f9f;font-size: 14px;">More like</span>
+        <h5 style="color: #fff;font-size: 24px;">Syeda Areeba Fatima</h5>
+      </div>
+    </div>
+
+
+    <div class="topsong" style="display: flex;overflow-x: scroll;gap: 20px;padding:12px 15px;">
+      <div class="songlist" *ngFor="let song of topsong">
+        <div class="thumbnail">
+          <img src="{{song.thumbnail}}" alt="" style="width: 150px;height: 160px;border-radius:4px;object-fit: cover;">
+        </div>
+        <div class="description mt-2">
+          <p class="oneLineText" style="color: #9f9f9f;font-size: 12px;">{{song.description}}</p>
+        </div>
+        <!-- <img src="../../../assets/images/morelikesong/3.png" alt=""> -->
+      </div>
+    </div>
+  </section>
+  <app-vibe *ngIf="isShowVibe"></app-vibe>
+  <app-scholar *ngIf="isShowScholar"></app-scholar>
+  <app-podcast *ngIf="isShowPodcast"></app-podcast>
+  <br><br><br><br>
+</section>
+
+
+
+<!-- <img src="../../../assets/images/fresh/4.png" alt=""> -->
+
+
+
+<div style="width: 90%;background-color: #292929;" class="offcanvas offcanvas-start" tabindex="-1" id="sidebar"
+  aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header" style="border-bottom: 1px solid #3a3a3a;">
+    <div class="view-profile" style="display: flex;gap: 10px;align-items: center;">
+      <li>D</li>
+      <div>
+        <h5 style="margin: 0;padding: 0;color: #fff;">My Friends</h5>
+        <span style="color: #707070;
+        font-weight: 500;
+        font-size: 14px;">View profile</span>
+      </div>
+    </div>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+      style="background-color: #fff;"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="profile-content">
+      <li><img src="assets/images/icons/what'snew.png" alt="" style="width: 19px;"> <span>What's new</span>
+      </li>
+      <li><i style="font-size: 20px;" class="bi bi-gear"></i> <span>Listening history</span></li>
+      <li><i style="font-size: 20px;" class="bi bi-clock-history"></i> <span>Settings and privacy</span></li>
+    </div>
+  </div>
+</div>

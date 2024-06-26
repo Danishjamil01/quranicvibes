@@ -1,0 +1,26 @@
+.signup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.signup ul li {
+  border: 1px solid #727272;
+  margin: 15px;
+  padding: 8px 14px;
+  border-radius: 25px;
+  color: #fff;
+  gap: 27px;
+  display: flex;
+  font-family: system-ui;
+  font-weight: 400;
+}
+
+.signup ul li:first-child {
+  display: flex;
+  justify-content: center;
+  background-color: #1ed760;
+  color: #000;
+  border: none;
+  font-weight: 500;
+}

@@ -1,0 +1,94 @@
+<section style="height: 100vh;background-color: #fff;margin-top: 70px;">
+    <h1 style="text-align: center;color: #000;font-family: Lateef;font-size: 30px;">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ
+        ٱلرَّحِيمِ</h1>
+    <div class="all-juz" style="text-align: end;padding: 1px 20px;">
+        <i class="bi bi-box-arrow-in-right" (click)="openModal('viewAllModal',null)"></i>
+    </div>
+    <div class="juzz">
+        <ul *ngFor="let juz of alljuz.slice(0,5)"
+            style="padding: 0;margin: 0;list-style: none;display: flex;align-items: center;color: rgb(255, 100, 100);">
+            <li [ngStyle]="{'background-color': juz.bgcolor, 'color': juz.color,'border': juz.border}"
+                (click)="openModal('individualJuz',juz)">
+                <b>{{juz.juzname}}</b>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- viewallmodal -->
+<div class="modal fade all-juz-modal" id="viewAllModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    style="width: 100%;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header" style="position: sticky;top: 0;z-index: 10;background-color: #fff;">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">All Juzs</h1>
+                <button type="button" class="btn-close" (click)="closeModal('viewAllModal')"></button>
+            </div>
+            <div class="modal-body" style="height: 40vh;overflow-y: auto;">
+                <ul *ngFor="let juz of alljuz">
+                    <li (click)="openModal('individualJuz',juz)" style="font-family: 'Lateef-bold'"
+                        [ngStyle]="{'background-color': juz.bgcolor, 'color': juz.color,'border':juz.border}">
+                        <b>{{juz.juzname}}</b>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                    style="width: 20%;border: none;background-color: transparent;padding: 8px;background-color: #155780;color: #fff;border-radius: 25px;">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- viewallmodal end-->
+
+<!-- individual-juz-modal  -->
+<div class="modal fade individual-juz-modal" id="individualJuz" tabindex="-1" aria-labelledby="exampleModalLabel"
+    style="width: 100%;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class=""
+                style="background-color: #fff;color: #000; padding: 8px 12px;border-bottom: 1px solid #e2e2e2; display: flex;align-items: center;justify-content: space-between;">
+                <h1 class="juz-name" style="font-family: Lateef;padding: 0;margin: 0;">{{ selectedJuz?.juzname }}</h1>
+                <h6 style="text-align: center;font-family: Jameel Noori Nastaleeq;padding: 0;margin: 0;">Total Aayat-
+                    {{selectedJuz?.aayat}}
+                </h6>
+                <h1 class="Juz-title" style="font-size: 25px;padding: 0;margin: 0;">{{selectedJuz?.juz}}</h1>
+            </div>
+            <div class="modal-body" style="height: 40vh;overflow-y: auto;">
+
+                <div class="description mt-2" style="text-align: center;">
+                    <span style="padding: 0;margin: 0;text-align: center;">{{selectedJuz?.description}}</span>
+                    <span>{{selectedJuz?.surah}}</span> <b>{{selectedJuz?.from}}</b> &nbsp;<span>to</span>
+                    <b>{{selectedJuz?.end}}</b>
+                </div>
+                <div *ngFor="let data of selectedJuz?.details" class="mt-5">
+                    <ul class="juz-detils">
+                        <li
+                            style="background-color: #e0f7fa;background-image: url(../../../assets/images/quran/aayat1.png);">
+                            <span class="heading">آیات</span><span>{{data?.totalverses }}</span>
+                        </li>
+                        <li
+                            style="background-color: #e8f5e9;background-image: url(../../../assets/images/quran/ruku.png);">
+                            <span class="heading">رکوع</span><span>{{data?.totalrukus}}</span>
+                        </li>
+                        <li
+                            style="background-color: #fdf9d0;background-image: url(../../../assets/images/quran/sajda.png);">
+                            <span class="heading">سجدہ</span><span>{{data?.totalsajdas}}</span>
+                        </li>
+                        <li (click)="readQuran()"
+                            style="background-color: #fdf9d0;background-image: url(../../../assets/images/quran/read\ quran.png);">
+                            <!-- <span class="heading">پڑھیں</span> -->
+                            <span class="heading">read</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" (click)="closeModal('individualJuz')"
+                    style="width: 20%;border: none;background-color: transparent;padding: 8px;background-color: #155780;color: #fff;border-radius: 25px;">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- individual-juz-modal end -->
+

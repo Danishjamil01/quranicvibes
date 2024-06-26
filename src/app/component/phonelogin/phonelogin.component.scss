@@ -1,0 +1,42 @@
+.countrycode ul li:first-child {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a3a3a3;
+  padding: 8px;
+}
+
+.countrycode ul li {
+  cursor: pointer;
+}
+
+.search input::placeholder {
+  color: #9c9c9c;
+}
+
+
+
+.otp-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 25px;
+}
+
+.otp-container input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #727272;
+  margin-right: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+span {
+  color: #fff;
+  font-size: 15px;
+  font-family: system-ui;
+}

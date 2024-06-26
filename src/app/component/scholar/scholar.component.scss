@@ -1,0 +1,145 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.juzz {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+
+    ul {
+
+        li {
+            height: 70px;
+            width: 70px;
+            // background-color: rgb(255, 255, 92);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            font-weight: 500;
+            text-align: center;
+            color: #000000;
+            font-family: 'Lateef-bold';
+            font-size: 20px;
+        }
+    }
+}
+
+
+.all-juz-modal {
+    .modal-body {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        justify-content: space-between;
+        padding: 20px 15px;
+        margin: 0;
+        flex-wrap: wrap;
+
+
+        ul {
+            padding: 0;
+            margin: 0;
+
+            li {
+                height: 70px;
+                width: 70px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                font-family: 'Amiri', serif;
+                font-weight: 500;
+                text-align: center;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-footer {
+    padding: 8px;
+}
+
+.individual-juz-modal {
+    .Juz-title {
+        font-family: "Jameel Noori Nastaleeq";
+    }
+
+    .juz-detils {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        li {
+            height: 70px;
+            width: 150px;
+            background-color: #fff;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding: 0 10px;
+
+            .heading {
+                font-size: 25px;
+            }
+
+            span {
+                font-family: Jameel Noori Nastaleeq;
+                text-align: end;
+            }
+        }
+    }
+}
+
+.offcanvas-body {
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.tafseer {
+    button {
+        background-color: transparent;
+        border: 1px solid #155780;
+        padding: 4px 20px;
+        border-radius: 25px;
+        color: #000000;
+        font-family: system-ui;
+        font-size: 14px;
+        transition: .5s;
+    }
+
+    :hover {
+        background-color: #155780;
+        color: #fff;
+        transition: .5s;
+    }
+}
+
+
+.dropdown-content {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 5px;
+  }

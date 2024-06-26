@@ -1,0 +1,185 @@
+<section style="height: auto;width: 100%;" *ngIf="selectedSinger">
+    <div class="name" [style.opacity]="scrolled ? '1' : '0'" [ngStyle]="{'background':selectedSinger.bg}">
+        <div class="arrow-back" (click)="onBack()">
+            <i class="bi bi-arrow-left"></i>
+        </div>
+        <div>
+            <span>{{selectedSinger.name}}</span>
+        </div>
+    </div>
+    <div class="heding-content"
+        style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('{{selectedSinger.image}}');"
+        [class.scrolled]="scrolled">
+        <div class="arrow-back" (click)="onBack()">
+            <i class="bi bi-arrow-left"></i>
+        </div>
+    </div>
+
+    <div class="mid-section">
+        <h2 class="singer-name">{{selectedSinger.name}}</h2>
+        <div class="content" [ngStyle]="{ 'background': selectedSinger.bg }">
+            <div class="listener">
+                <span>8.2M monthly listeners</span>
+            </div>
+            <div class="instruction mt-2">
+                <div class="child-instr">
+                    <div class="shortvid" [ngStyle]="{'border': '1px solid ' + selectedSinger.color}">
+                        <video #videoPlayer autoplay (ended)="restartVideo()" [muted]="isMuted"
+                            src="{{selectedSinger.short}}" frameborder="0"></video>
+                    </div>
+                    <div class="follow">
+                        <button [ngStyle]="{'border': '1px solid ' + selectedSinger.color}">Follow</button>
+                    </div>
+                    <div class="singer-profile">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="listening-mode">
+                    <div class="shuffle">
+                        <i class="bi bi-shuffle"></i>
+                    </div>
+                    <div class="playbutton" [ngStyle]="{'background':selectedSinger.bg}">
+                        <i class="bi bi-play-fill" *ngIf="!isPlaying" (click)="togglePlayback()"></i>
+                        <i class="bi bi-pause" *ngIf="isPlaying" (click)="togglePlayback()"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="popular mt-4">
+                <h2 class="popularText">Popular</h2>
+                <div *ngFor="let s of selectedSinger.songs; let i = index" (click)="playSong(s)" class="songlist mt-3">
+                    <div class="slno">
+                        <span>{{ i + 1 }}</span>
+                    </div>
+                    <div class="thumbnail">
+                        <img [src]=" s.songThumbnail " alt="">
+                    </div>
+                    <div class="song">
+                        <div class="lyrics">
+                            <span class="oneLineText">{{ s.lyrics }}</span>
+                            <p class="total-listener">{{ s.totalListener }}</p>
+                        </div>
+                    </div>
+                    <div class="options">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="selectedsong" *ngIf="selectedSong" style="position: fixed; bottom: 8.5%; width: 100%; left: 0;">
+                <audio controls autoplay [src]="selectedSong?.mp3"></audio>
+              </div> -->
+
+
+
+
+
+
+            <div class="showSong" *ngIf="selectedSong">
+                <div class="showsong-child" [ngStyle]="{'backgrround':selectedSinger.bg}">
+                    <div style="display: flex;gap: 15px;">
+                        <div class="thumbnail">
+                            <img [src]="selectedSong.songThumbnail" alt="">
+                        </div>
+                        <div class="song" data-bs-toggle="offcanvas" href="#offcanvasExample">
+                            <div class="lyrics">
+                                <div class="lyrics-container">
+                                    {{ selectedSong.lyrics }}
+                                </div>
+
+                                <div class="songdetails">
+                                    <span class="singer-name">{{ selectedSinger.name }}</span>
+                                    <img *ngIf="isPlaying" src="assets/images/gif's/audio.gif" alt="">
+                                    <img *ngIf="!isPlaying" src="assets/images/gif's/audio stop.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plus"
+                        style="height: 20px;width: 20px;border: 2px solid #fff;color: #fff; border-radius: 50%;display: flex;align-items: center;justify-content: center;">
+                        <i class="bi bi-plus" style="display: flex;font-size: 20px;-webkit-text-stroke: .5px;"></i>
+                    </div>
+                    <div class="play">
+                        <i class="bi bi-play-fill" *ngIf="!isPlaying" (click)="togglePlayback()"></i>
+                        <i class="bi bi-pause" *ngIf="isPlaying" (click)="togglePlayback()"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<!-- shosong  -->
+<!-- <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
+    style="height: auto;">
+    <div class="offcanvas-body"
+        style="background: linear-gradient(to bottom, hsl(36, 26%, 25%), hsl(35, 70%, 10%), hsl(34, 70%, 4%));">
+        <div class="header" style="display: flex;align-items: center;justify-content: space-between;">
+            <div class="close" data-bs-toggle="offcanvas" href="#offcanvasExample">
+                <i style="color: #fff;font-size: 20px;-webkit-text-stroke: 1px;" class="bi bi-chevron-down"></i>
+            </div>
+            <div class="close">
+                <p style="color: #f5f5f5;padding: 0;margin: 0;">PLAYING FROM ARTIST</p>
+                <P style="color: #fff;padding: 0;margin: 0;text-align: center;">Maher Zain</P>
+            </div>
+            <div class="close">
+                <i style="color: #fff;font-size: 20px;" class="bi bi-three-dots-vertical"></i>
+            </div>
+        </div>
+        <div class="middle mt-5" style="text-align: center;">
+            <img [src]="selectedSong?.songThumbnail" alt="" style="width:300px;height: 270px;border-radius: 4px;">
+        </div>
+
+
+        <div class=" mt-5" style="display: flex;align-items: center;justify-content: space-between;padding-right: 14px;
+        padding-left: 20px;">
+            <div class="songname">
+                <p style="color: #fff;padding: 0;margin: 0;font-size: 20px;">{{ selectedSong?.lyrics }}</p>
+                <span style="color: #9c9c9c;">{{ selectedSong?.name }}</span>
+            </div>
+            <div class="addtofav"
+                style="height: 24px;width: 24px;border: 2px solid #fff; border-radius: 50%;display: flex;align-items: center;justify-content: center;">
+                <i style="color: #fff;font-size: 24px;display: flex;" class="bi bi-plus"></i>
+            </div>
+        </div>
+        <div class="audio">
+            <audio controls #audioPlayer [src]="selectedSong.mp3"></audio>
+        </div>
+        <div class="controls">
+            <div class="listening-mode">
+                <div class="shuffle">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+                <div class="backward">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+                <div class="playbutton" (click)="togglePlayback()">
+                    <i class="bi" [ngClass]="{'bi-play-fill': !isPlaying, 'bi-pause': isPlaying}"></i>
+                </div>
+                <div class="forward">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+                <div class="clock">
+                    <i class="bi bi-alarm"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- shosong  -->
+
+
+<!-- <div *ngIf="selectedSinger">
+    <h2>{{ selectedSinger.name }}'s Songs</h2>
+    <div *ngFor="let song of allSingerSongs">
+      <div>
+        <span>{{ song.name }}</span>
+        <span>{{ song.lyrics }}</span>
+      </div>
+    </div>
+  </div> -->

@@ -1,0 +1,19 @@
+.gender button {
+  padding: 8px 23px;
+  border: 1px solid #727272;
+  background: transparent;
+  color: #fff;
+  border-radius: 25px;
+  margin: 4px 7px;
+}
+
+.gender{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span{
+  font-size: 13px;
+  color: #fff;
+  font-family: system-ui;
+}

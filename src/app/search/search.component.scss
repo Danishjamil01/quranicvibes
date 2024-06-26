@@ -1,0 +1,22 @@
+.search {
+    input::placeholder {
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    input {
+        outline: none;
+    }
+}
+.show-search {
+    input::placeholder {
+        color: #a5a4a4;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    input {
+        outline: none;
+    }
+}

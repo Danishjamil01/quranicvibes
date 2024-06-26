@@ -1,0 +1,67 @@
+<section style="height: 100vh;">
+    <section style="background-color: #fff; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" *ngIf="selectedShows">
+        <div style="height: 40vh;">
+          <div >
+            <div class="video-container">
+                <youtube-player #youtubePlayer videoId="{{selectedShows.videoId}}" [width]="videoWidth" [height]="videoHeight"
+                    [startSeconds]="0" [endSeconds]="0" [suggestedQuality]="'default'"
+                    [playerVars]="{ rel: 0, showinfo: 0 }" (ready)="onVideoReady()"
+                    (stateChange)="onVideoStateChange($event)"></youtube-player>
+            </div>
+            <div class="" style="display: flex;align-items: center;padding: 8px;gap: 12px;">
+                <div class="profile"
+                    style="height: 40px;width: 40px;background:linear-gradient(to bottom, hsl(200, 100%, 80%), hsl(200, 100%, 20%)); border-radius: 50%;display: flex;align-items: center;justify-content: center;">
+                    <i class="bi bi-person-fill" style="font-size: 22px;color: #000;display: flex;"></i>
+                </div>
+                <div>
+                    <div class="topic">
+                        <p class="oneLineText" style="margin: 0;padding: 0;color: #000;">{{selectedShows.title}}
+                        </p>
+                    </div>
+                    <div class="published" style="display: flex;justify-content: space-around;align-items: center;">
+                        <span style="margin: 0;padding: 0;font-size: 12px;color: #000;"> 14 april 2024</span>
+                        <div>
+                            <ul style="list-style: none;display: flex;gap: 22px;margin: 0;">
+                                <li (click)="toggleCommentSection()" style="color: #000;"><i class="bi bi-chat"></i></li>
+                                <li (click)="clickToLike()" style="color: #000;"><i
+                                        [ngClass]="isclick ? 'bi bi-heart-fill' : 'bi bi-heart'"></i></li>
+                                <li><button style="padding: 0px 15px;
+                                    border-radius: 27px;
+                                    font-size: 13px;
+                                    border: 1px solid;color: #000;background: #1DA1F2;">Follow</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    
+    <!-- comment section -->
+    
+    <!-- app.component.html -->
+    <section [ngClass]="{'open': isOpen, 'closed': !isOpen}" class="comment-section" style="height: 60vh;">
+        <div class="title-header">
+          <div class="title">
+            <h4 style="margin: 0;padding: 0;">Comments</h4>
+          </div>
+          <div class="close" (click)="toggleCommentSection()">
+            <i class="bi bi-x" style="font-size: 30px;-webkit-text-stroke: .6px;"></i>
+          </div>
+        </div>
+        <div style="display: flex;align-items: start;gap: 10px;margin-top: 10px;" *ngFor="let comment of people">
+          <div class="profile" style="background:linear-gradient(to bottom, #add8e6, #d6a2e8); border-radius: 50%;display: flex;align-items: center;justify-content: center;">
+            <i class="bi bi-person-fill" style="font-size: 22px;color: #fff;display: flex;height: 40px;width: 40px;display: flex;align-items: center;justify-content: center;"></i>
+          </div>
+          <div>
+            <span style="font-size: 17px;color: #5a5a5a;">{{comment.username}}</span>&nbsp;<span style="color: #b4b4b4;">{{comment.time}}</span>
+            <p style="padding: 0;margin: 0;">{{comment.message}}</p>
+          </div>
+        </div>
+      </section>
+      
+    
+    <!-- comment section end -->
+</section>

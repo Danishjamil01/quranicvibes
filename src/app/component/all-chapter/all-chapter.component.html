@@ -1,0 +1,19 @@
+<section class="all-chapter-section">
+    <div class="heading">
+        <h4>All Chapter</h4>
+        <input *ngIf="isClickedSearch" type="text" placeholder="Search" [(ngModel)]="searchQuery">
+        <div (click)="searchChapter()" >
+            <i *ngIf="isSearch"  [ngClass]="isSearch ? 'bi bi-search' : 'bi bi-x-lg' "></i>
+        </div>
+    </div>
+    <div class="all-chapter">
+        <ul class="all-chapter-list" *ngFor="let chapter of filteredChapters">
+            <li  (click)="readQuran(chapter)" [ngStyle]="{'background-color': chapter.bg_color}">{{isShow ? chapter.chaptername : chapter.arabicname}}
+            </li>
+            <span>{{chapter.total_verses}}</span>
+        </ul>
+        <div style="padding-top: 40vh;color: #155780;margin:auto;font-size: 18px;"
+            *ngIf="filteredChapters.length === 0 && searchQuery.trim() !== ''">No results found. Please search
+            correctly.</div>
+    </div>
+</section>

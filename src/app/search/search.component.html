@@ -1,0 +1,35 @@
+<section style="background-color: #000;height: 100vh;">
+    <div class="search" style="padding: 10px;position: relative;" *ngIf="isclickedSearch" (click)="showSearch()">
+        <input type="search" placeholder="What do you want to listen to?"
+            style="width: 100%;padding: 10px 37px;background-color: #fff;border: none;border-radius: 4px;">
+        <i class="bi bi-search"
+            style="position: absolute;top: 25%;color: #000;left: 6%;font-size: 20px;-webkit-text-stroke: .7px;"></i>
+    </div>
+    <div class="show-search" style="position: relative;" *ngIf="isShowSearch">
+        <input type="search" placeholder="What do you want to listen to?"
+            style="width: 100%;padding: 15px 37px;background-color: #2c2c2c;border: none;">
+        <i (click)="onback()" class="bi bi-arrow-left"
+            style="position: absolute;top: 17%;color: #fff;left: 2%;font-size: 20px;-webkit-text-stroke: .7px;"></i>
+    </div>
+ 
+    <div class="typelist" *ngIf="ifback"
+        style="display: flex;flex-wrap: wrap;justify-content: space-between;padding: 10px;row-gap: 10px;">
+        <div *ngFor="let type of category">
+            <div [ngStyle]="{ 'background-color': type.bgcolor }"
+                style="width: 165px;height: 80px;border-radius: 4px;display: flex;overflow: hidden; align-items: center;justify-content: space-between;"
+                class="type">
+                <span style="color: #fff;margin-left: 8px;">{{type.name}}</span>
+                <div style="margin-top: 30px;margin-right: -10px;">
+                    <img style="width: 55px;height: 65px;border-radius: 4px;transform: rotate(28deg);object-fit: cover;"
+                        src="{{type.img}}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="show" *ngIf="isShowSearch"
+        style="display: flex;margin-top: 40vh; flex-direction: column; align-items: center;justify-content: center;">
+        <h4 style="color: #fff;">Play what you love</h4>
+        <p style="color: #838282;">Search for artist,songs,podcast,and more</p>
+    </div>
+</section>

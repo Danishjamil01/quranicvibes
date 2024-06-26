@@ -1,0 +1,82 @@
+<section class="main-section">
+  <section class="selected-scholar" *ngIf="selectedScholar">
+    <div class="section-height">
+      <div *ngFor="let b of selectedScholar.videos" class="scholar-videos">
+        <div class="video-container">
+          <youtube-player #youtubePlayer videoId="{{b.videoId}}" [width]="videoWidth" [height]="videoHeight"
+            [startSeconds]="0" [endSeconds]="0" [suggestedQuality]="'default'" [playerVars]="{ rel: 0, showinfo: 0 }"
+            (ready)="onVideoReady()" (stateChange)="onVideoStateChange($event)"></youtube-player>
+          <i class="bi bi-arrow-left" (click)="onBack()"></i>
+        </div>
+        <div class="profile-section">
+          <div class="profile">
+            <i class="bi bi-person-fill"></i>
+          </div>
+          <div class="about-videos">
+            <div class="topic">
+              <p class="oneLineText">{{b.topic}}
+              </p>
+            </div>
+            <div class="published">
+              <span class="published-date"> 14 april 2024</span>
+              <div class="profile-handle">
+                <ul>
+                  <li (click)="selectedVideoId = b.videoId; toggleCommentSection()" style="color: #000;"><i
+                      class="bi bi-chat"></i></li>
+                  <li (click)="clickToLike()" style="color: #000;"><i
+                      [ngClass]="isclick ? 'bi bi-heart-fill' : 'bi bi-heart'"></i></li>
+                  <li><button (click)="follow()">{{isFollow ? 'Follow' : 'unfollow'}}</button></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- comment section -->
+  <section [ngClass]="{'open': isOpen, 'closed': !isOpen}" class="comment-section">
+    <div class="title-header">
+      <div class="title">
+        <h4>Comments</h4>
+      </div>
+      <div class="close" (click)="toggleCommentSection()">
+        <i class="bi bi-x"></i>
+      </div>
+    </div>
+    <div class="comment-section">
+      <div class="comments" *ngFor="let comment of comments">
+        <ng-container *ngIf="comment.videoId === selectedVideoId">
+          <div class="profile">
+            <i class="bi bi-person-fill"></i>
+          </div>
+          <div>
+            <span style="font-size: 17px; color: #5a5a5a;">{{comment.username}}</span>&nbsp;<span
+              style="color: #b4b4b4;">{{comment.time}}</span>
+            <p style="padding: 0; margin: 0;">{{comment.message}}</p>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <div class="sendcomment">
+      <div class="profile">
+        <i class="bi bi-person-fill"></i>
+      </div>
+      <input #commentInput type="text" placeholder="Add a comment">
+      <div>
+        <i class="bi bi-emoji-smile"></i>
+      </div>&nbsp;&nbsp;
+      <div (click)="addComment(selectedVideoId, commentInput.value); commentInput.value='';">
+        <img class="send-btn" src="assets/images/logo/send.png" alt="" style="width: 20px;">
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- comment section end -->
+</section>
