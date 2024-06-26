@@ -1,0 +1,1001 @@
+[
+    {
+        "id": 1,
+        "chaptername": "Al-Fatihah",
+        "arabicname": "الفَاتِحَةُ",
+        "total_verses": 7,
+        "bg_color": "#F4E3D6",
+        "versename": "۞ سُورةُ الفاتِحَةِ مَكِيَّةٌ ۞",
+        "allverse": [
+            {
+                "versenum": "1",
+                "verse": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+                "versepart": [
+                    {
+                        "parts": [
+                            "الْحَمْدُ",
+                            ":لِلّٰهِ (لِلّٰهِ)",
+                            ":رَبِّ (رَبِّ)",
+                            ":ٱلْعَالَمِينَ (ٱلْعَالَمِينَ)"
+                        ]
+                    },
+                    {
+                        "partstarjuma": [
+                            "تعریف یا حمد۔",
+                            "اللہ کے لیے",
+                            "پروردگار",
+                            "جہانوں کا"
+                        ]
+                    },
+                    {
+                        "partswajahat": [
+                            "یہ لفظ حَمْد کی جذر سے آیا ہے جو کہ تعریف یا ستائش کا معنی رکھتا ہے۔ اس موقع پر یہ اللہ کی صفات اور اعمال کی تعریف اور شکرگزاری کا اظہار کرنے کے لئے استعمال ہو رہا ہے۔",
+                            "یہ عبارت اللہ کے لئے سب تعریف اور شکر کو ظاہر کرتی ہے، اللہ کو عبادت اور تعریف کا موصول جانتے ہوئے۔",
+                            "رَبِّ ایک مکمل عربی لفظ ہے جو کہ پروردگار، رب، مالک، پروردگار اور رب بتایا کرتا ہے۔ یہ اللہ کی بنیادی خصوصیت کو ظاہر کرتا ہے کہ وہ سب کا مالک اور نگہبان ہے۔",
+                            "رَبِّ ایک مکمل عربی لفظ ہے جو کہ پروردگار، رب، مالک، پروردگار اور رب بتایا کرتا ہے۔ یہ اللہ کی بنیادی خصوصیت کو ظاہر کرتا ہے کہ وہ سب کا مالک اور نگہبان ہے۔"
+                        ]
+                    },
+                    {
+                        "fulltarjuma": [
+                            "سب تعریف اللہ کے لیے ہے، جو سارے جہانوں کا رب ہے کہلایا جاتا ہے۔ یہ اللہ کے بارے میں اظہار شکر اور تعریف ہے، جو کہ تمام کائنات کا پروردگار اور مالک ہے۔"
+                        ]
+                    }
+                ]
+            },
+            {
+                "versenum": "2",
+                "verse": "الرَّحْمَـٰنِ الرَّحِيمِ",
+                "versepart": [
+                    {
+                        "parts": [
+                            "الرَّحْمَـٰنِ",
+                            "الرَّحِيمِ"
+                        ]
+                    },
+                    {
+                        "partstarjuma": [
+                            "سب سے زیادہ رحم والا",
+                            "سب سے زیادہ مہربان"
+                        ]
+                    },
+                    {
+                        "partswajahat": [
+                            "الرحمن اللہ کی انتہائی رحمت کو ظاہر کرتا ہے جو کہ تمام مخلوقات پر ہے، چاہے وہ مومن ہوں یا غیر مومن۔",
+                            "الرحیم  بھی اللہ کی خاص رحمت کو ظاہر کرتا ہے، خاص طور پر آخرت میں۔"
+                        ]
+                    },
+                    {
+                        "fulltarjuma": [
+                            "سب سے زیادہ رحم والا، سب سے زیادہ مہربان کا مطلب بنتا ہے۔ یہ اللہ کی رحمت اور مہربانی کی بات کرتا ہے، جو کہ عالمین کے لیے ہے۔"
+                        ]
+                    }
+                ]
+            },
+            {
+                "versenum": "3",
+                "verse": "مَالِكِ يَوْمِ الدِّينِ",
+                "versepart": [
+                    {
+                        "parts": [
+                            "مَالِكِ",
+                            "يَوْمِ الدِّينِ"
+                        ]
+                    },
+                    {
+                        "partstarjuma": [
+                            "مالک یا حاکم۔",
+                            "قیامت کا دن۔"
+                        ]
+                    },
+                    {
+                        "partswajahat": [
+                            "مَالِكِ اللہ کو قیامت کے دن کا مالک یا حاکم ظاہر کرتا ہے، جس کا مطلب ہے کہ وہ اس دن کا تمام کچھ کنٹرول کرے گا اور اس دن کا فیصلہ کرے گا۔",
+                            "يَوْمِ الدِّينِ قیامت کے دن کا مطلب ہے، جب سب کو اپنے اعمال کے بدلے میں اجر یا سزا دی جائے گی۔"
+                        ]
+                    },
+                    {
+                        "fulltarjuma": [
+                            "قیامت کے دن کا مالک یا قیامت کے دن کا حاکم کا مطلب ہے۔ یہ اللہ کو اس دن کا مالک اور حاکم ظاہر کرتا ہے جب سب انصاف کے لئے ان کے سامنے پیش کئے جائیں گے۔"
+                        ]
+                    }
+                ]
+            },
+            {
+                "versenum": "4",
+                "verse": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+                "versepart": [
+                    {
+                        "parts": [
+                            "إِيَّاكَ",
+                            "نَعْبُدُ",
+                            "وَإِيَّاكَ",
+                            "نَسْتَعِينُ"
+                        ]
+                    },
+                    {
+                        "partstarjuma": [
+                            "تیرے ہی",
+                            "عبادت کرتے ہیں",
+                            "اور تیرے ہی",
+                            "مدد چاہتے ہیں۔"
+                        ]
+                    },
+                    {
+                        "partswajahat": [
+                            "إِيَّاكَ اسلامی دعاؤں میں اللہ کو انعام یا مدد کی درخواست کے لئے استعمال ہوتا ہے۔",
+                            "نَعْبُدُ عبادت کا فعل ہے، جو کہ اللہ کی عبادت کے لئے استعمال ہوتا ہے۔",
+                            "وَإِيَّاكَ اسلامی دعاؤں میں مدد یا انعام کی درخواست کے لئے استعمال ہوتا ہے۔",
+                            "نَسْتَعِينُ مدد یا انعام کی درخواست کرنے کا فعل ہے۔"
+                        ]
+                    },
+                    {
+                        "fulltarjuma": [
+                            "تیری ہی عبادت کرتے ہیں اور تیرے ہی مدد چاہتے ہیں کا مطلب ہے۔ یہ اللہ کو انعام اور مدد کی درخواست کرتے ہوئے ظاہر کرتا ہے کہ انعام اور مدد کا واحد مقصد اللہ ہی ہے اور اسی سے ہمیں مدد ملتی ہے۔"
+                        ]
+                    }
+                ]
+            },
+            {
+                "versenum": "5",
+                "verse": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+                "versepart": [
+                    {
+                        "parts": [
+                            "اهْدِنَا",
+                            "الصِّرَاطَ",
+                            "الْمُسْتَقِيمَ"
+                        ]
+                    },
+                    {
+                        "partstarjuma": [
+                            "ہمیں راہ دکھا۔",
+                            "راہ یا سڑک۔",
+                            "سیدھی"
+                        ]
+                    },
+                    {
+                        "partswajahat": [
+                            "اهْدِنَا راہ دکھانے کا فعل ہے، جو کہ اللہ سے سیدھی راہ کی ہدایت کی درخواست کرتے وقت استعمال ہوتا ہے۔",
+                            "الصِّرَاطَ ایک عربی لفظ ہے جو کہ راہ یا سڑک کو ظاہر کرتا ہے۔",
+                            "الْمُسْتَقِيمَ سیدھی یا ٹھیک راہ کی بات کرتا ہے۔"
+                        ]
+                    },
+                    {
+                        "fulltarjuma": [
+                            "ہمیں سیدھی راہ دکھا کا مطلب ہے۔ یہ ایک دعا ہے جو مسلمان ہر نماز میں کہتے ہیں، جس میں اللہ سے سیدھی راہ کی ہدایت کی درخواست کی جاتی ہے۔"
+                        ]
+                    }
+                ]
+            },
+            {
+                "versenum": "6",
+                "verse": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَاالضَّالِّينَ",
+                "versepart": [
+                    {
+                        "parts": [
+                            "صِرَاطَ",
+                            "الَّذِينَ",
+                            "أَنْعَمْتَ",
+                            "عَلَيْهِمْ",
+                            "غَيْرِ",
+                            "الْمَغْضُوبِ",
+                            "عَلَيْهِمْ",
+                            "وَلَا",
+                            "الضَّالِّينَ"
+                        ]
+                    },
+                    {
+                        "partstarjuma": [
+                            "راہ یا پٹھ",
+                            "وہ لوگ",
+                            "تم نے نعمت بخشی ہے",
+                            "ان پر",
+                            "سواۓ",
+                            "غضب انداز ہونے والے لوگ",
+                            "ان پر",
+                            "اور نہ",
+                            "گمراہ ہونے والے لوگ"
+                        ]
+                    },
+                    {
+                        "partswajahat": []
+                    },
+                    {
+                        "fulltarjuma": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "chaptername": "Al-Baqarah",
+        "arabicname": "البَقَرَةُ",
+        "total_verses": 286,
+        "bg_color": "#D6F4F1"
+    },
+    {
+        "id": 3,
+        "chaptername": "Al-Imran",
+        "arabicname": "آلِ عِمْرَانَ",
+        "total_verses": 200,
+        "bg_color": "#F4D6E7"
+    },
+    {
+        "id": 4,
+        "chaptername": "An-Nisa'",
+        "arabicname": "النِّسَاءُ",
+        "total_verses": 176,
+        "bg_color": "#D6F4E1"
+    },
+    {
+        "id": 5,
+        "chaptername": "Al-Ma'idah",
+        "arabicname": "المَائِدَةُ",
+        "total_verses": 120,
+        "bg_color": "#F4D6D9"
+    },
+    {
+        "id": 6,
+        "chaptername": "Al-An'am",
+        "arabicname": "الأَنْعَامُ",
+        "total_verses": 165,
+        "bg_color": "#D6E1F4"
+    },
+    {
+        "id": 7,
+        "chaptername": "Al-A'raf",
+        "arabicname": "الأَعْرَافُ",
+        "total_verses": 206,
+        "bg_color": "#F4EAD6"
+    },
+    {
+        "id": 8,
+        "chaptername": "Al-Anfal",
+        "arabicname": "الأَنْفَالُ",
+        "total_verses": 75,
+        "bg_color": "#D6F4E7"
+    },
+    {
+        "id": 9,
+        "chaptername": "At-Tawbah",
+        "arabicname": "التَّوْبَةُ",
+        "total_verses": 129,
+        "bg_color": "#F4D6F1"
+    },
+    {
+        "id": 10,
+        "chaptername": "Yunus",
+        "arabicname": "يُونُسُ",
+        "total_verses": 109,
+        "bg_color": "#D6F1F4"
+    },
+    {
+        "id": 11,
+        "chaptername": "Hud",
+        "arabicname": "هُودٌ",
+        "total_verses": 123,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 12,
+        "chaptername": "Yusuf",
+        "arabicname": "يُوسُفُ",
+        "total_verses": 111,
+        "bg_color": "#D6E7F4"
+    },
+    {
+        "id": 13,
+        "chaptername": "Ar-Ra'd",
+        "arabicname": "الرَّعْدُ",
+        "total_verses": 43,
+        "bg_color": "#F4D6E3"
+    },
+    {
+        "id": 14,
+        "chaptername": "Ibrahim",
+        "arabicname": "إِبْرَاهِيمُ",
+        "total_verses": 52,
+        "bg_color": "#D6F4F1"
+    },
+    {
+        "id": 15,
+        "chaptername": "Al-Hijr",
+        "arabicname": "الحِجْرُ",
+        "total_verses": 99,
+        "bg_color": "#F4D9D6"
+    },
+    {
+        "id": 16,
+        "chaptername": "An-Nahl",
+        "arabicname": "النَّحْلُ",
+        "total_verses": 128,
+        "bg_color": "#D6F4E1"
+    },
+    {
+        "id": 17,
+        "chaptername": "Al-Isra",
+        "arabicname": "الإِسْرَاءُ",
+        "total_verses": 111,
+        "bg_color": "#E1F4D6"
+    },
+    {
+        "id": 18,
+        "chaptername": "Al-Kahf",
+        "arabicname": "الكَهْفُ",
+        "total_verses": 110,
+        "bg_color": "#D6E3F4"
+    },
+    {
+        "id": 19,
+        "chaptername": "Maryam",
+        "arabicname": "مَرْيَمُ",
+        "total_verses": 98,
+        "bg_color": "#F4D6DF"
+    },
+    {
+        "id": 20,
+        "chaptername": "Ta-Ha",
+        "arabicname": "طَهَ",
+        "total_verses": 135,
+        "bg_color": "#D6DFF4"
+    },
+    {
+        "id": 21,
+        "chaptername": "Al-Anbiya'",
+        "arabicname": "الأَنْبِيَاءُ",
+        "total_verses": 112,
+        "bg_color": "#F4E3D6"
+    },
+    {
+        "id": 22,
+        "chaptername": "Al-Hajj",
+        "arabicname": "الحَجُّ",
+        "total_verses": 78,
+        "bg_color": "#D6F4EB"
+    },
+    {
+        "id": 23,
+        "chaptername": "Al-Mu'minun",
+        "arabicname": "المُؤْمِنُونَ",
+        "total_verses": 118,
+        "bg_color": "#F4E1D6"
+    },
+    {
+        "id": 24,
+        "chaptername": "An-Nur",
+        "arabicname": "النُّورُ",
+        "total_verses": 64,
+        "bg_color": "#D6F4E3"
+    },
+    {
+        "id": 25,
+        "chaptername": "Al-Furqan",
+        "arabicname": "الفُرْقَانُ",
+        "total_verses": 77,
+        "bg_color": "#E3F4D6"
+    },
+    {
+        "id": 26,
+        "chaptername": "Ash-Shu'ara",
+        "arabicname": "الشُّعَرَاءُ",
+        "total_verses": 227,
+        "bg_color": "#D6F4E7"
+    },
+    {
+        "id": 27,
+        "chaptername": "An-Naml",
+        "arabicname": "النَّمْلُ",
+        "total_verses": 93,
+        "bg_color": "#F4E7D6"
+    },
+    {
+        "id": 28,
+        "chaptername": "Al-Qasas",
+        "arabicname": "القَصَصُ",
+        "total_verses": 88,
+        "bg_color": "#D6F4E1"
+    },
+    {
+        "id": 29,
+        "chaptername": "Al-Ankabut",
+        "arabicname": "العَنْكَبُوتُ",
+        "total_verses": 69,
+        "bg_color": "#E1D6F4"
+    },
+    {
+        "id": 30,
+        "chaptername": "Ar-Rum",
+        "arabicname": "الرُّومُ",
+        "total_verses": 60,
+        "bg_color": "#D6E7F4"
+    },
+    {
+        "id": 31,
+        "chaptername": "Luqman",
+        "arabicname": "لُقْمَانُ",
+        "total_verses": 34,
+        "bg_color": "#F4D6E3"
+    },
+    {
+        "id": 32,
+        "chaptername": "As-Sajdah",
+        "arabicname": "السَّجْدَةُ",
+        "total_verses": 30,
+        "bg_color": "#D6F4F1"
+    },
+    {
+        "id": 33,
+        "chaptername": "Al-Ahzab",
+        "arabicname": "الأَحْزَابُ",
+        "total_verses": 73,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 34,
+        "chaptername": "Saba'",
+        "arabicname": "سَبَأٌ",
+        "total_verses": 54,
+        "bg_color": "#D6E7F4"
+    },
+    {
+        "id": 35,
+        "chaptername": "Fatir",
+        "arabicname": "فَاطِرٌ",
+        "total_verses": 45,
+        "bg_color": "#F4D6E3"
+    },
+    {
+        "id": 36,
+        "chaptername": "Ya-Sin",
+        "arabicname": "يَسٓ",
+        "total_verses": 83,
+        "bg_color": "#D6F4F1"
+    },
+    {
+        "id": 37,
+        "chaptername": "As-Saffat",
+        "arabicname": "الصَّافَّاتُ",
+        "total_verses": 182,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 38,
+        "chaptername": "Sad",
+        "arabicname": "صٓ",
+        "total_verses": 88,
+        "bg_color": "#D6E7F4"
+    },
+    {
+        "id": 39,
+        "chaptername": "Az-Zumar",
+        "arabicname": "الزُّمَرُ",
+        "total_verses": 75,
+        "bg_color": "#E7F4D6"
+    },
+    {
+        "id": 40,
+        "chaptername": "Ghafir",
+        "arabicname": "غَافِرٌ",
+        "total_verses": 85,
+        "bg_color": "#D6F4E1"
+    },
+    {
+        "id": 41,
+        "chaptername": "Fussilat",
+        "arabicname": "فُصِّلَتٌ",
+        "total_verses": 54,
+        "bg_color": "#F4D6D9"
+    },
+    {
+        "id": 42,
+        "chaptername": "Ash-Shura",
+        "arabicname": "الشُّورَىٰ",
+        "total_verses": 53,
+        "bg_color": "#D6E1F4"
+    },
+    {
+        "id": 43,
+        "chaptername": "Az-Zukhruf",
+        "arabicname": "الزُّخْرُفُ",
+        "total_verses": 89,
+        "bg_color": "#F4EAD6"
+    },
+    {
+        "id": 44,
+        "chaptername": "Ad-Dukhan",
+        "arabicname": "الدُّخَانُ",
+        "total_verses": 59,
+        "bg_color": "#D6F4E7"
+    },
+    {
+        "id": 45,
+        "chaptername": "Al-Jathiyah",
+        "arabicname": "الجَاثِيَةُ",
+        "total_verses": 37,
+        "bg_color": "#F4D6F1"
+    },
+    {
+        "id": 46,
+        "chaptername": "Al-Ahqaf",
+        "arabicname": "الأَحْقَافُ",
+        "total_verses": 35,
+        "bg_color": "#D6F1F4"
+    },
+    {
+        "id": 47,
+        "chaptername": "Muhammad",
+        "arabicname": "مُحَمَّدٌ",
+        "total_verses": 38,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 48,
+        "chaptername": "Al-Fath",
+        "arabicname": "الفَتْحُ",
+        "total_verses": 29,
+        "bg_color": "#D6F4E3"
+    },
+    {
+        "id": 49,
+        "chaptername": "Al-Hujurat",
+        "arabicname": "الحُجْرَاتُ",
+        "total_verses": 18,
+        "bg_color": "#F4D6E7"
+    },
+    {
+        "id": 50,
+        "chaptername": "Qaf",
+        "arabicname": "قٓ",
+        "total_verses": 45,
+        "bg_color": "#D6F4EB"
+    },
+    {
+        "id": 51,
+        "chaptername": "Adh-Dhariyat",
+        "arabicname": "الذَّارِيَاتُ",
+        "total_verses": 60,
+        "bg_color": "#F4E1D6"
+    },
+    {
+        "id": 52,
+        "chaptername": "At-Tur",
+        "arabicname": "الطُّورُ",
+        "total_verses": 49,
+        "bg_color": "#D6F4E3"
+    },
+    {
+        "id": 53,
+        "chaptername": "An-Najm",
+        "arabicname": "النَّجْمُ",
+        "total_verses": 62,
+        "bg_color": "#E3F4D6"
+    },
+    {
+        "id": 54,
+        "chaptername": "Al-Qamar",
+        "arabicname": "القَمَرُ",
+        "total_verses": 55,
+        "bg_color": "#D6F4F1"
+    },
+    {
+        "id": 55,
+        "chaptername": "Ar-Rahman",
+        "arabicname": "الرَّحْمَـٰنُ",
+        "total_verses": 78,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 56,
+        "chaptername": "Al-Waqi'ah",
+        "arabicname": "الوَاقِعَةُ",
+        "total_verses": 96,
+        "bg_color": "#D6F4E1"
+    },
+    {
+        "id": 57,
+        "chaptername": "Al-Hadid",
+        "arabicname": "الحَدِيدُ",
+        "total_verses": 29,
+        "bg_color": "#E1D6F4"
+    },
+    {
+        "id": 58,
+        "chaptername": "Al-Mujadila",
+        "arabicname": "المُجَادِلَةُ",
+        "total_verses": 22,
+        "bg_color": "#D6E7F4"
+    },
+    {
+        "id": 59,
+        "chaptername": "Al-Hashr",
+        "arabicname": "الحَشْرُ",
+        "total_verses": 24,
+        "bg_color": "#F4D6E3"
+    },
+    {
+        "id": 60,
+        "chaptername": "Al-Mumtahanah",
+        "arabicname": "المُمْتَحَنَةُ",
+        "total_verses": 13,
+        "bg_color": "#D6F4F1"
+    },
+    {
+        "id": 61,
+        "chaptername": "As-Saff",
+        "arabicname": "الصَّفُّ",
+        "total_verses": 14,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 62,
+        "chaptername": "Al-Jumu'ah",
+        "arabicname": "الجُمُعَةُ",
+        "total_verses": 11,
+        "bg_color": "#D6E7F4"
+    },
+    {
+        "id": 63,
+        "chaptername": "Al-Munafiqun",
+        "arabicname": "المُنَافِقُونَ",
+        "total_verses": 11,
+        "bg_color": "#E7F4D6"
+    },
+    {
+        "id": 64,
+        "chaptername": "At-Taghabun",
+        "arabicname": "التَّغَابُنُ",
+        "total_verses": 18,
+        "bg_color": "#D6F4E1"
+    },
+    {
+        "id": 65,
+        "chaptername": "At-Talaq",
+        "arabicname": "الطَّلَاقُ",
+        "total_verses": 12,
+        "bg_color": "#F4D6D9"
+    },
+    {
+        "id": 66,
+        "chaptername": "At-Tahrim",
+        "arabicname": "التَّحْرِيمُ",
+        "total_verses": 12,
+        "bg_color": "#D6E1F4"
+    },
+    {
+        "id": 67,
+        "chaptername": "Al-Mulk",
+        "arabicname": "المُلْكُ",
+        "total_verses": 30,
+        "bg_color": "#F4EAD6"
+    },
+    {
+        "id": 68,
+        "chaptername": "Al-Qalam",
+        "arabicname": "القَلَمُ",
+        "total_verses": 52,
+        "bg_color": "#D6F4E7"
+    },
+    {
+        "id": 69,
+        "chaptername": "Al-Haqqah",
+        "arabicname": "الحَاقَّةُ",
+        "total_verses": 52,
+        "bg_color": "#F4E1D6"
+    },
+    {
+        "id": 70,
+        "chaptername": "Al-Ma'arij",
+        "arabicname": "المَعَارِجُ",
+        "total_verses": 44,
+        "bg_color": "#D6F4E3"
+    },
+    {
+        "id": 71,
+        "chaptername": "Nuh",
+        "arabicname": "نُوحٌ",
+        "total_verses": 28,
+        "bg_color": "#E3F4D6"
+    },
+    {
+        "id": 72,
+        "chaptername": "Al-Jinn",
+        "arabicname": "الجِنُّ",
+        "total_verses": 28,
+        "bg_color": "#D6F4F1"
+    },
+    {
+        "id": 73,
+        "chaptername": "Al-Muzzammil",
+        "arabicname": "المُزَّمِّلُ",
+        "total_verses": 20,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 74,
+        "chaptername": "Al-Muddathir",
+        "arabicname": "المُدَّثِّرُ",
+        "total_verses": 56,
+        "bg_color": "#D6E7F4"
+    },
+    {
+        "id": 75,
+        "chaptername": "Al-Qiyamah",
+        "arabicname": "القِيَامَةُ",
+        "total_verses": 40,
+        "bg_color": "#E7F4D6"
+    },
+    {
+        "id": 76,
+        "chaptername": "Al-Insan",
+        "arabicname": "الإِنسَانُ",
+        "total_verses": 31,
+        "bg_color": "#D6F4E1"
+    },
+    {
+        "id": 77,
+        "chaptername": "Al-Mursalat",
+        "arabicname": "المُرْسَلَاتُ",
+        "total_verses": 50,
+        "bg_color": "#F4D6D9"
+    },
+    {
+        "id": 78,
+        "chaptername": "An-Naba'",
+        "arabicname": "النَّبَأُ",
+        "total_verses": 40,
+        "bg_color": "#D6E1F4"
+    },
+    {
+        "id": 79,
+        "chaptername": "An-Nazi'at",
+        "arabicname": "النَّازِعَاتُ",
+        "total_verses": 46,
+        "bg_color": "#F4EAD6"
+    },
+    {
+        "id": 80,
+        "chaptername": "Abasa",
+        "arabicname": "عَبَسَ",
+        "total_verses": 42,
+        "bg_color": "#D6F4E7"
+    },
+    {
+        "id": 81,
+        "chaptername": "At-Takwir",
+        "arabicname": "التَّكْوِيرُ",
+        "total_verses": 29,
+        "bg_color": "#F4D6F1"
+    },
+    {
+        "id": 82,
+        "chaptername": "Al-Infitar",
+        "arabicname": "الإِنفِطَارُ",
+        "total_verses": 19,
+        "bg_color": "#D6F1F4"
+    },
+    {
+        "id": 83,
+        "chaptername": "Al-Mutaffifin",
+        "arabicname": "المُطَفِّفِينَ",
+        "total_verses": 36,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 84,
+        "chaptername": "Al-Inshiqaq",
+        "arabicname": "الإِنشِقَاقُ",
+        "total_verses": 25,
+        "bg_color": "#D6F4E3"
+    },
+    {
+        "id": 85,
+        "chaptername": "Al-Buruj",
+        "arabicname": "البُرُوجُ",
+        "total_verses": 22,
+        "bg_color": "#E3F4D6"
+    },
+    {
+        "id": 86,
+        "chaptername": "At-Tariq",
+        "arabicname": "الطَّارِقُ",
+        "total_verses": 17,
+        "bg_color": "#D6F4F1"
+    },
+    {
+        "id": 87,
+        "chaptername": "Al-A'la",
+        "arabicname": "الأَعْلَ",
+        "total_verses": 19,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 88,
+        "chaptername": "Al-Ghashiyah",
+        "arabicname": "الغَاشِيَةُ",
+        "total_verses": 26,
+        "bg_color": "#D6F4E7"
+    },
+    {
+        "id": 89,
+        "chaptername": "Al-Fajr",
+        "arabicname": "الفَجْرُ",
+        "total_verses": 30,
+        "bg_color": "#F4D6F1"
+    },
+    {
+        "id": 90,
+        "chaptername": "Al-Balad",
+        "arabicname": "البَلَدُ",
+        "total_verses": 20,
+        "bg_color": "#D6F1F4"
+    },
+    {
+        "id": 91,
+        "chaptername": "Ash-Shams",
+        "arabicname": "الشَّمْسُ",
+        "total_verses": 15,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 92,
+        "chaptername": "Al-Lail",
+        "arabicname": "اللَّيْلُ",
+        "total_verses": 21,
+        "bg_color": "#D6F4E3"
+    },
+    {
+        "id": 93,
+        "chaptername": "Ad-Duhaa",
+        "arabicname": "الضُّحَىٰ",
+        "total_verses": 11,
+        "bg_color": "#E3F4D6"
+    },
+    {
+        "id": 94,
+        "chaptername": "Ash-Sharh",
+        "arabicname": "الشَّرْحُ",
+        "total_verses": 8,
+        "bg_color": "#D6F4F1"
+    },
+    {
+        "id": 95,
+        "chaptername": "At-Tin",
+        "arabicname": "التِّينُ",
+        "total_verses": 8,
+        "bg_color": "#F1F4D6"
+    },
+    {
+        "id": 96,
+        "chaptername": "Al-Alaq",
+        "arabicname": "العَلَقُ",
+        "total_verses": 19,
+        "bg_color": "#D6F4E7"
+    },
+    {
+        "id": 97,
+        "chaptername": "Al-Qadr",
+        "arabicname": "القَدْرُ",
+        "total_verses": 5,
+        "bg_color": "#E7F4D6"
+    },
+    {
+        "id": 98,
+        "chaptername": "Al-Bayyinah",
+        "arabicname": "البَيِّنَةُ",
+        "total_verses": 8,
+        "bg_color": "#D6F4E1"
+    },
+    {
+        "id": 99,
+        "chaptername": "Az-Zalzalah",
+        "arabicname": "الزَّلْزَلَةُ",
+        "total_verses": 8,
+        "bg_color": "#F4D6D9"
+    },
+    {
+        "id": 100,
+        "chaptername": "Al-Adiyat",
+        "arabicname": "العَادِيَاتُ",
+        "total_verses": 11,
+        "bg_color": "#D6E1F4"
+    },
+    {
+        "id": 101,
+        "chaptername": "Al-Qari'ah",
+        "arabicname": "القَارِعَةُ",
+        "total_verses": 11,
+        "bg_color": "#F4EAD6"
+    },
+    {
+        "id": 102,
+        "chaptername": "At-Takweer",
+        "arabicname": "التَّكَاثُرُ",
+        "total_verses": 8,
+        "bg_color": "#D6F4E7"
+    },
+    {
+        "id": 103,
+        "chaptername": "Al-Asr",
+        "arabicname": "العَصْرُ",
+        "total_verses": 3,
+        "bg_color": "#E7F4D6"
+    },
+    {
+        "id": 104,
+        "chaptername": "Al-Humazah",
+        "arabicname": "الهُمَزَةُ",
+        "total_verses": 9,
+        "bg_color": "#D6F4E1"
+    },
+    {
+        "id": 105,
+        "chaptername": "Al-Fil",
+        "arabicname": "الفِيلُ",
+        "total_verses": 5,
+        "bg_color": "#F4D6D9"
+    },
+    {
+        "id": 106,
+        "chaptername": "Quraish",
+        "arabicname": "قُرَيْشٌ",
+        "total_verses": 4,
+        "bg_color": "#D6E1F4"
+    },
+    {
+        "id": 107,
+        "chaptername": "Al-Ma'un",
+        "arabicname": "المَاعُونُ",
+        "total_verses": 7,
+        "bg_color": "#F4EAD6"
+    },
+    {
+        "id": 108,
+        "chaptername": "Al-Kawthar",
+        "arabicname": "الكَوْثَرُ",
+        "total_verses": 3,
+        "bg_color": "#D6F4E7"
+    },
+    {
+        "id": 109,
+        "chaptername": "Al-Kafirun",
+        "arabicname": "الكَافِرُونَ",
+        "total_verses": 6,
+        "bg_color": "#E7F4D6"
+    },
+    {
+        "id": 110,
+        "chaptername": "An-Nasr",
+        "arabicname": "النَّصْرُ",
+        "total_verses": 3,
+        "bg_color": "#D6F4E1"
+    },
+    {
+        "id": 111,
+        "chaptername": "Al-Masad",
+        "arabicname": "المَسَدُ",
+        "total_verses": 5,
+        "bg_color": "#F4D6D9"
+    },
+    {
+        "id": 112,
+        "chaptername": "Al-Ikhlas",
+        "arabicname": "الإِخْلَاصُ",
+        "total_verses": 4,
+        "bg_color": "#D6E1F4"
+    },
+    {
+        "id": 113,
+        "chaptername": "Al-Falaq",
+        "arabicname": "الفَلَقُ",
+        "total_verses": 5,
+        "bg_color": "#F4EAD6"
+    },
+    {
+        "id": 114,
+        "chaptername": "An-Nas",
+        "arabicname": "النَّاسُ",
+        "total_verses": 6,
+        "bg_color": "#D6F4E7"
+    }
+]
