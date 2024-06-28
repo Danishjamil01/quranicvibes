@@ -41,6 +41,26 @@
   font-family: 'Lateef-Bold';
   src: url('./assets/fontarabic/Lateef-Bold.ttf');
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fontenglish/roboto/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'playwrite';
+  src: url('./assets/fontenglish/Playwrite_NZ/OFL.txt');
+}
+// @font-face {
+//   font-family: 'playwrite-cursive';
+//   src: url('./assets/fontenglish/Playwrite_NZ/PlaywriteNZ-VariableFont_wght.ttf');
+// }
+@font-face {
+  font-family: 'helvetica';
+  src: url('./assets/fontenglish/helvetica/Helvetica.ttf');
+}
+@font-face {
+  font-family: 'poppins';
+  src: url('./assets/fontenglish/poppins/Poppins-Regular.ttf');
+}
 
 
 body {
