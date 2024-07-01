@@ -13,9 +13,11 @@
         </div>
         <div class="tafseer"
           [ngClass]="{'dropdown-content': true, 'open': openedDropdownIndex === i, 'close': openedDropdownIndex !== i && openedDropdownIndex !== null}">
-          <div style="padding: 15px;">
-            <b style="font-size: 20px;">{{data.parts}}</b>
-            <p><b style="font-family: Jameel Noori Nastaleeq;">ترجمہ</b>: تعریف یا شکر۔</p>
+          <div style="padding: 15px;" *ngFor="let part of data?.versepart">
+              <p>{{part.section}}</p>
+              <p>{{part.partstarjuma}}</p>
+              <!-- <p>{{parts.partswajahat}}</p> -->
+            <!-- <p><b style="font-family: Jameel Noori Nastaleeq;">ترجمہ</b>: تعریف یا شکر۔</p>
             <p>وضاحت: یہ لفظ شکر اور تعریف دونوں کو ظاہر کرتا ہے۔ یہ کسی چیز کے لئے شکر گزار ہونے اور اس کی تعریف کرنے
               کا
               اظہار ہے۔
@@ -29,7 +31,7 @@
             <p>وضاحت: یہ لفظ اس ہستی کی طرف اشارہ کرتا ہے جو پرورش کرتا ہے، پالنے والا ہے، اور دیکھ بھال کرتا ہے۔ یہ ایک
               اختیار، نگہداشت اور دیکھ بھال کا مفہوم دیتا ہے۔</p>
             <b style="font-size: 20px;">:ٱلْعَالَمِينَ (ٱلْعَالَمِينَ)</b>
-            <p><b style="font-family: Jameel Noori Nastaleeq;">ترجمہ</b>: تمام جہانوں کا یا کائنات۔</p>
+            <p><b style="font-family: Jameel Noori Nastaleeq;">ترجمہ</b>: تمام جہانوں کا یا کائنات۔</p> --> 
             <!-- <p>وضاحت: یہ لفظ جمع کی صورت میں ہے جو ہر چیز کو شامل کرتا ہے جو موجود ہے، تمام عالموں، مخلوقات اور زندگی کی
               صورتوں کو۔</p>
             <b>مشترکہ مطلب</b>

@@ -25,7 +25,7 @@ export class ReadQuranComponent {
     const data = sessionStorage.getItem(SessionKeys.selectedVerses);
     if (!!data) {
       this.selectedChapter = JSON.parse(data);
-      // console.log("danish ::: " + JSON.stringify(this.selectedChapter))
+      console.log("danish ::: " + JSON.stringify(this.selectedChapter))
     };
   }
 
