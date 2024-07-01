@@ -11,6 +11,17 @@ export class LiabraryComponent {
 
   // }
 
+  // savePageAsImage() {
+  //   const element = document.body;
+  //   html2canvas(element).then(canvas => {
+  //     const imgData = canvas.toDataURL('image/png');
+  //     const link = document.createElement('a');
+  //     link.download = 'page.png';
+  //     link.href = imgData;
+  //     link.click();
+  //   });
+  // }
+
   savePageAsImage() {
     const element = document.body;
     html2canvas(element).then(canvas => {
@@ -21,6 +32,4 @@ export class LiabraryComponent {
       link.click();
     });
   }
-
-
 }
