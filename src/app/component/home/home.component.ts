@@ -57,10 +57,10 @@ export class HomeComponent implements OnInit {
       this.isShowScholar = false;
       this.isShowPodcast = false;
     }
-    // this.isShowAll = tab === 'All';
-    // this.isShowVibe = tab === 'Vibe';
-    // this.isShowScholar = tab === 'Scholar';
-    // this.isShowPodcast = tab === 'Podcast';
+    this.isShowScholar = tab === 'Scholar';
+    this.isShowAll = tab === 'All';
+    this.isShowVibe = tab === 'Vibe';
+    this.isShowPodcast = tab === 'Podcast';
   }
 
   openProfile() {
