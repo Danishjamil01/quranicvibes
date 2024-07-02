@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Dr Israr Ahmad .",
+        "thumbnail": "assets/images/bayans/mazhab.png",
+        "title": "Taqreer-e-Mazhab",
+        "description": " A program that delves into the fundamentals of different religions, promoting religious harmony and understanding.",
+        "videos": [
+            {
+                "videoId": "uBHgs8eiTlM",
+                "topic": "Taqreer e mazhab"
+            }
+        ]
+    },
+    {
+        "name": "Mufti Tariq Masoood .",
+        "thumbnail": "assets/images/bayans/tarbiyat.png",
+        "title": "Taqreer-e-Tarbiyat",
+        "description": " A show dedicated to educational and motivational speeches, aiming to inspire personal and professional growth.",
+        "videos": [
+            {
+                "videoId": "uhNILCVS6bI",
+                "topic": "Taqreer-e-Tarbiyat"
+            }
+        ]
+    },
+    {
+        "name": "Maulana Tariq Jameel .",
+        "thumbnail": "assets/images/bayans/imaan.png",
+        "title": "Taqreer-e-Imaan",
+        "description": " Emphasizing the importance of faith and belief, offering guidance and inspiration to strengthen one's imaan (faith).",
+        "videos": [
+            {
+                "videoId": "QHyjvn56IeM",
+                "topic": "Taqreer-e-Imaan"
+            }
+        ]
+    },
+    {
+        "name": "Dr Israr Ahmad .",
+        "thumbnail": "assets/images/bayans/hikmat.png",
+        "title": "Taqreer-e-Hikmat",
+        "description": " A series of lectures on wisdom and intellect, focusing on the significance of knowledge and understanding in life.",
+        "videos": [
+            {
+                "videoId": "eTG_Yb6ZdzI",
+                "topic": "Taqreer-e-Hikmat"
+            }
+        ]
+    },
+    {
+        "name": "Tariq Masoood .",
+        "thumbnail": "assets/images/bayans/taqwa.png",
+        "title": "Taqreer-e-Taqwa",
+        "description": " A series of lectures that emphasize the importance of piety and righteousness in leading a fulfilling life.",
+        "videos": [
+            {
+                "videoId": "XljlOc_3Sfs",
+                "topic": "Taqreer-e-Taqwa"
+            }
+        ]
+    }
+]
