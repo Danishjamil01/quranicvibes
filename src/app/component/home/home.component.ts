@@ -16,7 +16,6 @@ import { TabVisibilityService } from '../../services/tab-visibility.service';
 })
 export class HomeComponent implements OnInit {
   private offcanvas: Offcanvas;
-  selectedTab: string = 'Al Quran';
   newhits: any;
   mixsinger: any;
   bayans: any;
@@ -24,51 +23,55 @@ export class HomeComponent implements OnInit {
   fresh: any;
   topsong: any;
   selectedSinger: any;
-  isShowAll: boolean = true;
-  isShowVibe: Boolean = false;
-  isShowScholar: Boolean = false;
-  isShowPodcast: Boolean = false;
-  tabs: string[] = ['Al Quran', 'Vibe','All' ];
+  // isShowAll: boolean = true;
+  // isShowVibe: Boolean = false;
+  // isShowScholar: Boolean = false;
+  // isShowPodcast: Boolean = false;
+  // tabs: string[] = ['Al Quran', 'Vibe','All' ];
+
+  // selectTab(tab: string) {
+  //   this.selectedTab = tab;
+  //   sessionStorage.setItem('selectedTab', tab);
+  //   if (tab === 'Vibe') {
+  //     this.isShowVibe = true;
+  //     this.isShowAll = false;
+  //     this.isShowScholar = false;
+  //     this.isShowPodcast = false;
+  //   }
+  //   else if (tab === 'Al Quran') {
+  //     this.isShowVibe = false;
+  //     this.isShowAll = false;
+  //     this.isShowScholar = true;
+  //     this.isShowPodcast = false;
+  //   }
+  //   else if (tab === 'Podcast') {
+  //     this.isShowVibe = false;
+  //     this.isShowAll = false;
+  //     this.isShowScholar = false;
+  //     this.isShowPodcast = true;
+  //   }
+  //   else {
+  //     this.isShowVibe = false;
+  //     this.isShowAll = true;
+  //     this.isShowScholar = false;
+  //     this.isShowPodcast = false;
+  //   }
+  //   this.isShowScholar = tab === 'Scholar';
+  //   this.isShowAll = tab === 'All';
+  //   this.isShowVibe = tab === 'Vibe';
+  //   this.isShowPodcast = tab === 'Podcast';
+  // }
+  selectedTab: string = 'alquran';
 
   selectTab(tab: string) {
     this.selectedTab = tab;
-    sessionStorage.setItem('selectedTab', tab);
-    if (tab === 'Vibe') {
-      this.isShowVibe = true;
-      this.isShowAll = false;
-      this.isShowScholar = false;
-      this.isShowPodcast = false;
-    }
-    else if (tab === 'Al Quran') {
-      this.isShowVibe = false;
-      this.isShowAll = false;
-      this.isShowScholar = true;
-      this.isShowPodcast = false;
-    }
-    else if (tab === 'Podcast') {
-      this.isShowVibe = false;
-      this.isShowAll = false;
-      this.isShowScholar = false;
-      this.isShowPodcast = true;
-    }
-    else {
-      this.isShowVibe = false;
-      this.isShowAll = true;
-      this.isShowScholar = false;
-      this.isShowPodcast = false;
-    }
-    this.isShowScholar = tab === 'Scholar';
-    this.isShowAll = tab === 'All';
-    this.isShowVibe = tab === 'Vibe';
-    this.isShowPodcast = tab === 'Podcast';
   }
-
   openProfile() {
     const element = document.getElementById('sidebar');
     this.offcanvas = new Offcanvas(element);
     this.offcanvas.show()
   }
-  constructor(private router: Router, private TabVisibilityService:TabVisibilityService, private allsongservice: AllsongsService, private newHItsService: NewhitsService, private http: HttpClient, private mixsingerservice: MixsingerService, private bayanservice: BayanService, private showsservice: ShowsService) {
+  constructor(private router: Router, private TabVisibilityService: TabVisibilityService, private allsongservice: AllsongsService, private newHItsService: NewhitsService, private http: HttpClient, private mixsingerservice: MixsingerService, private bayanservice: BayanService, private showsservice: ShowsService) {
 
 
   }
@@ -77,7 +80,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.TabVisibilityService.setVisibility(true);
     this.selectedTab = sessionStorage.getItem('selectedTab') || 'All'; // Initialize selectedTab from local storage, defaulting to 'All'
-    this.selectTab(this.selectedTab);
+    // this.selectTab(this.selectedTab);
 
     this.newHItsService.newHitsData().subscribe((data) => {
       this.newhits = data;
