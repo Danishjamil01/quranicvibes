@@ -1,5 +1,4 @@
 import { Versedetails } from "./Versedetails";
-import { Versepart } from "./Versepart";
 
 export class Allchapter {
     public id:string;

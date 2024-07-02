@@ -23,6 +23,8 @@ import { ScholarComponent } from './component/scholar/scholar.component';
 import { PodcastComponent } from './component/podcast/podcast.component';
 import { ReadQuranComponent } from './component/read-quran/read-quran.component';
 import { AllChapterComponent } from './component/all-chapter/all-chapter.component';
+import { ReadByJuzComponent } from './component/read-by-juz/read-by-juz.component';
+import { AlljuzComponent } from './component/alljuz/alljuz.component';
 
 const routes: Routes = [
   {path:'' ,redirectTo:'/splash', pathMatch:'full'},
@@ -50,7 +52,9 @@ const routes: Routes = [
   {path:'podcast', component:PodcastComponent},
   {path:'podcast', component:PodcastComponent},
   {path:'allchapter',component:AllChapterComponent},
-  {path:'readquran',component:ReadQuranComponent}
+  {path:'readquran',component:ReadQuranComponent},
+  {path:'readbyjuz',component:ReadByJuzComponent},
+  {path:'alljuz',component:AlljuzComponent},
 ];
 
 @NgModule({

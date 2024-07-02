@@ -2,7 +2,8 @@
     {
         "id": "1",
         "juzname": "الٓمٓ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Alif Lam Meem",
+        "juz": "Juz 1",
         "aayat": "141",
         "bgcolor": "#F5F5DC",
         "description": "Starts from ",
@@ -48,7 +49,8 @@
     {
         "id": "2",
         "juzname": "سَيَقُولُ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Sayaqul",
+        "juz": "Juz 2",
         "aayat": "111",
         "bgcolor": "#FFE4C4",
         "description": "Starts from ",
@@ -61,38 +63,13 @@
                 "totalrukus": "10",
                 "totalsajdas": "1"
             }
-        ],
-        "allverse": [
-            {
-                "versenum": "2",
-                "verse": "سَيَقُولُ"
-            },
-            {
-                "versenum": "2",
-                "verse": "الرَّحْمَـٰنِ الرَّحِيمِ"
-            },
-            {
-                "versenum": "3",
-                "verse": "مَالِكِ يَوْمِ الدِّينِ"
-            },
-            {
-                "versenum": "4",
-                "verse": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
-            },
-            {
-                "versenum": "5",
-                "verse": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ"
-            },
-            {
-                "versenum": "6",
-                "verse": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَاالضَّالِّينَ"
-            }
         ]
     },
     {
         "id": "3",
         "juzname": "تِلْكَ ٱلرُّسُلُ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Tilkarrasul",
+        "juz": "Juz 3",
         "aayat": "126 ",
         "bgcolor": "#FFDEAD",
         "description": "Starts from ",
@@ -110,7 +87,8 @@
     {
         "id": "4",
         "juzname": "لَن تَنَالُوا۟",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Lantanalu",
+        "juz": "Juz 4",
         "aayat": "176 ",
         "bgcolor": "#FDF5E6",
         "description": "Starts from ",
@@ -128,7 +106,8 @@
     {
         "id": "5",
         "juzname": "وَٱلْمُحْصَنَاتُ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Wal Mohsanat",
+        "juz": "Juz 5",
         "aayat": "124 ",
         "bgcolor": "#FAEBD7",
         "description": "Starts from ",
@@ -146,7 +125,8 @@
     {
         "id": "6",
         "juzname": "لَا يُحِبُّ ٱللَّهُ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"La Yuhibbullah",
+        "juz": "Juz 6",
         "aayat": "165 ",
         "bgcolor": "#FFFACD",
         "description": "Starts from ",
@@ -164,7 +144,8 @@
     {
         "id": "7",
         "juzname": "وَإِذَا سَمِعُوا۟",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Wa Iza Sami'u",
+        "juz": "Juz 7",
         "aayat": "206 ",
         "bgcolor": "#FFEFD5",
         "description": "Starts from ",
@@ -182,7 +163,8 @@
     {
         "id": "8",
         "juzname": "وَلَوْ أَنَّنَا",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Wa Lau Annana",
+        "juz": "Juz 8",
         "aayat": "136 ",
         "bgcolor": "#FFF8DC",
         "description": "Starts from ",
@@ -200,7 +182,8 @@
     {
         "id": "9",
         "juzname": "قَدْ أَفْلَحَ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Qad Aflaha",
+        "juz": "Juz 9",
         "aayat": "151 ",
         "bgcolor": "#FFF5EE",
         "description": "Starts from ",
@@ -218,7 +201,8 @@
     {
         "id": "10",
         "juzname": "وَٱعْلَمُوا۟",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Wa A'lamu",
+        "juz": "Juz10",
         "aayat": "173 ",
         "bgcolor": "#F0FFF0",
         "description": "Starts from ",
@@ -236,7 +220,8 @@
     {
         "id": "11",
         "juzname": "يَعْتَذِرُونَ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Yatazeroon",
+        "juz": "Juz 11",
         "aayat": "181  ",
         "bgcolor": "#F5FFFA",
         "description": "Starts from ",
@@ -254,7 +239,8 @@
     {
         "id": "12",
         "juzname": "وَمَا مِن دَآبَّةٍ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Wa Mamin Da'abat",
+        "juz": "juz 12",
         "aayat": "182  ",
         "bgcolor": "#F0FFFF",
         "description": "Starts from ",
@@ -272,7 +258,8 @@
     {
         "id": "13",
         "juzname": "وَمَآ أُبَرِّئُ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Wa Ma Ubrioo",
+        "juz": "juz 13",
         "aayat": "154 ",
         "bgcolor": "#F0F8FF",
         "description": "Starts from ",
@@ -290,7 +277,8 @@
     {
         "id": "14",
         "juzname": "رُّبَمَا",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Rubama",
+        "juz": "Juz 14",
         "aayat": "183 ",
         "bgcolor": "#E6E6FA",
         "description": "Starts from ",
@@ -308,7 +296,8 @@
     {
         "id": "15",
         "juzname": "سُبْحَٰنَ ٱلَّذِى",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Subhanallazi",
+        "juz": "juz 15",
         "aayat": "185 ",
         "bgcolor": "#FFF0F5",
         "description": "Starts from ",
@@ -326,7 +315,8 @@
     {
         "id": "16",
         "juzname": "قَالَ أَلَمْ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Qal Alam",
+        "juz": "Juz 16",
         "aayat": "269  ",
         "bgcolor": "#FFFAFA",
         "description": "Starts from ",
@@ -344,7 +334,8 @@
     {
         "id": "17",
         "juzname": "ٱقْتَرَبَ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Iqtaraba",
+        "juz": "Juz 17",
         "aayat": "182  ",
         "bgcolor": "#FFE4E1",
         "description": "Starts from ",
@@ -362,7 +353,8 @@
     {
         "id": "18",
         "juzname": "قَدْ أَفْلَحَ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Qadd Aflaha",
+        "juz": "juz 18",
         "aayat": "176  ",
         "bgcolor": "#F5F5F5",
         "description": "Starts from ",
@@ -380,7 +372,8 @@
     {
         "id": "19",
         "juzname": "وَقَالَ ٱلَّذِينَ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Wa Qalallazina",
+        "juz": "Juz 19",
         "aayat": "151  ",
         "bgcolor": "#DCDCDC",
         "description": "Starts from ",
@@ -398,7 +391,8 @@
     {
         "id": "20",
         "juzname": "أَمَّنْ خَلَقَ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"A'man Khalaq",
+        "juz": "Juz 20",
         "aayat": "153  ",
         "bgcolor": "#D3D3D3",
         "description": "Starts from ",
@@ -416,7 +410,8 @@
     {
         "id": "21",
         "juzname": "ٱتْلُ مَآ أُوحِىَ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Utlu Ma Oohi",
+        "juz": "Juz 21",
         "aayat": "178  ",
         "bgcolor": "#C0C0C0",
         "description": "Starts from ",
@@ -434,7 +429,8 @@
     {
         "id": "22",
         "juzname": "وَمَن يَقْنُتْ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Wa Manyaqnut",
+        "juz": "Juz 22",
         "aayat": "169 ",
         "bgcolor": "#A9A9A9",
         "description": "Starts from ",
@@ -453,7 +449,8 @@
     {
         "id": "23",
         "juzname": "وَمَا لِىَ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Wa Mali",
+        "juz": "Juz 23",
         "aayat": "182  ",
         "bgcolor": "#808080",
         "description": "Starts from ",
@@ -472,7 +469,8 @@
     {
         "id": "24",
         "juzname": "فَمَنْ أَظْلَمُ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Faman Azlam",
+        "juz": "Juz 24",
         "aayat": "174  ",
         "bgcolor": "#696969",
         "description": "Starts from ",
@@ -491,7 +489,8 @@
     {
         "id": "25",
         "juzname": "إِلَيْهِ يُرَدُّ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Elahe Yuruddo",
+        "juz": "Juz 25",
         "aayat": "181  ",
         "bgcolor": "#778899",
         "description": "Starts from ",
@@ -510,7 +509,8 @@
     {
         "id": "26",
         "juzname": "حٓمٓ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Ha'a Meem",
+        "juz": "Juz 26",
         "aayat": "182  ",
         "bgcolor": "#708090",
         "description": "Starts from ",
@@ -529,7 +529,8 @@
     {
         "id": "27",
         "juzname": "قَالَ فَمَا خَطْبُكُمْ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Qala Fama Khatbukum",
+        "juz": "Juz 27",
         "aayat": "179  ",
         "bgcolor": "#2F4F4F",
         "description": "Starts from ",
@@ -548,7 +549,8 @@
     {
         "id": "28",
         "juzname": "قَدْ أَفْلَحَ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Qadd Aflaha",
+        "juz": "juz 28",
         "aayat": "137  ",
         "bgcolor": "#B0C4DE",
         "description": "Starts from ",
@@ -566,7 +568,8 @@
     {
         "id": "29",
         "juzname": "تَبَارَكَ ٱلَّذِى",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Tabarakallazi",
+        "juz": "Juz 29",
         "aayat": "431 ",
         "bgcolor": "#ADD8E6",
         "description": "Starts from ",
@@ -584,7 +587,8 @@
     {
         "id": "30",
         "juzname": "عَمَّ",
-        "juz": "پہلا پارہ",
+        "englishjuz":"Amma Yatasa'aloon",
+        "juz": "Juz 30",
         "aayat": "564 ",
         "bgcolor": "#87CEEB",
         "description": "Starts from ",

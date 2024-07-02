@@ -9,15 +9,28 @@
     <div class="page mt-4">
       <div class="aayat-list" *ngFor="let data of selectedChapter?.allverse;let i = index">
         <div (click)="toggleDropdown(i)">
-          <div class="aayat"><span>{{data.verse}}</span></div>
+          <div class="aayat"><span>{{data.verse}}</span>&nbsp;۝</div>
         </div>
         <div class="tafseer"
           [ngClass]="{'dropdown-content': true, 'open': openedDropdownIndex === i, 'close': openedDropdownIndex !== i && openedDropdownIndex !== null}">
           <div style="padding: 15px;" *ngFor="let part of data?.versepart">
-              <p>{{part.section}}</p>
+            <b class="parts" style="font-size: 22px;">{{part.section}}</b>
+            <div style="display: flex;justify-content: end;gap: 5px;">
               <p>{{part.partstarjuma}}</p>
-              <!-- <p>{{parts.partswajahat}}</p> -->
-            <!-- <p><b style="font-family: Jameel Noori Nastaleeq;">ترجمہ</b>: تعریف یا شکر۔</p>
+              <b style="font-family: Jameel Noori Nastaleeq;">:ترجمہ </b>
+            </div>
+            <p>{{part.partswajahat}}</p>
+            <p style="font-size: 22px;font-weight: 400;">{{part.fulltarjuma}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <p>{{parts.partswajahat}}</p> -->
+<!-- <p><b style="font-family: Jameel Noori Nastaleeq;">ترجمہ</b>: تعریف یا شکر۔</p>
             <p>وضاحت: یہ لفظ شکر اور تعریف دونوں کو ظاہر کرتا ہے۔ یہ کسی چیز کے لئے شکر گزار ہونے اور اس کی تعریف کرنے
               کا
               اظہار ہے۔
@@ -31,8 +44,8 @@
             <p>وضاحت: یہ لفظ اس ہستی کی طرف اشارہ کرتا ہے جو پرورش کرتا ہے، پالنے والا ہے، اور دیکھ بھال کرتا ہے۔ یہ ایک
               اختیار، نگہداشت اور دیکھ بھال کا مفہوم دیتا ہے۔</p>
             <b style="font-size: 20px;">:ٱلْعَالَمِينَ (ٱلْعَالَمِينَ)</b>
-            <p><b style="font-family: Jameel Noori Nastaleeq;">ترجمہ</b>: تمام جہانوں کا یا کائنات۔</p> --> 
-            <!-- <p>وضاحت: یہ لفظ جمع کی صورت میں ہے جو ہر چیز کو شامل کرتا ہے جو موجود ہے، تمام عالموں، مخلوقات اور زندگی کی
+            <p><b style="font-family: Jameel Noori Nastaleeq;">ترجمہ</b>: تمام جہانوں کا یا کائنات۔</p> -->
+<!-- <p>وضاحت: یہ لفظ جمع کی صورت میں ہے جو ہر چیز کو شامل کرتا ہے جو موجود ہے، تمام عالموں، مخلوقات اور زندگی کی
               صورتوں کو۔</p>
             <b>مشترکہ مطلب</b>
             <p>جب ان تمام الفاظ کو ملا دیا جائے، تو "الحمد لله رب العالمين" کا ترجمہ کچھ یوں بنتا ہے:</p>
@@ -44,10 +57,3 @@
             <p>مسلمان اس جملے کو اللہ کی نعمتوں، رحمت اور ہدایت کے لیے اپنے شکر اور تعریف کے اظہار کے طور پر استعمال
               کرتے
               ہیں۔ یہ تسلیم کرنا ہے کہ ہر اچھی چیز اللہ سے آتی ہے اور وہ تمام تعریف کا مستحق ہے۔</p> -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>

@@ -33,6 +33,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { ReadQuranComponent } from './component/read-quran/read-quran.component';
 import { AllChapterComponent } from './component/all-chapter/all-chapter.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ReadByJuzComponent } from './component/read-by-juz/read-by-juz.component';
+import { AlljuzComponent } from './component/alljuz/alljuz.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +62,9 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     ScholarComponent,
     PodcastComponent,
     ReadQuranComponent,
-    AllChapterComponent
+    AllChapterComponent,
+    ReadByJuzComponent,
+    AlljuzComponent
   ],
   imports: [
     BrowserModule,

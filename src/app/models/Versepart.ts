@@ -1,7 +1,7 @@
 
-export class Versepart {
+export class  Versepart {
     public section:string;
     public partstarjuma:string;
     public partswajahat:string;
-    // public parts: Parts;
+    public fulltarjuma:string;
 }

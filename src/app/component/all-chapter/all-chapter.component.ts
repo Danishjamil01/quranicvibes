@@ -51,7 +51,7 @@ export class AllChapterComponent implements OnInit {
     const result: ApiResponse = await this.postService.apiCallsLocal('assets/json/allchapter.json');
     if (result.status === 0) {
       this.allchapter = result.data;
-      console.log('data', JSON.stringify(this.allchapter));
+      console.log('fetch chapter data ::: ', JSON.stringify(this.allchapter));
     }
   }
 

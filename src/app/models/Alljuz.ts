@@ -4,6 +4,7 @@ import { Versedetails } from "./Versedetails";
 export class Alljuz {
     public id: string;
     public juzname: string;
+    public englishjuz: string;
     public juz: string;
     public aayat: string;
     public description: string;

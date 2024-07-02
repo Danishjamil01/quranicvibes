@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-import { PostmethodService } from '../../services/postmethod.service';
 import { SessionKeys } from '../../models/SessionKeys';
 import { TabVisibilityService } from '../../services/tab-visibility.service';
 import { Allchapter } from '../../models/Allchapter';
-import { Versepart } from '../../models/Versepart';
 
 @Component({
   selector: 'app-read-quran',

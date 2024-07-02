@@ -1,22 +1,30 @@
-
 .all-chapter-section {
-.heading{
-    display: flex;align-items: center;justify-content: space-between;background-color: pink;padding: 10px 20px;
-    h4{
-        text-align: center;
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: pink;
+        padding: 10px 20px;
+
+        h4 {
+            text-align: center;
+        }
+
+        input {
+            background: transparent;
+            border: 1px solid #fff;
+            padding: 6px 7px;
+            outline: none;
+            border-radius: 7px;
+            width: 60%;
+        }
+
+        i {
+            -webkit-text-stroke: .5px;
+            font-size: 20px;
+        }
     }
-    input{
-        background: transparent;
-        border: 1px solid #fff;
-        padding: 6px 7px;
-        outline: none;
-        border-radius: 7px;
-        width: 60%;
-    }
-    i{
-        -webkit-text-stroke: .5px;font-size: 20px;
-    }
-}
+
     .all-chapter {
         display: flex;
         align-items: center;
