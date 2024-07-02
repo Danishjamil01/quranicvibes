@@ -4,8 +4,9 @@ import { routeAnimationState } from '../../shared/route-animations';
 import { TabVisibilityService } from '../../services/tab-visibility.service';
 import { Offcanvas } from 'bootstrap';
 import { AllcountryService } from '../../services/allcountry.service';
-import countryDigitLimits from '../../../assets/json/country-digit-limits.json';
+import countryDigitLimits from '../../../assets/json/country-digit-limits.json'
 import { trigger, transition, animate, keyframes, style } from '@angular/animations';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
