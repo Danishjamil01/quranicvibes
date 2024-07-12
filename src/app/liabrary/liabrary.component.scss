@@ -403,39 +403,53 @@
     padding: 20px;
     max-width: 600px;
     width: 90%;
-    text-align: right;
-    height: 500px;
+    // text-align: right;
+    height: 600px;
 }
 
 .header {
     text-align: center;
-    font-size: 28px;
+    font-size: 25px;
+    word-spacing: 5px;
     font-weight: 500;
-    word-spacing: 6px;
 }
 
 .header span {
     display: inline-block;
     margin: 0 5px;
+    font-family: 'jameel noori nastaleeq';
 }
 
 .list {
-    margin-top: 20px;
-}
-
-.list p {
-    font-size: 25px;
+    margin-top: 6px;
+    list-style: none;
+    p{
+        margin-bottom: 8px;
+        font-size: 25px;
+    }
 }
 
 .list-item {
-    font-size: 20px;
-    word-spacing: 4px;
-    margin: 10px 0;
+    border: 1px solid #868686;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 19px;
+    font-family: 'jameel noori nastaleeq';
+    margin: 4px;
+    text-align: end;
+    word-spacing: 2px;
+    b{
+        font-size: 20px;
+    }
 }
 
-.list-item b {
-    font-size: 20px;
-}
+// p {
+//     font-size: 25px;
+//     text-align: center;
+//     word-spacing: 4px;
+// }
+
+
 
 button {
     background-color: #ff6347;
