@@ -20,6 +20,10 @@
 }
 
 @font-face {
+  font-family: 'lato';
+  src: url('./assets/fontenglish/lato/Lato-BlackItalic.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Jameel Noori Nastaleeq';
   src: url('./assets/fonturdu/Jameel Noori Nastaleeq.ttf') format('truetype');
   font-weight: normal;
@@ -48,6 +52,10 @@
 @font-face {
   font-family: 'playwrite';
   src: url('./assets/fontenglish/Playwrite_NZ/OFL.txt');
+}
+@font-face {
+  font-family: 'alvi';
+  src: url('./assets/fonturdu/Alvi\ Nastaleeq\ Regular.ttf');
 }
 // @font-face {
 //   font-family: 'playwrite-cursive';

@@ -1,161 +1,165 @@
-<!-- 
+<!-- <section style="overflow: auto;">
+    <br><br><br><br><br><br><br>
+    <p style="font-family: playwrite;font-size: 25px;">Muqatta'at in the Quran</p>
 
+    <ul class="muqattaat-list">
+        <li class="muqattaat-item">اَلِمٌّ</li>
+        <li class="muqattaat-item">اَلمُّصْ</li>
+        <li class="muqattaat-item">اَلرَّ</li>
+        <li class="muqattaat-item">اَلْمُرَ</li>
+        <li class="muqattaat-item">كَهْيَعْصٌ</li>
+        <li class="muqattaat-item">طهٌ</li>
+        <li class="muqattaat-item">طَسْمٌ</li>
+        <li class="muqattaat-item">طَسٓ</li>
+        <li class="muqattaat-item">يَسٌ</li>
+        <li class="muqattaat-item">صٌ</li>
+        <li class="muqattaat-item">حَمٌ</li>
+        <li class="muqattaat-item">حَمْ عَسْقٌ</li>
+        <li class="muqattaat-item">قٌ</li>
+        <li class="muqattaat-item">نٌ</li>
+    </ul>
+</section>
+<button (click)="savePageAsImage()">save img</button> -->
 
-<div style="position: relative;">
-    <div class="video-container" style="height: fit-content;">
-        <div class="video-wrapper" #videoWrapper>
-          <div class="video" *ngFor="let video of allShortsData">
-            <video controls (ended)="nextVideo()" [src]="video.src"></video>
-          </div>
-        </div>
-      </div>
-      
-    <section class="main-section" *ngFor="let short of allShortsData" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 200;">
+<!-- <section>
+    <br>
+    <p style="font-family: 'lato';font-size: 25px;">Muqatta'at in the Quran</p>
+    <ul class="muqattaat-list"> -->
+<!-- <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 2 - Surah Al-Baqarah)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">1.</p>
+        </li>
+        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 3 - Surah Āl-Imran)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">2.</p>
+        </li>
+        <li class="muqattaat-item">اَلمُّصْ &nbsp;<span class="muqattaat-info">(Chapter 7, Surah Al-Aʿarāf)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">3.</p>
+        </li>
+        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(Chapter 10, Surah Yunus)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">4.</p>
+        </li>
+        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(Chapter 11, Surah Al-Hood)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">5.</p>
+        </li> -->
+<!-- <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(Chapter 12, Surah Yusuf)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">6.</p>
+        </li>
+        <li class="muqattaat-item">اَلْمُرَ &nbsp;<span class="muqattaat-info">(Chapter 13, Surah Al-Raʿd)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">7.</p>
+        </li>
+        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(Chapter 14, Surah Ibrahim)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">8.</p>
+        </li>
+        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(Chapter 15, Surah Al-Ḥijr)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">9.</p>
+        </li>
+        <li class="muqattaat-item">كَهْيَعْصٌ &nbsp;<span class="muqattaat-info">(Chapter 19, Surah Maryam)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">10.</p>
+        </li> -->
+<!-- <li class="muqattaat-item">طهٌ &nbsp;<span class="muqattaat-info">(Chapter 20, Surah Ṭāʾ-Hāʾ)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">11.</p>
+        </li>
+        <li class="muqattaat-item">طَسْمٌ &nbsp;<span class="muqattaat-info">(Chapter 26, Surah Al-Shua’ra)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">12.</p>
+        </li>
+        <li class="muqattaat-item">طَسٓ &nbsp;<span class="muqattaat-info">(Chapter 27, Surah Al-Namal)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">13.</p>
+        </li>
+        <li class="muqattaat-item">طَسْمٌ &nbsp;<span class="muqattaat-info">(Chapter 28, Surah Al-Qaṣaṣ)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">14.</p>
+        </li>
+        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 29, Surah Al-Ankabut)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">15.</p>
+        </li> -->
+<!-- <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 30, Surah Al-Rom )</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">16.</p>
+        </li>
+        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 31, Surah Luqmān)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">17.</p>
+        </li>
+        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 32, Surah Al-Sajda)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">18.</p>
+        </li>
+        <li class="muqattaat-item">يَسٌ &nbsp;<span class="muqattaat-info">(Chapter 36, Surah Yāʾ-Sīn )</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">19.</p>
+        </li>
+        <li class="muqattaat-item">صٌ &nbsp;<span class="muqattaat-info">(Chapter 38, Surah Ṣād)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">20.</p>
+        </li> -->
+<!-- <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 40, Surah Al-Mu’min )</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">21.</p>
+        </li>
+        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 41, Surah Fuṣṣilat)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">22.</p>
+        </li>
+        <li class="muqattaat-item">حَمْ عَسْقٌ &nbsp;<span class="muqattaat-info">(Chapter 42, Surah Al-Shūrā)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">23.</p>
+        </li>
+
+        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 43, Surah Al-Zukruf)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">24.</p>
+        </li>
+        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 44, Surah Al-Duqqan)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">25.</p>
+        </li> -->
+<!-- <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 45, Surah Al-Jasiya)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">26.</p>
+        </li>
+        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 46, Surah Al-Ahqaf)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">27.</p>
+        </li>
+        <li class="muqattaat-item">قٌ &nbsp;<span class="muqattaat-info">(Chapter 50, Surah Qāf)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">28.</p>
+        </li>
+        <li class="muqattaat-item">نٌ &nbsp;<span class="muqattaat-info">(Chapter 68, Surah Al-Qalam)</span>
+            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">29.</p>
+        </li> -->
+<!-- </ul>
+</section>
+<button (click)="savePageAsImage()">save img</button> -->
+<!-- <section>
+    <br>
+    <p class="item-list">ربع الحزب</p>
+    <span class="in-english">(Rub'
+        al-Hizb)</span>
+
+    <p class="urdu-translate">
+        ربع الحزب اسلامی ثقافت میں ایک مصطلح ہے جو ایک حزب کا چوتھا حصہ ہے۔ یہ قرآن کو چھوٹے حصوں میں تقسیم کرتا ہے تاکہ
+        اس کی تلاوت اور مطالعہ آسان ہو، اور روزانہ کی تلاوت اور حفظ کے لیے مناسب بناتا ہے۔ ہر ربع الحزب عموماً قرآن کے
+        آدھے صفحے تک کا حصہ ہوتا ہے۔
+    </p>
+
+    <p class="eng-translate">
+        Rub' al-Hizb is a term used in Islamic culture to refer to a quarter of a Hizb. It divides the Quran into
+        smaller sections for ease of recitation and study, making it manageable for daily readings and memorization.
+        Each Rub' al-Hizb typically spans about half a page in the Quran.
+    </p>
+</section> -->
+<div class="body">
+    <div class="quran-divisions">
         <div class="header">
-            <span>{{ short.reel }}</span>
-            <i class="{{ short.cameraIcon }}"></i>
+            <span>نبی اور رسول میں چند اہم فرق</span><span style="font-size: 18px;">★</span>
         </div>
-    
-        <div class="options">
-            <ul>
-                <li>
-                    <div class="like">
-                        <i class="{{ short.likeIcon }}"></i><br>
-                        <span>{{ short.vid[0].totalLike }}</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="comment">
-                        <i class="{{ short.commentIcon }}"></i><br>
-                        <span>{{ short.vid[0].totalComment }}</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="share">
-                        <i class="{{ short.shareIcon }}"></i><br>
-                        <span>{{ short.vid[0].totalShare }}</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="option">
-                        <i class="bi bi-three-dots"></i>
-                    </div>
-                </li>
-                <li class="main-sound">
-                    <div class="sound">
-                        <img src="" alt="">
-                    </div>
-                </li>
-            </ul>
+        <div class="list">
+            <p style="text-align: center;">:نبی</p>
         </div>
-    </section>
-</div>
-
- -->
-
-
-<!-- <div class="video-container" #videoWrapper>
-    <div class="video-wrapper">
-      <div class="video" *ngFor="let short of allShortsData">
-        <video style="height: 100vh;" #videoPlayer controls (ended)="nextVideo()" [muted]="isMuted" [src]="short.vid[0].video"></video>
-        <div class="interactions">
-          <i class="{{ short.likeIcon }}"></i> {{ short.vid[0].totalLike }}
-          <i class="{{ short.commentIcon }}"></i> {{ short.vid[0].totalComment }}
-          <i class="{{ short.shareIcon }}"></i> {{ short.vid[0].totalShare }}
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-<!-- <div *ngFor="let short of allShortsData">
-    <video #videoPlayer autoplay (ended)="restartVideo()" [muted]="isMuted" style="height: 100vh;object-fit: unset;"
-        [src]="short.video" frameborder="0"></video>
-</div> -->
-
-<div style="background: #ADD8E6; height: 100vh;padding-top:70px;">
-    <!-- <div class="saved"
-        style=" display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px;">
-        <h1 style="font-family: 'Lateef'; font-size: 3rem; color: #000000; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);;">
-            بِسْمِ اللَّهِ الرَّحْمَـٰنِ الرَّحِيمِ</h1>
-            <p style="font-weight: 500;">(Bismillahi ar-Rahmani ar-Raheem)</p>
-        <div class="tafseer"
-            style="margin-top: 20px; padding: 20px 15px; border-radius: 10px; background-color: rgba(0,0,0,0.2); max-width: 80%; text-align: center; ">
-            <p
-                style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #ffffff;padding: 0;margin: 0;">
-                In the name of Allah, the Most Gracious, the Most Merciful.</p>
-        </div>
-        <button
-            style="font-family: 'Lateef'; font-size: 1.2rem; color: #ffffff; margin-top: 40px;padding: 5px 15px;border: none;background-color: transparent;border-radius: 4px;font-family: 'Jameel Noori Nastaleeq';background-color: #0093E9;
-            background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-            ">quran.icvibes</button>
-        <div style="margin-top: 20px; display: flex; justify-content: center;">
-            <a href="https://www.facebook.com/quran.icvibes"
-                style="text-decoration: none; color: #3b5998; margin: 0 10px;"><i class="bi bi-facebook"
-                    style="font-size: 1.5rem;"></i></a>
-            <a href="https://www.instagram.com/quran.icvibes"
-                style="text-decoration: none; color: #e4405f; margin: 0 10px;"><i class="bi bi-instagram"
-                    style="font-size: 1.5rem;"></i></a>
-            <a href="https://www.youtube.com/quran.icvibes"
-                style="text-decoration: none; color: #cd201f; margin: 0 10px;"><i class="bi bi-youtube"
-                    style="font-size: 1.5rem;"></i></a>
-            <a href="https://www.whatsapp.com/quran.icvibes"
-                style="text-decoration: none; color: #25D366; margin: 0 10px;"><i class="bi bi-whatsapp"
-                    style="font-size: 1.5rem;"></i></a>
-        </div>
-    </div> -->
-
-    <div style="padding: 10px 25px ">
-        <div style=" padding: 20px; border-radius: 10px; max-width: 400px; margin: 0 auto;">
-            <h1 style="font-family: 'Lateef';  font-size: 35px; color: #333; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-                (<span style="font-size: 28px;">Ar-Rahim</span>)&nbsp;الرَّحِيمِ    </h1>
-            <div class="tafseer"
-                style="margin-top: 20px; padding: 10px; border-radius: 35px; text-align: center; background-color: rgba(0,0,0,0.2);">
-                <p
-                    style="font-family: 'cursive'; font-size: 28px; color: #333; padding: 0; margin: 0; word-spacing: 6px;color: #ffffff;text-transform: capitalize;font-weight: 700;">
-                    The Most Merciful</p>
-            </div>
-            <br>
-            <p style="color: #000000;font-size:17px;font-family: 'playwrite';font-weight: 400;">
-                <span
-                    style="font-size: 20px;font-weight: 500; display: inline-block; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); font-family: 'playwrite'; color: #000000;;letter-spacing: 1px;">Explanation:</span>&nbsp;  Another name of Allah, highlighting a specific and intense form of mercy. While "Ar-Rahman" refers to the general mercy given to all creatures, "Ar-Rahim" refers to a special mercy granted specifically to the believers. It signifies continuous and everlasting mercy.
-
+        <div class="content">
+            <p class="list-item">
+                <b>تعریف:</b>&nbsp;&nbsp;نبی وہ ہے جو اللہ تعالیٰ کی طرف سے وحی یا الہام کے ذریعے ہدایت پاتا ہے اور اس ہدایت کو لوگوں تک پہنچاتا ہے۔
             </p>
-            <!-- <p
-                style="color: #000000;font-size: 17px;font-family: 'playwrite';font-weight: 400;">
-                This word signifies the act of seeking protection or refuge. It implies turning towards a protector, in
-                this case, Allah, to guard against harm.</p> -->
+            <p class="list-item">
+                <b>مقصد:</b>&nbsp;&nbsp;نبیوں کا بنیادی کام لوگوں کو اللہ کی وحدانیت اور عبادت کی طرف بلانا ہے۔
+            </p>
+            <p class="list-item">
+                <b>کتاب:</b>&nbsp;&nbsp;نبیوں پر کتاب یا نیا شریعت نازل نہیں ہوتی۔ وہ پہلے سے موجود شریعت کو لوگوں تک پہنچاتے ہیں۔
+            </p>
+            <p class="list-item">
+                <b>تعداد:</b>&nbsp;&nbsp;نبیوں کی تعداد زیادہ ہوتی ہے۔ اسلامی عقائد کے مطابق، 124,000 نبی بھیجے گئے ہیں۔
+            </p>
         </div>
-
-        <br>
-        <!-- <h1
-            style="font-family: 'Lateef';text-align: end; font-size: 35px; color: #000000; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);">
-            :(Billahi)بِاللَّهِ </h1>
-        <div class="tafseer"
-            style="margin-top: 20px; padding: 10px; border-radius: 10px; background-color: rgba(255,255,255,0.9); max-width: 60%; text-align: center; box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
-            <p
-                style="font-family: 'Jameel Noori Nastaleeq'; font-size: 30px; color: #333;padding: 0;margin: 0;word-spacing: 6px;">
-                اللہ سے یا اللہ کے ساتھ</p>
-        </div> -->
-        <!-- <h1
-            style="font-family: 'Lateef';text-align: end; font-size: 35px; color: #000000; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);">
-            :(Min Ash-Shaytan)مِنَ الشَّيْطَانِ </h1>
-        <div class="tafseer"
-            style="margin-top: 20px; padding: 10px; border-radius: 10px; background-color: rgba(255,255,255,0.9); max-width: 60%; text-align: center; box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
-            <p
-                style="font-family: 'Jameel Noori Nastaleeq'; font-size: 30px; color: #333;padding: 0;margin: 0;word-spacing: 6px;">
-                شیطان سے</p>
-        </div>
-        <br>
-        <h1
-            style="font-family: 'Lateef';text-align: end; font-size: 35px; color: #000000; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);">
-            :(Ar-Rajim)الرَّجِيمِ  </h1>
-        <div class="tafseer"
-            style="margin-top: 20px; padding: 10px; border-radius: 10px; background-color: rgba(255,255,255,0.9); max-width: 60%; text-align: center; box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
-            <p
-                style="font-family: 'Jameel Noori Nastaleeq'; font-size: 30px; color: #333;padding: 0;margin: 0;word-spacing: 6px;">
-                مردود یا پتھر مارا ہوا</p>
-        </div> -->
+        <!-- <button class="btn">quran.icvibes</button> -->
+        <br><br><br><br><br><br>
+        <button onclick="savePageAsImage()">save img</button>
     </div>
-    <br><br>
-    <button (click)="savePageAsImage()">save img</button>
+
 </div>
+<button (click)="savePageAsImage()">save img</button>
