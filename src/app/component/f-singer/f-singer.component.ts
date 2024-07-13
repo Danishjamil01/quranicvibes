@@ -10,47 +10,46 @@ import RecordRTC from 'recordrtc';
   styleUrl: './f-singer.component.scss'
 })
 export class FSingerComponent implements OnInit {
-
-  private recorder: RecordRTC;
-  private stream: MediaStream;
-  isRecording = false;
-  recordedBlob: Blob;
+  @ViewChild('fullscreenContainer') fullscreenContainer!: ElementRef;
 
 
-  startRecording() {
-    navigator.mediaDevices.getDisplayMedia({ video: true })
-      .then(stream => {
-        this.stream = stream;
-        this.recorder = new RecordRTC(stream, {
-          type: 'video'
-        });
-        this.recorder.startRecording();
-        this.isRecording = true;
-      })
-      .catch(error => {
-        console.error('Error accessing screen capture:', error);
-      });
+  constructor(private tab: TabVisibilityService,private elementRef: ElementRef) { }
+
+  toggleFullScreen() {
+    if (!document.fullscreenElement) {
+      this.openFullscreen();
+    } else {
+      this.closeFullscreen();
+    }
   }
 
-  stopRecording() {
-    this.recorder.stopRecording(() => {
-      this.recordedBlob = this.recorder.getBlob();
-      this.stream.getTracks().forEach(track => track.stop());
-      this.recorder.destroy();
-      this.isRecording = false;
-    });
+  openFullscreen() {
+    const elem = this.fullscreenContainer.nativeElement;
+
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) { /* Safari */
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { /* IE11 */
+      elem.msRequestFullscreen();
+    }
+    
+    // Adjust background color on enter full-screen
+    (<HTMLInputElement>document.getElementById('fullscrenn')).style.background= 'linear-gradient(to bottom, #faf1bf, #c9f2ff)' // Example background color
   }
 
-  download() {
-    const downloadLink = document.createElement('a');
-    downloadLink.href = URL.createObjectURL(this.recordedBlob);
-    downloadLink.download = 'recorded_screen.webm';
-    downloadLink.click();
+  closeFullscreen() {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if ((document as any).webkitExitFullscreen) { /* Safari */
+      (document as any).webkitExitFullscreen();
+    } else if ((document as any).msExitFullscreen) { /* IE11 */
+      (document as any).msExitFullscreen();
+    }
+    
+    // Restore background color on exit full-screen
+    document.body.style.backgroundColor = '#000'; // Restore to default or original color
   }
-
-
-
-
 
 
 
@@ -67,7 +66,6 @@ export class FSingerComponent implements OnInit {
 
 
 
-  constructor(private tab: TabVisibilityService) { }
 
   ngOnInit(): void {
     this.tab.setVisibility(false);

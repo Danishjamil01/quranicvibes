@@ -1,4 +1,4 @@
-<div class="et_builder_inner_content et_pb_gutters3">
+<div #fullscreenContainer class="et_builder_inner_content et_pb_gutters3" id="fullscrenn">
     <div class="et_pb_section et_pb_section_0 et_pb_fullwidth_section et_section_regular">
         <div class="et_pb_module et_pb_fullwidth_code et_pb_fullwidth_code_1">
             <div class="et_pb_code_inner">
@@ -2622,16 +2622,4 @@
     </div>
 </div>
 
-<button (click)="savePageAsImage()">save img</button>
-<div class="container">
-    <div *ngIf="!isRecording">
-      <button (click)="startRecording()">Start Recording</button>
-    </div>
-    <div *ngIf="isRecording">
-      <button (click)="stopRecording()">Stop Recording</button>
-    </div>
-    <div *ngIf="recordedBlob">
-      <button (click)="download()">Download Recording</button>
-    </div>
-  </div>
-  
+<button (click)="toggleFullScreen()">Toggle Fullscreen</button>
