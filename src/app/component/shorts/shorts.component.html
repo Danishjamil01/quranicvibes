@@ -21,101 +21,108 @@
 </section>
 <button (click)="savePageAsImage()">save img</button> -->
 
-<!-- <section>
+<section>
     <br>
-    <p style="font-family: 'lato';font-size: 25px;">Muqatta'at in the Quran</p>
-    <ul class="muqattaat-list"> -->
-<!-- <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 2 - Surah Al-Baqarah)</span>
+    <p style="font-family: 'lato';font-size: 25px;">Prophets Mentioned in the Quran</p>
+
+    <!-- <table>
+        <tr>
+            <td>sl no.</td>
+            <td>names</td>
+            <td>times</td>
+            <td>where</td>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Adam as</td>
+            <td>25 times</td>
+            <td>1.</td>
+        </tr>
+    </table> -->
+
+    <!-- <ul class="muqattaat-list">
+        <li class="muqattaat-item">Adam as  &nbsp;<span class="muqattaat-info">(آدم علیہ السلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">1.</p>
         </li>
-        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 3 - Surah Āl-Imran)</span>
+        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(ادریس علیہ السلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">2.</p>
         </li>
-        <li class="muqattaat-item">اَلمُّصْ &nbsp;<span class="muqattaat-info">(Chapter 7, Surah Al-Aʿarāf)</span>
+        <li class="muqattaat-item">اَلمُّصْ &nbsp;<span class="muqattaat-info">(نوح)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">3.</p>
         </li>
-        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(Chapter 10, Surah Yunus)</span>
+        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(هود)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">4.</p>
         </li>
-        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(Chapter 11, Surah Al-Hood)</span>
+        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(صالح)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">5.</p>
-        </li> -->
-<!-- <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(Chapter 12, Surah Yusuf)</span>
+        </li>
+        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(إبراهيم)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">6.</p>
         </li>
-        <li class="muqattaat-item">اَلْمُرَ &nbsp;<span class="muqattaat-info">(Chapter 13, Surah Al-Raʿd)</span>
+        <li class="muqattaat-item">اَلْمُرَ &nbsp;<span class="muqattaat-info">(لوط)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">7.</p>
         </li>
-        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(Chapter 14, Surah Ibrahim)</span>
+        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(إسماعيل)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">8.</p>
         </li>
-        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(Chapter 15, Surah Al-Ḥijr)</span>
+        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(إسحاق)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">9.</p>
         </li>
-        <li class="muqattaat-item">كَهْيَعْصٌ &nbsp;<span class="muqattaat-info">(Chapter 19, Surah Maryam)</span>
+        <li class="muqattaat-item">كَهْيَعْصٌ &nbsp;<span class="muqattaat-info">(يعقوب)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">10.</p>
-        </li> -->
-<!-- <li class="muqattaat-item">طهٌ &nbsp;<span class="muqattaat-info">(Chapter 20, Surah Ṭāʾ-Hāʾ)</span>
+        </li>
+        <li class="muqattaat-item">طهٌ &nbsp;<span class="muqattaat-info">(يوسف)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">11.</p>
         </li>
-        <li class="muqattaat-item">طَسْمٌ &nbsp;<span class="muqattaat-info">(Chapter 26, Surah Al-Shua’ra)</span>
+        <li class="muqattaat-item">طَسْمٌ &nbsp;<span class="muqattaat-info">(أيوب)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">12.</p>
         </li>
-        <li class="muqattaat-item">طَسٓ &nbsp;<span class="muqattaat-info">(Chapter 27, Surah Al-Namal)</span>
+        <li class="muqattaat-item">طَسٓ &nbsp;<span class="muqattaat-info">(شعيب)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">13.</p>
         </li>
-        <li class="muqattaat-item">طَسْمٌ &nbsp;<span class="muqattaat-info">(Chapter 28, Surah Al-Qaṣaṣ)</span>
+        <li class="muqattaat-item">طَسْمٌ &nbsp;<span class="muqattaat-info">(موسى)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">14.</p>
         </li>
-        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 29, Surah Al-Ankabut)</span>
+        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(هارون)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">15.</p>
-        </li> -->
-<!-- <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 30, Surah Al-Rom )</span>
+        </li>
+        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(ذو الكفل )</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">16.</p>
         </li>
-        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 31, Surah Luqmān)</span>
+        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(داود)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">17.</p>
         </li>
-        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(Chapter 32, Surah Al-Sajda)</span>
+        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(سليمان)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">18.</p>
         </li>
-        <li class="muqattaat-item">يَسٌ &nbsp;<span class="muqattaat-info">(Chapter 36, Surah Yāʾ-Sīn )</span>
+        <li class="muqattaat-item">يَسٌ &nbsp;<span class="muqattaat-info">(إلياس )</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">19.</p>
         </li>
-        <li class="muqattaat-item">صٌ &nbsp;<span class="muqattaat-info">(Chapter 38, Surah Ṣād)</span>
+        <li class="muqattaat-item">صٌ &nbsp;<span class="muqattaat-info">(اليسع)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">20.</p>
-        </li> -->
-<!-- <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 40, Surah Al-Mu’min )</span>
+        </li>
+        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(يونس )</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">21.</p>
         </li>
-        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 41, Surah Fuṣṣilat)</span>
+        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(زكريا)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">22.</p>
         </li>
-        <li class="muqattaat-item">حَمْ عَسْقٌ &nbsp;<span class="muqattaat-info">(Chapter 42, Surah Al-Shūrā)</span>
+        <li class="muqattaat-item">حَمْ عَسْقٌ &nbsp;<span class="muqattaat-info">(يحيى)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">23.</p>
         </li>
 
-        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 43, Surah Al-Zukruf)</span>
+        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(عيسى)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">24.</p>
         </li>
-        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 44, Surah Al-Duqqan)</span>
+        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(محمد)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">25.</p>
-        </li> -->
-<!-- <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 45, Surah Al-Jasiya)</span>
-            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">26.</p>
         </li>
-        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(Chapter 46, Surah Al-Ahqaf)</span>
-            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">27.</p>
-        </li>
-        <li class="muqattaat-item">قٌ &nbsp;<span class="muqattaat-info">(Chapter 50, Surah Qāf)</span>
-            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">28.</p>
-        </li>
-        <li class="muqattaat-item">نٌ &nbsp;<span class="muqattaat-info">(Chapter 68, Surah Al-Qalam)</span>
-            <p style="position: absolute;padding: 0;margin: 0;top: 19%;">29.</p>
-        </li> -->
-<!-- </ul>
+        
+    
+    </ul> -->
+    
 </section>
-<button (click)="savePageAsImage()">save img</button> -->
+<button (click)="savePageAsImage()">save img</button>
 <!-- <section>
     <br>
     <p class="item-list">ربع الحزب</p>
@@ -134,7 +141,7 @@
         Each Rub' al-Hizb typically spans about half a page in the Quran.
     </p>
 </section> -->
-<div class="body">
+<!-- <div class="body">
     <div class="quran-divisions">
         <div class="header">
             <span>نبی اور رسول میں چند اہم فرق</span><span style="font-size: 18px;">★</span>
@@ -156,10 +163,10 @@
                 <b>تعداد:</b>&nbsp;&nbsp;نبیوں کی تعداد زیادہ ہوتی ہے۔ اسلامی عقائد کے مطابق، 124,000 نبی بھیجے گئے ہیں۔
             </p>
         </div>
-        <!-- <button class="btn">quran.icvibes</button> -->
+        <button class="btn">quran.icvibes</button>
         <br><br><br><br><br><br>
         <button onclick="savePageAsImage()">save img</button>
     </div>
 
 </div>
-<button (click)="savePageAsImage()">save img</button>
+<button (click)="savePageAsImage()">save img</button> -->

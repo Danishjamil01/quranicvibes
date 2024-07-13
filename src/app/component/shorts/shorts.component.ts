@@ -50,4 +50,11 @@ export class ShortsComponent implements OnInit {
     });
   }
 
+  prophetTimesData = [
+    { slNo: 1, prophet: 'Prophet Name 1', times: 'Time 1', where: 'Location 1' },
+    { slNo: 2, prophet: 'Prophet Name 2', times: 'Time 2', where: 'Location 2' },
+    // Add more rows as needed
+  ];
+
+  displayedColumns: string[] = ['slNo', 'prophet', 'times', 'where'];
 }
