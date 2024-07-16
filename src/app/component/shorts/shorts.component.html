@@ -22,105 +22,129 @@
 <button (click)="savePageAsImage()">save img</button> -->
 
 <section>
-    <br>
-    <p style="font-family: 'lato';font-size: 25px;">Prophets Mentioned in the Quran</p>
-
+    <br><br><br>
+    <br><br><br>
+    <!-- <br>
+    <p style="font-family: 'lato';font-size: 20px;color: #ffffff;">The word Adam mentioned 25 times in
+        Quran</p> -->
+    <!-- <p style="font-family: 'Jameel noori nastaleeq';font-size: 20px;color: #fff;">(Adam As) <span style="font-size: 35px;word-spacing: 4px;">آدم علیہالسلام</span></p> -->
     <!-- <table>
-        <tr>
-            <td>sl no.</td>
-            <td>names</td>
-            <td>times</td>
-            <td>where</td>
-        </tr>
-        <tr>
-            <td>1.</td>
-            <td>Adam as</td>
-            <td>25 times</td>
-            <td>1.</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Surah</th>
+                <th>Aayah</th>
+                <th>Times</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Al-Isra</td>
+                <td>17:61, 17:70</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Al-Kahf</td>
+                <td>18:50</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Maryam</td>
+                <td>19:58</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Ṭā ḥā</td>
+                <td>20:115, 20:116, 20:117, 20:120, 20:121</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Ya-Sin</td>
+                <td>36:60</td>
+                <td>1</td>
+            </tr>
+        </tbody>
     </table> -->
-
-    <!-- <ul class="muqattaat-list">
-        <li class="muqattaat-item">Adam as  &nbsp;<span class="muqattaat-info">(آدم علیہ السلام)</span>
+    <audio id="audio"
+        src="https://myislam.sfo3.digitaloceanspaces.com/assets/2024/prophet-stories/adam/Prophet%20Adam.wav"></audio>
+    <ul class="muqattaat-list">
+        <!-- <li class="muqattaat-item">Adam As &nbsp;<span class="muqattaat-info">(آدم علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">1.</p>
         </li>
-        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(ادریس علیہ السلام)</span>
+        <li class="muqattaat-item">Idris As &nbsp;<span class="muqattaat-info">(ادریس علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">2.</p>
         </li>
-        <li class="muqattaat-item">اَلمُّصْ &nbsp;<span class="muqattaat-info">(نوح)</span>
+        <li class="muqattaat-item">Nuh As &nbsp;<span class="muqattaat-info">(نوح علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">3.</p>
         </li>
-        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(هود)</span>
+        <li class="muqattaat-item">Hud As &nbsp;<span class="muqattaat-info">(هود علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">4.</p>
         </li>
-        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(صالح)</span>
+        <li class="muqattaat-item">Saleh As &nbsp;<span class="muqattaat-info">(صالح علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">5.</p>
-        </li>
-        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(إبراهيم)</span>
+        </li> -->
+        <!-- <li class="muqattaat-item">Ibrahim As &nbsp;<span class="muqattaat-info">(إبراهيم علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">6.</p>
         </li>
-        <li class="muqattaat-item">اَلْمُرَ &nbsp;<span class="muqattaat-info">(لوط)</span>
+        <li class="muqattaat-item">Lut As &nbsp;<span class="muqattaat-info">(لوط علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">7.</p>
         </li>
-        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(إسماعيل)</span>
+        <li class="muqattaat-item">Ismail As &nbsp;<span class="muqattaat-info">(إسماعيل علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">8.</p>
         </li>
-        <li class="muqattaat-item">اَلرَّ &nbsp;<span class="muqattaat-info">(إسحاق)</span>
+        <li class="muqattaat-item">Ishaq As &nbsp;<span class="muqattaat-info">(إسحاق علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">9.</p>
         </li>
-        <li class="muqattaat-item">كَهْيَعْصٌ &nbsp;<span class="muqattaat-info">(يعقوب)</span>
+        <li class="muqattaat-item">Yaqub As &nbsp;<span class="muqattaat-info">(يعقوب علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">10.</p>
-        </li>
-        <li class="muqattaat-item">طهٌ &nbsp;<span class="muqattaat-info">(يوسف)</span>
+        </li> -->
+        <!-- <li class="muqattaat-item">Yusuf As &nbsp;<span class="muqattaat-info">(يوسف علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">11.</p>
         </li>
-        <li class="muqattaat-item">طَسْمٌ &nbsp;<span class="muqattaat-info">(أيوب)</span>
+        <li class="muqattaat-item">Ayub as &nbsp;<span class="muqattaat-info">(أيوب علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">12.</p>
         </li>
-        <li class="muqattaat-item">طَسٓ &nbsp;<span class="muqattaat-info">(شعيب)</span>
+        <li class="muqattaat-item">Shuaib As &nbsp;<span class="muqattaat-info">(شعيب علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">13.</p>
         </li>
-        <li class="muqattaat-item">طَسْمٌ &nbsp;<span class="muqattaat-info">(موسى)</span>
+        <li class="muqattaat-item">Musa As &nbsp;<span class="muqattaat-info">(موسى علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">14.</p>
         </li>
-        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(هارون)</span>
+        <li class="muqattaat-item">Harun As &nbsp;<span class="muqattaat-info">(هارون علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">15.</p>
-        </li>
-        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(ذو الكفل )</span>
+        </li> -->
+        <!-- <li class="muqattaat-item">Dhul-Kifl As &nbsp;<span class="muqattaat-info">(ذو الكفل علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">16.</p>
         </li>
-        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(داود)</span>
+        <li class="muqattaat-item">Dawud As &nbsp;<span class="muqattaat-info">(داود علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">17.</p>
         </li>
-        <li class="muqattaat-item">اَلِمٌّ &nbsp;<span class="muqattaat-info">(سليمان)</span>
+        <li class="muqattaat-item">Sulaiman As &nbsp;<span class="muqattaat-info">(سليمان علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">18.</p>
         </li>
-        <li class="muqattaat-item">يَسٌ &nbsp;<span class="muqattaat-info">(إلياس )</span>
+        <li class="muqattaat-item">Ilyas As &nbsp;<span class="muqattaat-info">(إلياس علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">19.</p>
         </li>
-        <li class="muqattaat-item">صٌ &nbsp;<span class="muqattaat-info">(اليسع)</span>
+        <li class="muqattaat-item">Al-Yasa As &nbsp;<span class="muqattaat-info">(اليسع علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">20.</p>
-        </li>
-        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(يونس )</span>
+        </li> -->
+        <!-- <li class="muqattaat-item">Yunus As &nbsp;<span class="muqattaat-info">(يونس علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">21.</p>
         </li>
-        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(زكريا)</span>
+        <li class="muqattaat-item">Zakariya As &nbsp;<span class="muqattaat-info">(زكريا علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">22.</p>
         </li>
-        <li class="muqattaat-item">حَمْ عَسْقٌ &nbsp;<span class="muqattaat-info">(يحيى)</span>
+        <li class="muqattaat-item">Yahya As &nbsp;<span class="muqattaat-info">(يحيى علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">23.</p>
         </li>
 
-        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(عيسى)</span>
+        <li class="muqattaat-item">Isa As &nbsp;<span class="muqattaat-info">(عيسى علیہالسلام)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">24.</p>
         </li>
-        <li class="muqattaat-item">حَمٌ &nbsp;<span class="muqattaat-info">(محمد)</span>
+        <li class="muqattaat-item">Muhammad SAW &nbsp;<span class="muqattaat-info">(محمد ﷺ)</span>
             <p style="position: absolute;padding: 0;margin: 0;top: 19%;">25.</p>
-        </li>
-        
-    
-    </ul> -->
-    
+        </li> -->
+    </ul>
+
 </section>
 <button (click)="savePageAsImage()">save img</button>
 <!-- <section>

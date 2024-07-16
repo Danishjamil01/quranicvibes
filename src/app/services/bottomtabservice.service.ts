@@ -4,6 +4,9 @@ import { EventEmitter, Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class BottomtabserviceService {
+  setVisibility(arg0: boolean) {
+    throw new Error('Method not implemented.');
+  }
 
   private isVisible: boolean = true;
   visibilityChanged: EventEmitter<boolean> = new EventEmitter<boolean>();

@@ -26,10 +26,27 @@ export class LiabraryComponent implements OnInit {
   //   });
   // }
 
+  // savePageAsImage() {
+  //   console.log('work');
+  //   const element = document.body;
+  //   html2canvas(element).then(canvas => {
+  //     const imgData = canvas.toDataURL('image/png');
+  //     const link = document.createElement('a');
+  //     link.download = 'page.png';
+  //     link.href = imgData;
+  //     link.click();
+  //   });
+  // }
+
   savePageAsImage() {
-    console.log('work');
     const element = document.body;
-    html2canvas(element).then(canvas => {
+    const scale = 10; // Increase scale factor
+    html2canvas(element, {
+      scale: scale,
+      useCORS: true, // Use CORS if external images are involved
+      allowTaint: true, // Allow tainted canvas
+      logging: true, // Enable logging for debugging
+    }).then(canvas => {
       const imgData = canvas.toDataURL('image/png');
       const link = document.createElement('a');
       link.download = 'page.png';

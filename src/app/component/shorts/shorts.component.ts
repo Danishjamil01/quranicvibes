@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import html2canvas from 'html2canvas';  
+import html2canvas from 'html2canvas';
 import { BottomtabserviceService } from '../../services/bottomtabservice.service';
 import { TabVisibilityService } from '../../services/tab-visibility.service';
 @Component({
@@ -11,7 +11,7 @@ export class ShortsComponent implements OnInit {
 
   // allShortsData: any;
 
-  constructor(private bottom:TabVisibilityService) {
+  constructor(private bottom: TabVisibilityService) {
 
   }
   ngOnInit(): void {
@@ -39,9 +39,26 @@ export class ShortsComponent implements OnInit {
   text = '۞میں اللہ کی پناہ مانگتا ہوں شیطان مردود سے۔'
 
 
+  // savePageAsImage() {
+  //   const element = document.body;
+  //   html2canvas(element).then(canvas => {
+  //     const imgData = canvas.toDataURL('image/png');
+  //     const link = document.createElement('a');
+  //     link.download = 'page.png';
+  //     link.href = imgData;
+  //     link.click();
+  //   });
+  // }
+
   savePageAsImage() {
     const element = document.body;
-    html2canvas(element).then(canvas => {
+    const scale = 10; // Increase scale factor
+    html2canvas(element, {
+      scale: scale,
+      useCORS: true, // Use CORS if external images are involved
+      allowTaint: true, // Allow tainted canvas
+      logging: true, // Enable logging for debugging
+    }).then(canvas => {
       const imgData = canvas.toDataURL('image/png');
       const link = document.createElement('a');
       link.download = 'page.png';

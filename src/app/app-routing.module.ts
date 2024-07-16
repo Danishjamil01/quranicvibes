@@ -25,6 +25,7 @@ import { ReadQuranComponent } from './component/read-quran/read-quran.component'
 import { AllChapterComponent } from './component/all-chapter/all-chapter.component';
 import { ReadByJuzComponent } from './component/read-by-juz/read-by-juz.component';
 import { AlljuzComponent } from './component/alljuz/alljuz.component';
+import { QuizComponent } from './component/quiz/quiz.component';
 
 const routes: Routes = [
   {path:'' ,redirectTo:'/splash', pathMatch:'full'},
@@ -55,6 +56,7 @@ const routes: Routes = [
   {path:'readquran',component:ReadQuranComponent},
   {path:'readbyjuz',component:ReadByJuzComponent},
   {path:'alljuz',component:AlljuzComponent},
+  {path:'quiz',component:QuizComponent},
 ];
 
 @NgModule({

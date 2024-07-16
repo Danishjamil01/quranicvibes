@@ -188,6 +188,14 @@
         text-align: center;
         padding: 15px;
         height: 100vh;
+        // background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../../assets/images/25prophets/adam2.jpeg);
+        // background-size: 100% 100%;
+        // background-repeat: no-repeat;
+        // background-position: center center;
+
+        background-size: cover; 
+        background-position: center center;
+        background-repeat: no-repeat; 
         // color: #fff;
         // background: linear-gradient(to bottom, #FFB6C1, #8FD3F4, #FFE4C4);
         // background: linear-gradient(to bottom, #98FB98, #FFDEAD, #87CEFA);
@@ -215,7 +223,7 @@
 
 
         //   background: linear-gradient(to bottom, #FFB6C1, #8FD3F4);
-        background: linear-gradient(to bottom, #faf1bf, #c9f2ff);
+        // background: linear-gradient(to bottom, #faf1bf, #c9f2ff);
 
 
 
@@ -231,19 +239,21 @@
     }
 
     .muqattaat-item {
-        font-size: 22px;
+        font-size: 16px;
         margin: 5px;
         padding: 10px;
         width: 380px;
         border: 1px solid #ccc;
         border-radius: 5px;
         background-color: #ffffff;
-        font-family: 'lateef';
+        font-family: 'playwrite';
         position: relative;
     }
 
     .muqattaat-info {
         font-family: 'jameel noori nastaleeq';
+        word-spacing: 7px;
+        font-size: 20px;
     }
 
     .item-list {
@@ -274,18 +284,36 @@
     table {
         width: 100%;
         border-collapse: collapse;
+        // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        // background-color: rgba(0,0,0,0.4);
     }
 
     th,
     td {
-        padding: 8px;
-        text-align: left;
-        border: 1px solid #ddd;
+        border: 1px solid #ffffff;
+        // padding: 12px;
+        text-align: center;
+        font-family: 'lato';
+        word-spacing: 7px;
+        color: #ffffff;
+        width: 70%;
+        padding: 3px;
+        font-size: 15px ;
+
     }
 
     th {
-        background-color: #f2f2f2;
+        background-color: #000000;
+        color: #ffffff;
     }
+
+    // tr:nth-child(even) {
+    //     background-color: #f9f9f9;
+    // }
+
+    // tr:hover {
+    //     background-color: #f1f1f1;
+    // }
 
     //     .body {
     //       font-family: 'Jameel Noori Nastaleeq', serif;

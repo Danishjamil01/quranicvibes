@@ -35,6 +35,7 @@ import { AllChapterComponent } from './component/all-chapter/all-chapter.compone
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { ReadByJuzComponent } from './component/read-by-juz/read-by-juz.component';
 import { AlljuzComponent } from './component/alljuz/alljuz.component';
+import { QuizComponent } from './component/quiz/quiz.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { AlljuzComponent } from './component/alljuz/alljuz.component';
     ReadQuranComponent,
     AllChapterComponent,
     ReadByJuzComponent,
-    AlljuzComponent
+    AlljuzComponent,
+    QuizComponent
   ],
   imports: [
     BrowserModule,
