@@ -1,0 +1,87 @@
+.main-section {
+    // color: #fff;
+    background: linear-gradient(to bottom, #FFB6C1, #8FD3F4, #FFE4C4);
+    background: linear-gradient(to bottom, #98FB98, #FFDEAD, #87CEFA);
+    background: linear-gradient(to bottom, #DDA0DD, #B0C4DE, #FFB6C1);
+    background: linear-gradient(to bottom, #FFD700, #AFEEEE, #D3D3D3);
+    background: linear-gradient(to bottom, #E6E6FA, #FF69B4, #FFE4E1);
+    background: linear-gradient(to bottom, #7FFFD4, #D8BFD8, #FFC0CB);
+    background: linear-gradient(to bottom, #FF6347, #EE82EE, #FFFACD);
+    background: linear-gradient(to bottom, #20B2AA, #FFA07A, #F0E68C);
+    background: linear-gradient(to bottom, #00FA9A, #FFB6C1, #AFEEEE);
+    background: linear-gradient(to bottom, #FF4500, #DEB887, #ADD8E6);
+    background: linear-gradient(to bottom, #b8d8e2, #2eb8b8);
+
+
+    background: linear-gradient(to bottom, #FFB6C1, #FFD1DC);
+    background: linear-gradient(to bottom, #8FD3F4, #B0E0E6);
+    background: linear-gradient(to bottom, #FFE4C4, #FFF0E0);
+    background: linear-gradient(to bottom, #E6E6FA, #D8BFD8);
+    // background: linear-gradient(to bottom, #98FB98, #B0E57C);
+    //  background: linear-gradient(to bottom, #FFFFE0, #FFFACD);
+    //  background: linear-gradient(to bottom, #F08080, #FFDAB9);
+    //  background: linear-gradient(to bottom, #DCDCDC, #F0F0F0);
+    // background: linear-gradient(to bottom, #E6E6FA, #D1B2EB);
+    // background: linear-gradient(to bottom, #AFEEEE, #E0FFFF);
+
+
+    //   background: linear-gradient(to bottom, #FFB6C1, #8FD3F4);
+    // background: linear-gradient(to bottom, #faf1bf, #c9f2ff);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    .welcome {
+        text-align: center;
+        font-family: cursive;
+        font-size: 35px;
+    }
+
+    .islamic {
+        text-align: center;
+        font-family: lato;
+        font-size: 24px;
+    }
+}
+
+.mainlogo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 100%;
+    }
+}
+
+.border {
+    height: 100vh;
+    width: 100vh;
+    position:
+        fixed;
+    bottom: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    border-radius: 49%;
+
+    button {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 25px;
+        padding: 12px 45px;
+        border: none;
+    }
+}
+
+button {
+    background-image: linear-gradient(220.55deg, #e1d5fc 0%, #ad8bfa 100%);
+    color: #fff;
+}

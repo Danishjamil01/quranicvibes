@@ -1,0 +1,80 @@
+<section>
+  <header>
+    <div style="display:flex;align-items: center;justify-content: space-around;">
+      <div style="display: flex;align-items: start;gap: 5px;">
+        <img src="../../../assets/images/quizbg/06.png" alt="" style="width: 10%;">
+        <p style="font-family:lato;margin: 0;">QUIZ APP</p>
+      </div>
+      <div class="toggle">
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+  </header>
+</section>
+
+
+<div class="main-container">
+  <div class="header">
+    <p>Choose a Quiz & Play</p>
+  </div>
+  <div class="quiz-card1" (click)="routeTo('quranicworld')">
+    <div>
+      <h3 style="font-family: lato;color: #fff;margin: 0;">Quranic World</h3>
+      <p class="total-question" style="font-family: playwrite;color: #fff;">1000+ Questions</p>
+      <p style="color: #fff;">let's start</p>
+    </div>
+  </div>
+  <div class="quiz-container ">
+    <div class="quiz-card" (click)="routeTo('islamichistory')"
+      style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../../assets/images/quiz/islamichistory.jpg);height: 200px;background-size: cover;background-position: 100% 100%;">
+      <h3>Islamic History</h3>
+      <p class="total-question" style="font-family: playwrite;color: #fff;">1000+ Questions</p>
+      <p style="color: #fff;">let's start</p>
+    </div>
+    <div class="quiz-card" (click)="routeTo('prophetslife')"
+      style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../../assets/images/quiz/prophetslife.jpg);height: 200px;background-size: cover;background-position: 100% 100%;">
+      <h3>Prophet's Life</h3>
+      <p class="total-question" style="font-family: playwrite;color: #fff;">1000+ Questions</p>
+      <p style="color: #fff;">let's start</p>
+    </div>
+    <div class="quiz-card " (click)="routeTo('hadithstudies')"
+      style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../../assets/images/quiz/hadith.jpg);height: 200px;background-size: cover;background-position: 100% 100%;">
+      <h3>Hadith Studies</h3>
+      <p class="total-question" style="font-family: playwrite;color: #fff;">1000+ Questions</p>
+      <p style="color: #fff;">let's start</p>
+    </div>
+    <div class="quiz-card " (click)="routeTo('islamicfiqh')"
+      style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../../assets/images/quiz/islamicfiqh.png);height: 200px;background-size: cover;background-position: 100% 100%;">
+      <h3>Islamic Fiqh</h3>
+      <p class="total-question" style="font-family: playwrite;color: #fff;">1000+ Questions</p>
+      <p style="color: #fff;">let's start</p>
+    </div>
+    <div class="quiz-card " (click)="routeTo('islamicculture')"
+      style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../../assets/images/quiz/islamicculture.jpg);height: 200px;background-size: cover;background-position: 100% 100%;">
+      <h3>Islamic Culture</h3>
+      <p class="total-question" style="font-family: playwrite;color: #fff;">1000+ Questions</p>
+      <p style="color: #fff;">let's start</p>
+    </div>
+    <div class="quiz-card " (click)="routeTo('islamicgeography')"
+      style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../../assets/images/quiz/Islamicgeography.jpg);height: 200px;background-size: cover;background-position: 100% 100%;">
+      <h3>Islamic Geography</h3>
+      <p class="total-question" style="font-family: playwrite;color: #fff;">1000+ Questions</p>
+      <p style="color: #fff;">let's start</p>
+    </div>
+    <div class="quiz-card " (click)="routeTo('ramadan')"
+      style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../../assets/images/quiz/ramadan.jpg);height: 200px;background-size: cover;background-position: 100% 100%;">
+      <h3>Ramadan</h3>
+      <p class="total-question" style="font-family: playwrite;color: #fff;">1000+ Questions</p>
+      <p style="color: #fff;">let's start</p>
+    </div>
+    <div class="quiz-card " (click)="routeTo('islamicfestival')"
+      style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../../assets/images/quiz/islamicfestival.jpg);height: 200px;background-size: cover;background-position: 100% 100%;">
+      <h3>Islamic Festivals</h3>
+      <p class="total-question" style="font-family: playwrite;color: #fff;">1000+ Questions</p>
+      <p style="color: #fff;">let's start</p>
+    </div>
+  </div>
+</div>

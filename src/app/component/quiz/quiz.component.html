@@ -1,3 +1,24 @@
-<section>
+<!-- <section>
+    <div
+        style="height: 50px;width: 50px;border-radius: 50%;background-color: #fff; display: flex;align-items: center;justify-content: center;">
+        <i style="font-size: 25px;" class="bi bi-arrow-left"></i>
+    </div>
+    <div *ngIf="currentQuestionIndex < questions.length">
+        <h2>{{ prophetName }} Quiz</h2>
+        <p>{{ questions[currentQuestionIndex].question }}</p>
+        <div *ngFor="let option of questions[currentQuestionIndex].options">
+            <label>
+                <input type="radio" [value]="option" [(ngModel)]="selectedAnswer" name="answer" />
+                {{ option }}
+            </label>
+        </div>
+        <button (click)="nextQuestion()">Next</button>
+    </div>
+    <div *ngIf="currentQuestionIndex >= questions.length">
+        <h2>Quiz Completed!</h2>
+        <p>Your Score: {{ score }} / {{ questions.length }}</p>
+    </div>
+</section> -->
 
-</section>
+
+

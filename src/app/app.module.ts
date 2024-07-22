@@ -36,6 +36,18 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { ReadByJuzComponent } from './component/read-by-juz/read-by-juz.component';
 import { AlljuzComponent } from './component/alljuz/alljuz.component';
 import { QuizComponent } from './component/quiz/quiz.component';
+import { ProphetListComponent } from './component/prophet-list/prophet-list.component';
+import { StartquizComponent } from './component/startquiz/startquiz.component';
+import { QuizcontentComponent } from './quizcontent/quizcontent.component';
+import { QuranicworldComponent } from './quranicworld/quranicworld.component';
+import { IslamichistoryComponent } from './islamichistory/islamichistory.component';
+import { ProphetslifeComponent } from './prophetslife/prophetslife.component';
+import { HadithstudiesComponent } from './hadithstudies/hadithstudies.component';
+import { IslamicfiqhComponent } from './islamicfiqh/islamicfiqh.component';
+import { IslamiccultureComponent } from './islamicculture/islamicculture.component';
+import { IslamicgeographyComponent } from './islamicgeography/islamicgeography.component';
+import { RamadanComponent } from './ramadan/ramadan.component';
+import { IslamicfestivalComponent } from './islamicfestival/islamicfestival.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +78,19 @@ import { QuizComponent } from './component/quiz/quiz.component';
     AllChapterComponent,
     ReadByJuzComponent,
     AlljuzComponent,
-    QuizComponent
+    QuizComponent,
+    ProphetListComponent,
+    StartquizComponent,
+    QuizcontentComponent,
+    QuranicworldComponent,
+    IslamichistoryComponent,
+    ProphetslifeComponent,
+    HadithstudiesComponent,
+    IslamicfiqhComponent,
+    IslamiccultureComponent,
+    IslamicgeographyComponent,
+    RamadanComponent,
+    IslamicfestivalComponent
   ],
   imports: [
     BrowserModule,

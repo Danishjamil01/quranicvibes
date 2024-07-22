@@ -26,6 +26,18 @@ import { AllChapterComponent } from './component/all-chapter/all-chapter.compone
 import { ReadByJuzComponent } from './component/read-by-juz/read-by-juz.component';
 import { AlljuzComponent } from './component/alljuz/alljuz.component';
 import { QuizComponent } from './component/quiz/quiz.component';
+import { ProphetListComponent } from './component/prophet-list/prophet-list.component';
+import { StartquizComponent } from './component/startquiz/startquiz.component';
+import { QuizcontentComponent } from './quizcontent/quizcontent.component';
+import { QuranicworldComponent } from './quranicworld/quranicworld.component';
+import { IslamichistoryComponent } from './islamichistory/islamichistory.component';
+import { ProphetslifeComponent } from './prophetslife/prophetslife.component';
+import { HadithstudiesComponent } from './hadithstudies/hadithstudies.component';
+import { IslamicfiqhComponent } from './islamicfiqh/islamicfiqh.component';
+import { IslamiccultureComponent } from './islamicculture/islamicculture.component';
+import { IslamicgeographyComponent } from './islamicgeography/islamicgeography.component';
+import { RamadanComponent } from './ramadan/ramadan.component';
+import { IslamicfestivalComponent } from './islamicfestival/islamicfestival.component';
 
 const routes: Routes = [
   {path:'' ,redirectTo:'/splash', pathMatch:'full'},
@@ -56,7 +68,20 @@ const routes: Routes = [
   {path:'readquran',component:ReadQuranComponent},
   {path:'readbyjuz',component:ReadByJuzComponent},
   {path:'alljuz',component:AlljuzComponent},
-  {path:'quiz',component:QuizComponent},
+  { path: 'quiz/:id', component: QuizComponent },
+  { path: 'quizcontent', component: QuizcontentComponent },
+  { path: 'allprophets', component: ProphetListComponent },
+  { path: 'startquiz', component: StartquizComponent },
+  { path: 'quranicworld', component: QuranicworldComponent },
+  { path: 'islamichistory', component: IslamichistoryComponent },
+  { path: 'prophetslife', component: ProphetslifeComponent },
+  { path: 'hadithstudies', component: HadithstudiesComponent },
+  { path: 'islamicfiqh', component: IslamicfiqhComponent },
+  { path: 'islamicculture', component: IslamiccultureComponent },
+  { path: 'islamicgeography', component: IslamicgeographyComponent },
+  { path: 'ramadan', component: RamadanComponent },
+  { path: 'islamicfestival', component: IslamicfestivalComponent },
+
 ];
 
 @NgModule({

@@ -23,6 +23,7 @@
   font-family: 'lato';
   src: url('./assets/fontenglish/lato/Lato-BlackItalic.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Jameel Noori Nastaleeq';
   src: url('./assets/fonturdu/Jameel Noori Nastaleeq.ttf') format('truetype');
@@ -45,18 +46,22 @@
   font-family: 'Lateef-Bold';
   src: url('./assets/fontarabic/Lateef-Bold.ttf');
 }
+
 @font-face {
   font-family: 'Roboto';
   src: url('./assets/fontenglish/roboto/Roboto-Regular.ttf');
 }
+
 @font-face {
   font-family: 'playwrite';
   src: url('./assets/fontenglish/Playwrite_NZ/OFL.txt');
 }
+
 @font-face {
   font-family: 'alvi';
   src: url('./assets/fonturdu/Alvi\ Nastaleeq\ Regular.ttf');
 }
+
 // @font-face {
 //   font-family: 'playwrite-cursive';
 //   src: url('./assets/fontenglish/Playwrite_NZ/PlaywriteNZ-VariableFont_wght.ttf');
@@ -65,6 +70,7 @@
   font-family: 'helvetica';
   src: url('./assets/fontenglish/helvetica/Helvetica.ttf');
 }
+
 @font-face {
   font-family: 'poppins';
   src: url('./assets/fontenglish/poppins/Poppins-Regular.ttf');
@@ -84,18 +90,16 @@ body {
 }
 
 .oneLineText {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  // / number of lines to show /
-  line-clamp: 1;
-  -webkit-box-orient: vertical;
-  transition: 0.6s !important;
-  background-color: transparent !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 1 !important;
+  -webkit-box-orient: vertical !important;
+  background-color: transparent;
   padding-top: 8px;
   font-size: var(--font-sm);
 }
+
 
 .twoLineText {
   overflow: hidden;

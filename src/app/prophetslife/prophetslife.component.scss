@@ -1,0 +1,111 @@
+/* General Container Styling */
+.quiz-container {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgba(0, 123, 255, 0.5), rgba(0, 123, 255, 0.1));
+    min-height: 100vh;
+}
+
+.backbtn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.quiz-container h1 {
+    margin-bottom: 40px;
+    color: #343a40;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-family: lato;
+}
+
+.quiz-sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    ;
+    gap: 20px;
+}
+
+.quiz-section {
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.quiz-content {
+    position: relative;
+    z-index: 2;
+    padding: 10px 0 0 0;
+}
+
+.quiz-content h4 {
+    color: #007bff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.description {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+.quiz-content p {
+    margin: 0;
+    color: #6c757d;
+    line-height: 1.5;
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.start-quiz {
+    button {
+        border: none;
+        padding: 2px 20px;
+        border-radius: 25px;
+        font-size: 15px;
+        background: #7abaff;
+        color: #fff;
+    }
+}
+
+.quiz-content button:hover {
+    background-color: #0056b3;
+}
+
+
+.quiz-details {
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    background: linear-gradient(to bottom right, rgba(0, 123, 255, 1), rgba(0, 123, 255, 0.5));
+    width: 100%;
+    font-size: 12px;
+    padding: 40px 4px;
+    height: 100%;
+    color: #fafafa;
+    transition: .5s;
+    z-index: 999;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.quiz-section:hover .quiz-details {
+    opacity: 1;
+    top: 0;
+    transition: .5s;
+}

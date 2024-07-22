@@ -1,0 +1,182 @@
+section {
+    // background: #2F4F4F;
+    // background: #556B2F;
+    height: 80px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    color: white;
+    z-index: 1000;
+    background: #008B8B;
+
+}
+
+.muqattaat-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    padding: 0;
+}
+
+.muqattaat-item {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: 'playwrite';
+    position: relative;
+    white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+// toggle-switch 
+.toggle {
+    display: flex;
+    align-items: center;
+}
+
+.language-label {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #2eb8b8;
+}
+
+input:checked+.slider:before {
+    transform: translateX(20px);
+}
+
+.slider.round {
+    border-radius: 20px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+// toggle-switch end   
+
+header {
+    width: 400px;
+}
+
+@media(max-width:768px) {
+    header {
+        width: 100%;
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+.main-container {
+    padding: 20px 10px;
+}
+
+.header p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-family: 'playerite';
+    text-align: center;
+}
+
+
+.quiz-card1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px;
+    border-radius: 4px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/quiz/quran1.png);
+    height: 200px;
+    background-size: cover;
+    background-position: 100% 100%;
+
+    img {
+        width: 50%;
+    }
+}
+
+.quiz-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 5px;
+    margin-top: 4px;
+    justify-content: center;
+}
+
+.quiz-card {
+    padding: 20px;
+    border-radius: 4px;
+    white-space: nowrap;
+    width: 49%;
+
+    img {
+        width: 50%;
+    }
+
+    h3 {
+        font-size: 18px;
+        color: #fff;
+        font-family: 'lato';
+        margin: 0;
+    }
+}

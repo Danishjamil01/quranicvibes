@@ -1,0 +1,22 @@
+<div class="quiz-container">
+    <div class="backbtn" (click)="onBack()">
+        <i class="bi bi-arrow-left"></i>
+    </div>
+    <h1>Islamic History Quiz</h1>
+    <div class="quiz-sections">
+        <div class="quiz-section" *ngFor="let section of quizSections">
+            <div class="quiz-content">
+                <img [src]="section.img" alt="{{ section.title }}" style="width: 50%; border-radius: 50%;">
+            </div>
+            <div class="description">
+                <p class="oneLineText">{{ section.title }}</p>
+            </div>
+            <div class="quiz-details">
+                <p>{{ section.description }}</p>
+            </div>
+            <div class="start-quiz mb-3">
+                <button (click)="startQuiz(section.id)">Start</button>
+            </div>
+        </div>
+    </div>
+</div>
