@@ -1,1 +1,50 @@
-<p>hadithstudies works!</p>
+<section class="main-section">
+    <div class="backbtn mb-3" (click)="routeToQuiz()">
+        <i class="bi bi-arrow-left"></i>
+    </div>
+
+
+
+    <div class="category-list">
+        <h2>Select a Category</h2>
+        <ul>
+            <li *ngFor="let category of categories" (click)="selectCategory(category)">
+                {{ category }}
+            </li>
+        </ul>
+    </div>
+
+    <h4 style="text-align: center;font-family: jameel noori nastaleeq;font-size: 25px;word-spacing: 3px;">احادیث کو
+        مرفوع، موقوف اور مقطوع میں تقسیم کیا جا سکتا ہے۔</h4>
+    <br>
+    <div *ngFor="let type of hadith">
+        <h3 style="text-align: right;">{{type.name}}</h3>
+        <p style="font-family:jameel noori nastaleeq;font-size: 23px;word-spacing: 4px;text-align: right;">
+            {{type.explain}}</p>
+        <h3 style="font-family:jameel noori nastaleeq;text-align: right;">{{type.misaal}}</h3>
+        <p style="font-family:jameel noori nastaleeq;text-align: right;font-size: 23px;word-spacing: 4px;">
+            {{type.example}}</p>
+    </div>
+
+    <h3 style="font-family:jameel noori nastaleeq;font-size: 26px;word-spacing: 4px;text-align: right;">:تفصیل</h3>
+
+    <ul style="padding: 0;">
+        <li
+            style="font-family:jameel noori nastaleeq;font-size: 24px;word-spacing: 4px;list-style: none;text-align: right;">
+            <b>مرفوع حدیث:</b> یہ حدیث کا سب سے اہم قسم ہے کیونکہ اس کی نسبت براہِ راست نبی اکرم ﷺ کی طرف ہوتی ہے، اور اسے
+            شریعت کی بنیاد کے طور پر قبول کیا جاتا
+        </li>
+        <br>
+        <li
+            style="font-family:jameel noori nastaleeq;font-size: 24px;word-spacing: 4px;list-style: none;text-align: right;">
+            <b>موقوف حدیث:</b> یہ حدیث صحابہ کے اقوال و اعمال کو بیان کرتی ہے۔ اگرچہ یہ نبی ﷺ کے اقوال و اعمال کی طرح مضبوط
+            نہیں ہے، لیکن پھر بھی اس کی بڑی اہمیت ہے کیونکہ صحابہ نے نبی ﷺ سے براہِ راست تعلیمات حاصل کیں۔
+        </li>
+        <br>
+        <li
+            style="font-family:jameel noori nastaleeq;font-size: 24px;word-spacing: 4px;list-style: none;text-align: right;">
+            <b>مقطوع حدیث:</b> یہ حدیث تابعین کے اقوال و اعمال کو بیان کرتی ہے۔ تابعین وہ لوگ ہیں جنہوں نے صحابہ سے تعلیمات
+            حاصل کیں۔ Maqtu حدیث کی حیثیت حدیث سے کمزور ہوتی ہے لیکن پھر بھی اس کا مطالعہ اور اس سے استفادہ اہم ہے۔
+        </li>
+    </ul>
+</section>

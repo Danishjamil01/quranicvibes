@@ -40,7 +40,7 @@ export class LiabraryComponent implements OnInit {
 
   savePageAsImage() {
     const element = document.body;
-    const scale = 10; // Increase scale factor
+    const scale = 2; // Increase scale factor
     html2canvas(element, {
       scale: scale,
       useCORS: true, // Use CORS if external images are involved

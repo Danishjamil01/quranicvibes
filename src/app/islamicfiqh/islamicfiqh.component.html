@@ -1,1 +1,18 @@
-<p>islamicfiqh works!</p>
+<div class="container">
+    <div class="backbtn" (click)="onBack()">
+        <i class="bi bi-arrow-left"></i>
+    </div>
+    <div class="text-center mb-4">
+        <h1>Quiz Categories</h1>
+    </div>
+    <div class="row">
+        <div class="col-4 mb-2" *ngFor="let category of categories">
+            <div class="card h-100">
+                <div class="card-body text-center d-flex flex-column justify-content-center">
+                    <p class="card-title">{{ category }}</p>
+                    <a class="btn btn-primary mt-3" style="background-color: #fff;color: #007bff;border-radius: 25px;padding: 3px;">Start</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
