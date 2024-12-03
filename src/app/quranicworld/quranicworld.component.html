@@ -16,7 +16,7 @@
                 <p>{{section.description}}</p>
             </div>
             <div class="start-quiz mb-3">
-                <button>Start</button>
+                <button [routerLink]="getQuizLink(section.id)">Start</button>
             </div>
         </div>
     </div>

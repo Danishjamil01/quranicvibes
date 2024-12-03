@@ -48,6 +48,47 @@ import { IslamiccultureComponent } from './islamicculture/islamicculture.compone
 import { IslamicgeographyComponent } from './islamicgeography/islamicgeography.component';
 import { RamadanComponent } from './ramadan/ramadan.component';
 import { IslamicfestivalComponent } from './islamicfestival/islamicfestival.component';
+import { JuzQuizComponent } from './component/juz-quiz/juz-quiz.component';
+import { SurahQuizComponent } from './component/surah-quiz/surah-quiz.component';
+import { ThematicQuizComponent } from './component/thematic-quiz/thematic-quiz.component';
+import { AyatQuizComponent } from './component/ayat-quiz/ayat-quiz.component';
+import { HistoricalEventsComponent } from './component/historical-events/historical-events.component';
+import { CharactersInQuranComponent } from './component/characters-in-quran/characters-in-quran.component';
+import { RevelationContextComponent } from './component/revelation-context/revelation-context.component';
+import { TafsirAndMeaningsComponent } from './component/tafsir-and-meanings/tafsir-and-meanings.component';
+import { Juz1Component } from './component/juz-1/juz-1.component';
+import { Juz2Component } from './component/juz-2/juz-2.component';
+import { Juz3Component } from './component/juz-3/juz-3.component';
+import { Juz4Component } from './component/juz-4/juz-4.component';
+import { Juz5Component } from './component/juz-5/juz-5.component';
+import { Juz6Component } from './component/juz-6/juz-6.component';
+import { Juz7Component } from './component/juz-7/juz-7.component';
+import { Juz8Component } from './component/juz-8/juz-8.component';
+import { Juz9Component } from './component/juz-9/juz-9.component';
+import { Juz10Component } from './component/juz-10/juz-10.component';
+import { Juz11Component } from './component/juz-11/juz-11.component';
+import { Juz12Component } from './component/juz-12/juz-12.component';
+import { Juz13Component } from './component/juz-13/juz-13.component';
+import { Juz14Component } from './component/juz-14/juz-14.component';
+import { Juz15Component } from './component/juz-15/juz-15.component';
+import { Juz16Component } from './component/juz-16/juz-16.component';
+import { Juz17Component } from './component/juz-17/juz-17.component';
+import { Juz18Component } from './component/juz-18/juz-18.component';
+import { Juz19Component } from './component/juz-19/juz-19.component';
+import { Juz20Component } from './component/juz-20/juz-20.component';
+import { Juz21Component } from './component/juz-21/juz-21.component';
+import { Juz22Component } from './component/juz-22/juz-22.component';
+import { Juz23Component } from './component/juz-23/juz-23.component';
+import { Juz24Component } from './component/juz-24/juz-24.component';
+import { Juz25Component } from './component/juz-25/juz-25.component';
+import { Juz26Component } from './component/juz-26/juz-26.component';
+import { Juz27Component } from './component/juz-27/juz-27.component';
+import { Juz28Component } from './component/juz-28/juz-28.component';
+import { Juz29Component } from './component/juz-29/juz-29.component';
+import { Juz30Component } from './component/juz-30/juz-30.component';
+import { ConceptualQuestionsComponent } from './component/conceptual-questions/conceptual-questions.component';
+import { RegisterComponent } from './register/register.component';
+import { AllSharedModule } from './all-shared.module';
 
 @NgModule({
   declarations: [
@@ -90,7 +131,47 @@ import { IslamicfestivalComponent } from './islamicfestival/islamicfestival.comp
     IslamiccultureComponent,
     IslamicgeographyComponent,
     RamadanComponent,
-    IslamicfestivalComponent
+    IslamicfestivalComponent,
+    JuzQuizComponent,
+    SurahQuizComponent,
+    ThematicQuizComponent,
+    AyatQuizComponent,
+    HistoricalEventsComponent,
+    CharactersInQuranComponent,
+    RevelationContextComponent,
+    TafsirAndMeaningsComponent,
+    Juz1Component,
+    Juz2Component,
+    Juz3Component,
+    Juz4Component,
+    Juz5Component,
+    Juz6Component,
+    Juz7Component,
+    Juz8Component,
+    Juz9Component,
+    Juz10Component,
+    Juz11Component,
+    Juz12Component,
+    Juz13Component,
+    Juz14Component,
+    Juz15Component,
+    Juz16Component,
+    Juz17Component,
+    Juz18Component,
+    Juz19Component,
+    Juz20Component,
+    Juz21Component,
+    Juz22Component,
+    Juz23Component,
+    Juz24Component,
+    Juz25Component,
+    Juz26Component,
+    Juz27Component,
+    Juz28Component,
+    Juz29Component,
+    Juz30Component,
+    ConceptualQuestionsComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -102,6 +183,7 @@ import { IslamicfestivalComponent } from './islamicfestival/islamicfestival.comp
     HttpClientModule,
     YouTubePlayerModule,
     SlickCarouselModule,
+    AllSharedModule,
   ],
   providers: [
     {

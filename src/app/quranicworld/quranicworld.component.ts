@@ -27,6 +27,21 @@ export class QuranicworldComponent implements OnInit {
     { id: 8, title: 'Tafsir and Meanings', description: 'Quizzes on Tafsir and specific Ayat explanations.', img: 'assets/images/quiz/quranicworld/tafseer.png' }
   ];
 
+
+  getQuizLink(quizId: number): string {
+    switch (quizId) {
+      case 1: return '/juz-quiz';
+      case 2: return '/surah-quiz';
+      case 3: return '/thematic-quiz';
+      case 4: return '/ayat-quiz';
+      case 5: return '/historical-events';
+      case 6: return '/characters-in-quran';
+      case 7: return '/revelation-context';
+      case 8: return '/tafsir-and-meanings';
+      default: return '';
+    }
+  }
+
   onBack() {
     this.router.navigateByUrl('quizcontent')
   }

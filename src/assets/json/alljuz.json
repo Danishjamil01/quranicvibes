@@ -2,7 +2,7 @@
     {
         "id": "1",
         "juzname": "الٓمٓ",
-        "englishjuz":"Alif Lam Meem",
+        "englishjuz": "Alif Lam Meem",
         "juz": "Juz 1",
         "aayat": "141",
         "bgcolor": "#F5F5DC",
@@ -11,6 +11,7 @@
         "from": " Al-Fatiha (1:1)",
         "end": " Al-Baqarah (2:141)",
         "versename": "۞ سُورةُ الفاتِحَةِ مَكِيَّةٌ ۞",
+        "route": "juz-1",
         "details": [
             {
                 "totalverses": "141",
@@ -49,7 +50,7 @@
     {
         "id": "2",
         "juzname": "سَيَقُولُ",
-        "englishjuz":"Sayaqul",
+        "englishjuz": "Sayaqul",
         "juz": "Juz 2",
         "aayat": "111",
         "bgcolor": "#FFE4C4",
@@ -57,6 +58,7 @@
         "surah": "Surah",
         "from": " Al-Baqarah (2:142)",
         "end": " Al-Baqarah (2:252)",
+        "route": "juz-2",
         "details": [
             {
                 "totalverses": "141",
@@ -68,7 +70,7 @@
     {
         "id": "3",
         "juzname": "تِلْكَ ٱلرُّسُلُ",
-        "englishjuz":"Tilkarrasul",
+        "englishjuz": "Tilkarrasul",
         "juz": "Juz 3",
         "aayat": "126 ",
         "bgcolor": "#FFDEAD",
@@ -76,6 +78,7 @@
         "surah": "Surah",
         "from": " Al-Baqarah (2:253)",
         "end": " Surah Al-Imran (3:92)",
+        "route": "juz-3",
         "details": [
             {
                 "totalverses": "126",
@@ -87,7 +90,7 @@
     {
         "id": "4",
         "juzname": "لَن تَنَالُوا۟",
-        "englishjuz":"Lantanalu",
+        "englishjuz": "Lantanalu",
         "juz": "Juz 4",
         "aayat": "176 ",
         "bgcolor": "#FDF5E6",
@@ -95,6 +98,7 @@
         "surah": "Surah",
         "from": " Al-Imran (3:93)",
         "end": " An-Nisa (4:23)",
+        "route": "juz-4",
         "details": [
             {
                 "totalverses": "176",
@@ -106,7 +110,7 @@
     {
         "id": "5",
         "juzname": "وَٱلْمُحْصَنَاتُ",
-        "englishjuz":"Wal Mohsanat",
+        "englishjuz": "Wal Mohsanat",
         "juz": "Juz 5",
         "aayat": "124 ",
         "bgcolor": "#FAEBD7",
@@ -114,6 +118,7 @@
         "surah": "Surah",
         "from": " An-Nisa (4:24)",
         "end": " An-Nisa (4:147)",
+        "route": "juz-5",
         "details": [
             {
                 "totalverses": "124",
@@ -125,7 +130,7 @@
     {
         "id": "6",
         "juzname": "لَا يُحِبُّ ٱللَّهُ",
-        "englishjuz":"La Yuhibbullah",
+        "englishjuz": "La Yuhibbullah",
         "juz": "Juz 6",
         "aayat": "165 ",
         "bgcolor": "#FFFACD",
@@ -133,6 +138,7 @@
         "surah": "Surah",
         "from": " An-Nisa (4:148)",
         "end": " Al-Ma'idah (5:81)",
+        "route": "juz-6",
         "details": [
             {
                 "totalverses": "165",
@@ -144,7 +150,7 @@
     {
         "id": "7",
         "juzname": "وَإِذَا سَمِعُوا۟",
-        "englishjuz":"Wa Iza Sami'u",
+        "englishjuz": "Wa Iza Sami'u",
         "juz": "Juz 7",
         "aayat": "206 ",
         "bgcolor": "#FFEFD5",
@@ -152,6 +158,7 @@
         "surah": "Surah",
         "from": " Al-Ma'idah (5:82)",
         "end": " Al-An'am (6:110)",
+        "route": "juz-7",
         "details": [
             {
                 "totalverses": "206",
@@ -163,7 +170,7 @@
     {
         "id": "8",
         "juzname": "وَلَوْ أَنَّنَا",
-        "englishjuz":"Wa Lau Annana",
+        "englishjuz": "Wa Lau Annana",
         "juz": "Juz 8",
         "aayat": "136 ",
         "bgcolor": "#FFF8DC",
@@ -171,6 +178,7 @@
         "surah": "Surah",
         "from": " Al-An'am (6:111)",
         "end": " Al-A'raf (7:87)",
+        "route": "juz-8",
         "details": [
             {
                 "totalverses": "136",
@@ -182,7 +190,7 @@
     {
         "id": "9",
         "juzname": "قَدْ أَفْلَحَ",
-        "englishjuz":"Qad Aflaha",
+        "englishjuz": "Qad Aflaha",
         "juz": "Juz 9",
         "aayat": "151 ",
         "bgcolor": "#FFF5EE",
@@ -190,6 +198,7 @@
         "surah": "Surah",
         "from": " Al-A'raf (7:88)",
         "end": " Al-Anfal (8:40)",
+        "route": "juz-9",
         "details": [
             {
                 "totalverses": "151",
@@ -201,7 +210,7 @@
     {
         "id": "10",
         "juzname": "وَٱعْلَمُوا۟",
-        "englishjuz":"Wa A'lamu",
+        "englishjuz": "Wa A'lamu",
         "juz": "Juz10",
         "aayat": "173 ",
         "bgcolor": "#F0FFF0",
@@ -209,6 +218,7 @@
         "surah": "Surah",
         "from": " Al-Anfal (8:41)",
         "end": " At-Tawbah (9:92)",
+        "route": "juz-10",
         "details": [
             {
                 "totalverses": "173",
@@ -220,7 +230,7 @@
     {
         "id": "11",
         "juzname": "يَعْتَذِرُونَ",
-        "englishjuz":"Yatazeroon",
+        "englishjuz": "Yatazeroon",
         "juz": "Juz 11",
         "aayat": "181  ",
         "bgcolor": "#F5FFFA",
@@ -228,6 +238,7 @@
         "surah": "Surah",
         "from": " At-Tawbah (9:93)",
         "end": " Hud (11:5)",
+        "route": "juz-11",
         "details": [
             {
                 "totalverses": "181",
@@ -239,7 +250,7 @@
     {
         "id": "12",
         "juzname": "وَمَا مِن دَآبَّةٍ",
-        "englishjuz":"Wa Mamin Da'abat",
+        "englishjuz": "Wa Mamin Da'abat",
         "juz": "juz 12",
         "aayat": "182  ",
         "bgcolor": "#F0FFFF",
@@ -247,6 +258,7 @@
         "surah": "Surah",
         "from": " Hud (11:6)",
         "end": " Yusuf (12:52)",
+        "route": "juz-12",
         "details": [
             {
                 "totalverses": "182",
@@ -258,7 +270,7 @@
     {
         "id": "13",
         "juzname": "وَمَآ أُبَرِّئُ",
-        "englishjuz":"Wa Ma Ubrioo",
+        "englishjuz": "Wa Ma Ubrioo",
         "juz": "juz 13",
         "aayat": "154 ",
         "bgcolor": "#F0F8FF",
@@ -266,6 +278,7 @@
         "surah": "Surah",
         "from": " Yusuf (12:53)",
         "end": " Ibrahim (14:52)",
+        "route": "juz-13",
         "details": [
             {
                 "totalverses": "154",
@@ -277,7 +290,7 @@
     {
         "id": "14",
         "juzname": "رُّبَمَا",
-        "englishjuz":"Rubama",
+        "englishjuz": "Rubama",
         "juz": "Juz 14",
         "aayat": "183 ",
         "bgcolor": "#E6E6FA",
@@ -285,6 +298,7 @@
         "surah": "Surah",
         "from": " Al-Hijr (15:1)",
         "end": " An-Nahl (16:128)",
+        "route": "juz-14",
         "details": [
             {
                 "totalverses": "183",
@@ -296,7 +310,7 @@
     {
         "id": "15",
         "juzname": "سُبْحَٰنَ ٱلَّذِى",
-        "englishjuz":"Subhanallazi",
+        "englishjuz": "Subhanallazi",
         "juz": "juz 15",
         "aayat": "185 ",
         "bgcolor": "#FFF0F5",
@@ -304,6 +318,7 @@
         "surah": "Surah",
         "from": " Al-Isra (17:1)",
         "end": " Al-Kahf (18:74)",
+        "route": "juz-15",
         "details": [
             {
                 "totalverses": "185",
@@ -315,7 +330,7 @@
     {
         "id": "16",
         "juzname": "قَالَ أَلَمْ",
-        "englishjuz":"Qal Alam",
+        "englishjuz": "Qal Alam",
         "juz": "Juz 16",
         "aayat": "269  ",
         "bgcolor": "#FFFAFA",
@@ -323,6 +338,7 @@
         "surah": "Surah",
         "from": " Al-Kahf (18:75)",
         "end": " Ta-Ha (20:135)",
+        "route": "juz-16",
         "details": [
             {
                 "totalverses": "269",
@@ -334,7 +350,7 @@
     {
         "id": "17",
         "juzname": "ٱقْتَرَبَ",
-        "englishjuz":"Iqtaraba",
+        "englishjuz": "Iqtaraba",
         "juz": "Juz 17",
         "aayat": "182  ",
         "bgcolor": "#FFE4E1",
@@ -342,6 +358,7 @@
         "surah": "Surah",
         "from": " Al-Anbiya (21:1)",
         "end": " Al-Hajj (22:78)",
+        "route": "juz-17",
         "details": [
             {
                 "totalverses": "182",
@@ -353,7 +370,7 @@
     {
         "id": "18",
         "juzname": "قَدْ أَفْلَحَ",
-        "englishjuz":"Qadd Aflaha",
+        "englishjuz": "Qadd Aflaha",
         "juz": "juz 18",
         "aayat": "176  ",
         "bgcolor": "#F5F5F5",
@@ -361,6 +378,7 @@
         "surah": "Surah",
         "from": " Al-Mu'minun (23:1)",
         "end": " Al-Furqan (25:20)",
+        "route": "juz-18",
         "details": [
             {
                 "totalverses": "176",
@@ -372,7 +390,7 @@
     {
         "id": "19",
         "juzname": "وَقَالَ ٱلَّذِينَ",
-        "englishjuz":"Wa Qalallazina",
+        "englishjuz": "Wa Qalallazina",
         "juz": "Juz 19",
         "aayat": "151  ",
         "bgcolor": "#DCDCDC",
@@ -380,6 +398,7 @@
         "surah": "Surah",
         "from": " Al-Furqan (25:21)",
         "end": " An-Naml (27:55)",
+        "route": "juz-19",
         "details": [
             {
                 "totalverses": "151",
@@ -391,7 +410,7 @@
     {
         "id": "20",
         "juzname": "أَمَّنْ خَلَقَ",
-        "englishjuz":"A'man Khalaq",
+        "englishjuz": "A'man Khalaq",
         "juz": "Juz 20",
         "aayat": "153  ",
         "bgcolor": "#D3D3D3",
@@ -399,6 +418,7 @@
         "surah": "Surah",
         "from": " An-Naml (27:56)",
         "end": " Al-Ankabut (29:45)",
+        "route": "juz-20",
         "details": [
             {
                 "totalverses": "153",
@@ -410,7 +430,7 @@
     {
         "id": "21",
         "juzname": "ٱتْلُ مَآ أُوحِىَ",
-        "englishjuz":"Utlu Ma Oohi",
+        "englishjuz": "Utlu Ma Oohi",
         "juz": "Juz 21",
         "aayat": "178  ",
         "bgcolor": "#C0C0C0",
@@ -418,6 +438,7 @@
         "surah": "Surah",
         "from": " Al-Ankabut (29:46)",
         "end": " Al-Azhab (33:30)",
+        "route": "juz-21",
         "details": [
             {
                 "totalverses": "178",
@@ -429,7 +450,7 @@
     {
         "id": "22",
         "juzname": "وَمَن يَقْنُتْ",
-        "englishjuz":"Wa Manyaqnut",
+        "englishjuz": "Wa Manyaqnut",
         "juz": "Juz 22",
         "aayat": "169 ",
         "bgcolor": "#A9A9A9",
@@ -438,6 +459,7 @@
         "from": " Al-Azhab (33:31)",
         "end": " Ya-Sin (36:27)",
         "color": "#fff",
+        "route": "juz-22",
         "details": [
             {
                 "totalverses": "169",
@@ -449,7 +471,7 @@
     {
         "id": "23",
         "juzname": "وَمَا لِىَ",
-        "englishjuz":"Wa Mali",
+        "englishjuz": "Wa Mali",
         "juz": "Juz 23",
         "aayat": "182  ",
         "bgcolor": "#808080",
@@ -458,6 +480,7 @@
         "from": " Ya-Sin (36:28)",
         "end": " Az-Zumar (39:31)",
         "color": "#fff",
+        "route": "juz-23",
         "details": [
             {
                 "totalverses": "182",
@@ -469,7 +492,7 @@
     {
         "id": "24",
         "juzname": "فَمَنْ أَظْلَمُ",
-        "englishjuz":"Faman Azlam",
+        "englishjuz": "Faman Azlam",
         "juz": "Juz 24",
         "aayat": "174  ",
         "bgcolor": "#696969",
@@ -478,6 +501,7 @@
         "from": " Az-Zumar (39:32)",
         "end": " Fussilat (41:46)",
         "color": "#fff",
+        "route": "juz-24",
         "details": [
             {
                 "totalverses": "174",
@@ -489,7 +513,7 @@
     {
         "id": "25",
         "juzname": "إِلَيْهِ يُرَدُّ",
-        "englishjuz":"Elahe Yuruddo",
+        "englishjuz": "Elahe Yuruddo",
         "juz": "Juz 25",
         "aayat": "181  ",
         "bgcolor": "#778899",
@@ -498,6 +522,7 @@
         "from": " Fussilat (41:47)",
         "end": " Al-Jathiya (45:37)",
         "color": "#fff",
+        "route": "juz-25",
         "details": [
             {
                 "totalverses": "181",
@@ -509,7 +534,7 @@
     {
         "id": "26",
         "juzname": "حٓمٓ",
-        "englishjuz":"Ha'a Meem",
+        "englishjuz": "Ha'a Meem",
         "juz": "Juz 26",
         "aayat": "182  ",
         "bgcolor": "#708090",
@@ -518,6 +543,7 @@
         "from": " Al-Ahqaf (46:1)",
         "end": " Az-Zariyat (51:30)",
         "color": "#fff",
+        "route": "juz-26",
         "details": [
             {
                 "totalverses": "182",
@@ -529,7 +555,7 @@
     {
         "id": "27",
         "juzname": "قَالَ فَمَا خَطْبُكُمْ",
-        "englishjuz":"Qala Fama Khatbukum",
+        "englishjuz": "Qala Fama Khatbukum",
         "juz": "Juz 27",
         "aayat": "179  ",
         "bgcolor": "#2F4F4F",
@@ -538,6 +564,7 @@
         "from": " Az-Zariyat (51:31)",
         "end": " Al-Hadid (57:29)",
         "color": "#fff",
+        "route": "juz-27",
         "details": [
             {
                 "totalverses": "179",
@@ -549,7 +576,7 @@
     {
         "id": "28",
         "juzname": "قَدْ أَفْلَحَ",
-        "englishjuz":"Qadd Aflaha",
+        "englishjuz": "Qadd Aflaha",
         "juz": "juz 28",
         "aayat": "137  ",
         "bgcolor": "#B0C4DE",
@@ -557,6 +584,7 @@
         "surah": "Surah",
         "from": " Al-Mujadila (58:1)",
         "end": " At-Tahrim (66:12)",
+        "route": "juz-28",
         "details": [
             {
                 "totalverses": "137",
@@ -568,7 +596,7 @@
     {
         "id": "29",
         "juzname": "تَبَارَكَ ٱلَّذِى",
-        "englishjuz":"Tabarakallazi",
+        "englishjuz": "Tabarakallazi",
         "juz": "Juz 29",
         "aayat": "431 ",
         "bgcolor": "#ADD8E6",
@@ -576,6 +604,7 @@
         "surah": "Surah",
         "from": " Al-Mulk (67:1)",
         "end": " Al-Mursalat (77:50)",
+        "route": "juz-29",
         "details": [
             {
                 "totalverses": "431",
@@ -587,7 +616,7 @@
     {
         "id": "30",
         "juzname": "عَمَّ",
-        "englishjuz":"Amma Yatasa'aloon",
+        "englishjuz": "Amma Yatasa'aloon",
         "juz": "Juz 30",
         "aayat": "564 ",
         "bgcolor": "#87CEEB",
@@ -595,6 +624,7 @@
         "surah": "Surah",
         "from": " An-Naba (78:1)",
         "end": " An-Nas (114:6)",
+        "route": "juz-30",
         "details": [
             {
                 "totalverses": "564",

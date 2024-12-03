@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "name": "Conceptual",
+        "totalQuestions": "100 Questions",
+        "icon": "assets/images/quiz/quranicworld/quiz-category/conceptual1.png",
+        "route":"conceptual-questions"
+    },
+    {
+        "id": "2",
+        "name": "Factual",
+        "totalQuestions": "100 Questions",
+        "icon": "assets/images/quiz/quranicworld/quiz-category/factual1.png",
+        "route":""
+    },
+    {
+        "id": "3",
+        "name": "Verse-based",
+        "totalQuestions": "100 Questions",
+        "icon": "assets/images/quiz/quranicworld/quiz-category/verse-based.png",
+        "route":""
+    },
+    {
+        "id": "4",
+        "name": "Comparison",
+        "totalQuestions": "100 Questions",
+        "icon": "assets/images/quiz/quranicworld/quiz-category/compare1.png",
+        "route":""
+    },
+    {
+        "id": "5",
+        "name": "Thematic",
+        "totalQuestions": "100 Questions",
+        "icon": "assets/images/quiz/quranicworld/quiz-category/thematic.png",
+        "route":""
+    }
+]

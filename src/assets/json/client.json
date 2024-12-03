@@ -1,0 +1,17 @@
+{
+    "runLocalService": true,
+    "useLanguage": false,
+    "localWebServicesUrl": "http://localhost:8080/quranicvibesws/",
+    "webServicesUrl": "https://sl.bizmobia.com/quranicvibesws/",
+    "shareUrl": "https://pt.bizmobia.com/",
+    "clientName": "Money Tresar",
+    "hostName": "pt.bizmobia.com",
+    "websiteUrl": "https://pt.bizmobia.com/",
+    "website": "pt.bizmobia.com",
+    "contactemail": "mailto:support@bizmobia.com",
+    "customercare": "",
+    "isConsole": true,
+    "currency": "LKR",
+    "defaultLanguage": "fr",
+    "countryCode": "241"
+  }

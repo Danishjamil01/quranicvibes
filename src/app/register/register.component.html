@@ -1,0 +1,41 @@
+<section class="main-section">
+
+    <div class="logo">
+        <img src="assets/images/logo/logo.png" alt="">
+    </div>
+
+    <div class="signup-container">
+
+        <p style="font-family: playwrite;font-size: 18px;">Create your account!</p>
+
+        <form (ngSubmit)="handleCreateUser(register)" #register="ngForm">
+
+            <input id="firstname" type="text" [(ngModel)]="users.firstname" name="firstname" placeholder="First name"
+                required>
+            <input id="lastname" type="text" [(ngModel)]="users.lastname" name="lastname" placeholder="Last name"
+                required>
+            <input id="mobilenumber" type="text" [(ngModel)]="users.mobilenumber" name="mobilenumber"
+                placeholder="Mobile number" required>
+            <input id="email" type="email" [(ngModel)]="users.email" name="email" placeholder="Email" required>
+            <div style="position: relative;">
+                <input id="password" [type]="showPassField['password'] ? 'text' : 'password'"
+                    [(ngModel)]="users.password" name="password" placeholder="Password" required />
+                <i (click)="showPass('password')"
+                    style="position: absolute; right: 5%; top: 35%;font-size: 18px; cursor: pointer;"
+                    [ngClass]="showPassField['password'] ? 'bi bi-eye' : 'bi bi-eye-slash'"></i>
+            </div>
+
+            <div style="position: relative;">
+                <input id="repeat-password" [type]="showPassField['repeat-password'] ? 'text' : 'password'"
+                    [(ngModel)]="users.repeatPassword" name="repeatPassword" placeholder="Repeat Password" required />
+                <i (click)="showPass('repeat-password')"
+                    style="position: absolute; right: 5%; top: 35%;font-size: 18px; cursor: pointer;"
+                    [ngClass]="showPassField['repeat-password'] ? 'bi bi-eye' : 'bi bi-eye-slash'"></i>
+            </div>
+
+            <!-- <div *ngIf="passwordMismatch" style="color: red;">Passwords do not match!</div> -->
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</section>

@@ -1,0 +1,1034 @@
+[
+  {
+    "juz": 1,
+    "description": "Juz 1 content description...",
+    "questions": [
+      {
+        "question": "What is the meaning of 'Alhamdulillahi Rabbil 'Alamin' in Surah Al-Fatiha?",
+        "options": [
+          "Praise be to Allah, the Lord of the worlds",
+          "Allah is the greatest",
+          "Glory be to Allah",
+          "All praises are for Allah"
+        ],
+        "correctAnswer": "Praise be to Allah, the Lord of the worlds"
+      },
+      {
+        "question": "Which attribute of Allah is mentioned in the verse 'Ar-Rahman Ar-Raheem'?",
+        "options": [
+          "The Merciful and the Compassionate",
+          "The Creator and Sustainer",
+          "The King of the Day of Judgment",
+          "The Guide of the Righteous"
+        ],
+        "correctAnswer": "The Merciful and the Compassionate"
+      },
+      {
+        "question": "What is the central theme of Surah Al-Fatiha?",
+        "options": [
+          "Allah's mercy and guidance",
+          "The Day of Judgment",
+          "The creation of the world",
+          "The history of the Prophets"
+        ],
+        "correctAnswer": "Allah's mercy and guidance"
+      },
+      {
+        "question": "Which verse in Surah Al-Fatiha mentions 'Ihdinas-Siratal-Mustaqim'?",
+        "options": [
+          "The first verse",
+          "The second verse",
+          "The fourth verse",
+          "The sixth verse"
+        ],
+        "correctAnswer": "The fourth verse"
+      },
+      {
+        "question": "What does the verse 'Maliki Yawmid-Din' signify?",
+        "options": [
+          "The King of the Day of Judgment",
+          "The Owner of the Day of Judgment",
+          "The Judge on the Day of Judgment",
+          "The Creator of the Day of Judgment"
+        ],
+        "correctAnswer": "The King of the Day of Judgment"
+      },
+      {
+        "question": "Which phrase in Surah Al-Fatiha acknowledges Allah's sovereignty?",
+        "options": [
+          "Iyyāka na’budu",
+          "Maliki Yawmid-Din",
+          "Ihdinas-Siratal-Mustaqim",
+          "Alhamdulillahi Rabbil 'Alamin"
+        ],
+        "correctAnswer": "Maliki Yawmid-Din"
+      },
+      {
+        "question": "What is the meaning of 'Ihdinas-Siratal-Mustaqim'?",
+        "options": [
+          "Guide us to the straight path",
+          "Forgive our sins",
+          "Protect us from the evil",
+          "Make us grateful to You"
+        ],
+        "correctAnswer": "Guide us to the straight path"
+      },
+      {
+        "question": "Which group of people are mentioned in Surah Al-Fatiha as those who have earned Allah's wrath?",
+        "options": [
+          "The Jews",
+          "The disbelievers",
+          "The misguided",
+          "The Christians"
+        ],
+        "correctAnswer": "The Jews"
+      },
+      {
+        "question": "Which group of people are mentioned in Surah Al-Fatiha as those who are rightly guided?",
+        "options": [
+          "The Muslims",
+          "The righteous",
+          "The believers",
+          "The Prophets"
+        ],
+        "correctAnswer": "The righteous"
+      },
+      {
+        "question": "How many verses does Surah Al-Fatiha have?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correctAnswer": "7"
+      },
+      {
+        "question": "What is the meaning of 'Iyyāka na’budu' in Surah Al-Fatiha?",
+        "options": [
+          "You alone we worship",
+          "We worship You with sincerity",
+          "We seek Your help",
+          "We trust in You alone"
+        ],
+        "correctAnswer": "You alone we worship"
+      },
+      {
+        "question": "What is the meaning of 'Iyyāka nasta’īn' in Surah Al-Fatiha?",
+        "options": [
+          "You alone we ask for help",
+          "We seek Your forgiveness",
+          "We rely on You alone",
+          "We submit to You alone"
+        ],
+        "correctAnswer": "You alone we ask for help"
+      },
+      {
+        "question": "In Surah Al-Fatiha, what is the phrase 'Alhamdulillahi Rabbil 'Alamin' referring to?",
+        "options": [
+          "Praise be to Allah, the Lord of all worlds",
+          "Praise be to Allah, the King of the Day of Judgment",
+          "Praise be to Allah, the Creator of the heavens and earth",
+          "Praise be to Allah, the Most Merciful"
+        ],
+        "correctAnswer": "Praise be to Allah, the Lord of all worlds"
+      },
+      {
+        "question": "What does the verse 'Maliki Yawmid-Din' highlight?",
+        "options": [
+          "The sovereignty of Allah on the Day of Judgment",
+          "The power of Allah over creation",
+          "The oneness of Allah",
+          "The mercy of Allah"
+        ],
+        "correctAnswer": "The sovereignty of Allah on the Day of Judgment"
+      },
+      {
+        "question": "Which verse in Surah Al-Fatiha is a supplication for guidance?",
+        "options": [
+          "Ihdinas-Siratal-Mustaqim",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Iyyāka na’budu",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Ihdinas-Siratal-Mustaqim"
+      },
+      {
+        "question": "Who are referred to as 'those who have earned Allah's wrath' in Surah Al-Fatiha?",
+        "options": [
+          "The Jews",
+          "The disbelievers",
+          "The misguided",
+          "The righteous"
+        ],
+        "correctAnswer": "The Jews"
+      },
+      {
+        "question": "Who are referred to as 'those who are rightly guided' in Surah Al-Fatiha?",
+        "options": [
+          "The righteous",
+          "The Muslims",
+          "The Prophets",
+          "The believers"
+        ],
+        "correctAnswer": "The righteous"
+      },
+      {
+        "question": "In Surah Al-Fatiha, what does the phrase 'Ar-Rahman Ar-Raheem' describe?",
+        "options": [
+          "The Merciful and the Compassionate",
+          "The King of the Day of Judgment",
+          "The Creator of the heavens",
+          "The Guide of the believers"
+        ],
+        "correctAnswer": "The Merciful and the Compassionate"
+      },
+      {
+        "question": "What is the meaning of 'Maliki Yawmid-Din' in Surah Al-Fatiha?",
+        "options": [
+          "Master of the Day of Judgment",
+          "Owner of the Day of Judgment",
+          "King of the Day of Judgment",
+          "Judge of the Day of Judgment"
+        ],
+        "correctAnswer": "Master of the Day of Judgment"
+      },
+      {
+        "question": "Which phrase in Surah Al-Fatiha emphasizes complete dependence on Allah?",
+        "options": [
+          "Iyyāka na’budu",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Ihdinas-Siratal-Mustaqim",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Iyyāka na’budu"
+      },
+      {
+        "question": "Which verse in Surah Al-Fatiha is a plea for mercy and forgiveness?",
+        "options": [
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Ihdinas-Siratal-Mustaqim",
+          "Iyyāka na’budu",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Iyyāka na’budu"
+      },
+      {
+        "question": "What is meant by 'Siratal-Ladhīna An’amta 'Alayhim' in Surah Al-Fatiha?",
+        "options": [
+          "The path of those upon whom Allah has bestowed His grace",
+          "The path of the righteous",
+          "The path of the believers",
+          "The path of the Prophets"
+        ],
+        "correctAnswer": "The path of those upon whom Allah has bestowed His grace"
+      },
+      {
+        "question": "What is the purpose of reciting Surah Al-Fatiha in every prayer?",
+        "options": [
+          "To seek Allah’s guidance",
+          "To express gratitude to Allah",
+          "To praise Allah’s sovereignty",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha emphasizes the uniqueness of Allah?",
+        "options": [
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Iyyāka na’budu",
+          "Ihdinas-Siratal-Mustaqim",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Alhamdulillahi Rabbil 'Alamin"
+      },
+      {
+        "question": "Which verse of Surah Al-Fatiha is about seeking help from Allah?",
+        "options": [
+          "Iyyāka na’budu",
+          "Ihdinas-Siratal-Mustaqim",
+          "Iyyāka nasta’īn",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Iyyāka nasta’īn"
+      },
+      {
+        "question": "What does the verse 'Ihdinas-Siratal-Mustaqim' mean?",
+        "options": [
+          "Guide us to the straight path",
+          "Show us the way of the righteous",
+          "Lead us to the correct path",
+          "All of the above"
+        ],
+        "correctAnswer": "Guide us to the straight path"
+      },
+      {
+        "question": "In Surah Al-Fatiha, the phrase 'Alhamdulillahi Rabbil 'Alamin' refers to Allah as the Lord of what?",
+        "options": [
+          "The worlds",
+          "The believers",
+          "The Prophets",
+          "The angels"
+        ],
+        "correctAnswer": "The worlds"
+      },
+      {
+        "question": "What is the significance of 'Maliki Yawmid-Din' in Surah Al-Fatiha?",
+        "options": [
+          "It reminds of Allah’s sovereignty on the Day of Judgment",
+          "It speaks of Allah’s power in creation",
+          "It signifies the day of creation",
+          "It reflects on Allah’s mercy"
+        ],
+        "correctAnswer": "It reminds of Allah’s sovereignty on the Day of Judgment"
+      },
+      {
+        "question": "In Surah Al-Fatiha, which phrase indicates that the believer seeks Allah alone for worship?",
+        "options": [
+          "Iyyāka na’budu",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Iyyāka nasta’īn",
+          "Ihdinas-Siratal-Mustaqim"
+        ],
+        "correctAnswer": "Iyyāka na’budu"
+      },
+      {
+        "question": "How is Surah Al-Fatiha a supplication to Allah?",
+        "options": [
+          "It asks for guidance",
+          "It praises Allah",
+          "It seeks forgiveness",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha refers to Allah's mercy and compassion?",
+        "options": [
+          "Ar-Rahman Ar-Raheem",
+          "Maliki Yawmid-Din",
+          "Ihdinas-Siratal-Mustaqim",
+          "Iyyāka na’budu"
+        ],
+        "correctAnswer": "Ar-Rahman Ar-Raheem"
+      },
+      {
+        "question": "What does the phrase 'Ihdinas-Siratal-Mustaqim' ask for?",
+        "options": [
+          "Guidance to the straight path",
+          "Forgiveness for our sins",
+          "Protection from misguidance",
+          "Help in our struggles"
+        ],
+        "correctAnswer": "Guidance to the straight path"
+      },
+      {
+        "question": "In Surah Al-Fatiha, who is the 'Master of the Day of Judgment'?",
+        "options": [
+          "Allah",
+          "The Prophet Muhammad (PBUH)",
+          "The angels",
+          "The believers"
+        ],
+        "correctAnswer": "Allah"
+      },
+      {
+        "question": "Which verse of Surah Al-Fatiha emphasizes reliance on Allah alone?",
+        "options": [
+          "Iyyāka na’budu",
+          "Iyyāka nasta’īn",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Ihdinas-Siratal-Mustaqim"
+        ],
+        "correctAnswer": "Iyyāka nasta’īn"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha acknowledges Allah's sovereignty over the universe?",
+        "options": [
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Iyyāka na’budu",
+          "Ihdinas-Siratal-Mustaqim",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Alhamdulillahi Rabbil 'Alamin"
+      },
+      {
+        "question": "In Surah Al-Fatiha, which phrase expresses Allah's kingship on the Day of Judgment?",
+        "options": [
+          "Maliki Yawmid-Din",
+          "Ar-Rahman Ar-Raheem",
+          "Iyyāka na’budu",
+          "Alhamdulillahi Rabbil 'Alamin"
+        ],
+        "correctAnswer": "Maliki Yawmid-Din"
+      },
+      {
+        "question": "What is the meaning of 'Siratal-Ladhīna An’amta ‘Alayhim'?",
+        "options": [
+          "The path of those upon whom Allah has bestowed His grace",
+          "The path of the believers",
+          "The path of the Prophets",
+          "The path of the angels"
+        ],
+        "correctAnswer": "The path of those upon whom Allah has bestowed His grace"
+      },
+      {
+        "question": "Which group is mentioned in Surah Al-Fatiha as those who are misguided?",
+        "options": [
+          "The disbelievers",
+          "The righteous",
+          "The Prophets",
+          "The angels"
+        ],
+        "correctAnswer": "The disbelievers"
+      },
+      {
+        "question": "What does 'Iyyāka na’budu' mean in Surah Al-Fatiha?",
+        "options": [
+          "You alone we worship",
+          "We worship You with sincerity",
+          "We seek Your help",
+          "We trust in You alone"
+        ],
+        "correctAnswer": "You alone we worship"
+      },
+      {
+        "question": "What is the meaning of 'Iyyāka nasta’īn' in Surah Al-Fatiha?",
+        "options": [
+          "You alone we ask for help",
+          "We seek Your forgiveness",
+          "We rely on You alone",
+          "We submit to You alone"
+        ],
+        "correctAnswer": "You alone we ask for help"
+      },
+      {
+        "question": "What is the meaning of 'Rabbil 'Alamin' in Surah Al-Fatiha?",
+        "options": [
+          "Lord of the worlds",
+          "King of the Day of Judgment",
+          "Master of all creation",
+          "Merciful to all beings"
+        ],
+        "correctAnswer": "Lord of the worlds"
+      },
+      {
+        "question": "In Surah Al-Fatiha, what is meant by 'Ar-Rahman Ar-Raheem'?",
+        "options": [
+          "The Most Gracious, The Most Merciful",
+          "The Creator and Sustainer",
+          "The Judge of all",
+          "The One who guides"
+        ],
+        "correctAnswer": "The Most Gracious, The Most Merciful"
+      },
+      {
+        "question": "What does Surah Al-Fatiha request from Allah in 'Ihdinas-Siratal-Mustaqim'?",
+        "options": [
+          "Guidance to the straight path",
+          "Help in times of distress",
+          "Forgiveness for our wrongdoings",
+          "Protection from enemies"
+        ],
+        "correctAnswer": "Guidance to the straight path"
+      },
+      {
+        "question": "Which of the following groups is not mentioned in Surah Al-Fatiha?",
+        "options": [
+          "The righteous",
+          "The disbelievers",
+          "The prophets",
+          "The misguided"
+        ],
+        "correctAnswer": "The prophets"
+      },
+      {
+        "question": "Which phrase in Surah Al-Fatiha expresses that Allah alone is to be worshiped?",
+        "options": [
+          "Iyyāka na’budu",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Maliki Yawmid-Din",
+          "Ihdinas-Siratal-Mustaqim"
+        ],
+        "correctAnswer": "Iyyāka na’budu"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha is a request for Allah's guidance?",
+        "options": [
+          "Ihdinas-Siratal-Mustaqim",
+          "Iyyāka na’budu",
+          "Ar-Rahman Ar-Raheem",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Ihdinas-Siratal-Mustaqim"
+      },
+      {
+        "question": "What is the message of Surah Al-Fatiha regarding the Day of Judgment?",
+        "options": [
+          "Allah is the King and Judge",
+          "We are accountable for our deeds",
+          "Our fate is in Allah's hands",
+          "We should seek forgiveness"
+        ],
+        "correctAnswer": "Allah is the King and Judge"
+      },
+      {
+        "question": "What does 'Maliki Yawmid-Din' refer to in Surah Al-Fatiha?",
+        "options": [
+          "Master of the Day of Judgment",
+          "King of all kings",
+          "Sustainer of the universe",
+          "The One who provides"
+        ],
+        "correctAnswer": "Master of the Day of Judgment"
+      },
+      {
+        "question": "In Surah Al-Fatiha, who is being addressed in the phrase 'Iyyāka na’budu'?",
+        "options": [
+          "Allah",
+          "The Prophet Muhammad (PBUH)",
+          "The angels",
+          "The believers"
+        ],
+        "correctAnswer": "Allah"
+      },
+      {
+        "question": "Which group is mentioned in Surah Al-Fatiha as being misguided?",
+        "options": [
+          "The disbelievers",
+          "The righteous",
+          "The believers",
+          "The angels"
+        ],
+        "correctAnswer": "The disbelievers"
+      },
+      {
+        "question": "Which of the following words in Surah Al-Fatiha refers to Allah's mercy?",
+        "options": [
+          "Ar-Rahman",
+          "Malik",
+          "Iyyāka",
+          "Siratal-Mustaqim"
+        ],
+        "correctAnswer": "Ar-Rahman"
+      },
+      {
+        "question": "What does 'Siratal-Ladhīna An’amta ‘Alayhim' in Surah Al-Fatiha refer to?",
+        "options": [
+          "The path of those who have received Allah's blessings",
+          "The straight path of the believers",
+          "The path of the angels",
+          "The path of the disbelievers"
+        ],
+        "correctAnswer": "The path of those who have received Allah's blessings"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha acknowledges Allah's authority over the Day of Judgment?",
+        "options": [
+          "Maliki Yawmid-Din",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Iyyāka na’budu",
+          "Ihdinas-Siratal-Mustaqim"
+        ],
+        "correctAnswer": "Maliki Yawmid-Din"
+      },
+      {
+        "question": "What is the meaning of 'Ihdinas-Siratal-Mustaqim' in Surah Al-Fatiha?",
+        "options": [
+          "Guide us to the straight path",
+          "Forgive us for our sins",
+          "Protect us from misguidance",
+          "Help us in our struggles"
+        ],
+        "correctAnswer": "Guide us to the straight path"
+      },
+      {
+        "question": "Which phrase in Surah Al-Fatiha highlights the relationship of worship and dependence on Allah?",
+        "options": [
+          "Iyyāka na’budu",
+          "Ihdinas-Siratal-Mustaqim",
+          "Ar-Rahman Ar-Raheem",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Iyyāka na’budu"
+      },
+      {
+        "question": "In Surah Al-Fatiha, what is meant by 'Alhamdulillahi Rabbil 'Alamin'?",
+        "options": [
+          "Praise be to Allah, the Lord of all worlds",
+          "We seek Your help, O Allah",
+          "The straight path to righteousness",
+          "Master of the Day of Judgment"
+        ],
+        "correctAnswer": "Praise be to Allah, the Lord of all worlds"
+      },
+      {
+        "question": "What does 'Maliki Yawmid-Din' express in Surah Al-Fatiha?",
+        "options": [
+          "Master of the Day of Judgment",
+          "King of all the heavens",
+          "The Creator of the earth",
+          "The One who guides"
+        ],
+        "correctAnswer": "Master of the Day of Judgment"
+      },
+      {
+        "question": "Which phrase in Surah Al-Fatiha mentions Allah’s attributes of being merciful and compassionate?",
+        "options": [
+          "Ar-Rahman Ar-Raheem",
+          "Ihdinas-Siratal-Mustaqim",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Iyyāka na’budu"
+        ],
+        "correctAnswer": "Ar-Rahman Ar-Raheem"
+      },
+      {
+        "question": "In Surah Al-Fatiha, what is the meaning of 'Iyyāka nasta’īn'?",
+        "options": [
+          "We seek Your help alone",
+          "We worship You alone",
+          "We trust in You alone",
+          "We depend on You alone"
+        ],
+        "correctAnswer": "We seek Your help alone"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha asks Allah for guidance to the right path?",
+        "options": [
+          "Ihdinas-Siratal-Mustaqim",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Maliki Yawmid-Din",
+          "Iyyāka na’budu"
+        ],
+        "correctAnswer": "Ihdinas-Siratal-Mustaqim"
+      },
+      {
+        "question": "Which of the following describes the 'straight path' mentioned in Surah Al-Fatiha?",
+        "options": [
+          "The path of righteousness",
+          "The path of wealth",
+          "The path of worldly success",
+          "The path of the disbelievers"
+        ],
+        "correctAnswer": "The path of righteousness"
+      },
+      {
+        "question": "In Surah Al-Fatiha, who is referred to as 'Rabbil 'Alamin'?",
+        "options": [
+          "Allah",
+          "The Prophet Muhammad (PBUH)",
+          "The believers",
+          "The angels"
+        ],
+        "correctAnswer": "Allah"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha emphasizes Allah’s sovereignty over the Day of Judgment?",
+        "options": [
+          "Maliki Yawmid-Din",
+          "Iyyāka na’budu",
+          "Ar-Rahman Ar-Raheem",
+          "Alhamdulillahi Rabbil 'Alamin"
+        ],
+        "correctAnswer": "Maliki Yawmid-Din"
+      },
+      {
+        "question": "Which of the following is a characteristic of Allah mentioned in Surah Al-Fatiha?",
+        "options": [
+          "Merciful and compassionate",
+          "Angry and vengeful",
+          "Deceptive and misleading",
+          "Distant and unattainable"
+        ],
+        "correctAnswer": "Merciful and compassionate"
+      },
+      {
+        "question": "What does 'Siratal-Ladhīna An’amta ‘Alayhim' refer to in Surah Al-Fatiha?",
+        "options": [
+          "The path of those who have received Allah’s blessings",
+          "The path of those who are punished",
+          "The path of the hypocrites",
+          "The path of the disbelievers"
+        ],
+        "correctAnswer": "The path of those who have received Allah’s blessings"
+      },
+      {
+        "question": "Which phrase in Surah Al-Fatiha expresses gratitude to Allah?",
+        "options": [
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Iyyāka na’budu",
+          "Ihdinas-Siratal-Mustaqim",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Alhamdulillahi Rabbil 'Alamin"
+      },
+      {
+        "question": "What does 'Iyyāka na’budu' imply in Surah Al-Fatiha?",
+        "options": [
+          "We worship You alone",
+          "We seek Your guidance alone",
+          "We thank You alone",
+          "We depend on You alone"
+        ],
+        "correctAnswer": "We worship You alone"
+      },
+      {
+        "question": "What is being asked for in the phrase 'Ihdinas-Siratal-Mustaqim' in Surah Al-Fatiha?",
+        "options": [
+          "Guidance to the straight path",
+          "Forgiveness of sins",
+          "Protection from harm",
+          "Blessings in this life"
+        ],
+        "correctAnswer": "Guidance to the straight path"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha shows the importance of relying solely on Allah for help?",
+        "options": [
+          "Iyyāka nasta’īn",
+          "Iyyāka na’budu",
+          "Ar-Rahman Ar-Raheem",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Iyyāka nasta’īn"
+      },
+      {
+        "question": "Which of the following groups is mentioned as misguided in Surah Al-Fatiha?",
+        "options": [
+          "The disbelievers",
+          "The believers",
+          "The righteous",
+          "The angels"
+        ],
+        "correctAnswer": "The disbelievers"
+      },
+      {
+        "question": "Which phrase in Surah Al-Fatiha refers to Allah’s attribute of being the Merciful?",
+        "options": [
+          "Ar-Rahman",
+          "Alhamdulillahi",
+          "Maliki Yawmid-Din",
+          "Ihdinas-Siratal-Mustaqim"
+        ],
+        "correctAnswer": "Ar-Rahman"
+      },
+      {
+        "question": "What does 'Maliki Yawmid-Din' mean in Surah Al-Fatiha?",
+        "options": [
+          "Master of the Day of Judgment",
+          "The Creator of all worlds",
+          "The Provider of all sustenance",
+          "The Forgiver of sins"
+        ],
+        "correctAnswer": "Master of the Day of Judgment"
+      },
+      {
+        "question": "In Surah Al-Fatiha, 'Iyyāka na’budu' is a declaration of what?",
+        "options": [
+          "We worship You alone",
+          "We ask for Your forgiveness",
+          "We seek Your guidance",
+          "We trust in Your plan"
+        ],
+        "correctAnswer": "We worship You alone"
+      },
+      {
+        "question": "In Surah Al-Fatiha, who is referred to as 'Rabbil 'Alamin'?",
+        "options": [
+          "Allah",
+          "The Prophet Muhammad (PBUH)",
+          "The angels",
+          "The believers"
+        ],
+        "correctAnswer": "Allah"
+      },
+      {
+        "question": "What does 'Ihdinas-Siratal-Mustaqim' ask for in Surah Al-Fatiha?",
+        "options": [
+          "Guidance to the straight path",
+          "Protection from harm",
+          "Forgiveness for sins",
+          "Blessings in this life"
+        ],
+        "correctAnswer": "Guidance to the straight path"
+      },
+      {
+        "question": "Which group is referred to as those who have received Allah's blessings in Surah Al-Fatiha?",
+        "options": [
+          "The righteous",
+          "The disbelievers",
+          "The hypocrites",
+          "The wrongdoers"
+        ],
+        "correctAnswer": "The righteous"
+      },
+      {
+        "question": "What is the meaning of 'Alhamdulillahi Rabbil 'Alamin'?",
+        "options": [
+          "Praise be to Allah, the Lord of all worlds",
+          "We seek Your guidance alone",
+          "We depend on You alone",
+          "We ask for Your mercy alone"
+        ],
+        "correctAnswer": "Praise be to Allah, the Lord of all worlds"
+      },
+      {
+        "question": "What does the phrase 'Ar-Rahman Ar-Raheem' describe in Surah Al-Fatiha?",
+        "options": [
+          "Allah’s mercy",
+          "Allah’s sovereignty",
+          "Allah’s power",
+          "Allah’s justice"
+        ],
+        "correctAnswer": "Allah’s mercy"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha emphasizes the worship and dependence on Allah?",
+        "options": [
+          "Iyyāka na’budu",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Maliki Yawmid-Din",
+          "Ihdinas-Siratal-Mustaqim"
+        ],
+        "correctAnswer": "Iyyāka na’budu"
+      },
+      {
+        "question": "In Surah Al-Fatiha, what does the phrase 'Siratal-Ladhīna An’amta ‘Alayhim' refer to?",
+        "options": [
+          "The path of those who have received Allah's blessings",
+          "The path of the righteous",
+          "The path of the believers",
+          "The path of the disbelievers"
+        ],
+        "correctAnswer": "The path of those who have received Allah's blessings"
+      },
+      {
+        "question": "Which of the following is a key message of Surah Al-Fatiha?",
+        "options": [
+          "Gratitude and seeking guidance",
+          "Praising the Prophet Muhammad (PBUH)",
+          "Condemnation of disbelievers",
+          "Instruction on prayer rituals"
+        ],
+        "correctAnswer": "Gratitude and seeking guidance"
+      },
+      {
+        "question": "What does 'Iyyāka nasta’īn' express in Surah Al-Fatiha?",
+        "options": [
+          "We seek Your help alone",
+          "We worship You alone",
+          "We ask for forgiveness",
+          "We rely on Your mercy"
+        ],
+        "correctAnswer": "We seek Your help alone"
+      },
+      {
+        "question": "Which phrase in Surah Al-Fatiha refers to Allah’s power over the Day of Judgment?",
+        "options": [
+          "Maliki Yawmid-Din",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Ihdinas-Siratal-Mustaqim",
+          "Ar-Rahman Ar-Raheem"
+        ],
+        "correctAnswer": "Maliki Yawmid-Din"
+      },
+      {
+        "question": "Which group does Surah Al-Fatiha say has gone astray?",
+        "options": [
+          "The disbelievers",
+          "The righteous",
+          "The hypocrites",
+          "The wrongdoers"
+        ],
+        "correctAnswer": "The disbelievers"
+      },
+      {
+        "question": "What is the essence of the phrase 'Ar-Rahman Ar-Raheem' in Surah Al-Fatiha?",
+        "options": [
+          "Allah’s mercy",
+          "Allah’s justice",
+          "Allah’s knowledge",
+          "Allah’s power"
+        ],
+        "correctAnswer": "Allah’s mercy"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha speaks of the straight path?",
+        "options": [
+          "Ihdinas-Siratal-Mustaqim",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Iyyāka na’budu",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Ihdinas-Siratal-Mustaqim"
+      },
+      {
+        "question": "In Surah Al-Fatiha, who is the 'Lord of all worlds'?",
+        "options": [
+          "Allah",
+          "The angels",
+          "The Prophet Muhammad (PBUH)",
+          "The believers"
+        ],
+        "correctAnswer": "Allah"
+      },
+      {
+        "question": "What is meant by 'Maliki Yawmid-Din' in Surah Al-Fatiha?",
+        "options": [
+          "Master of the Day of Judgment",
+          "Creator of the heavens and the earth",
+          "Provider of sustenance",
+          "Forgiver of sins"
+        ],
+        "correctAnswer": "Master of the Day of Judgment"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha asks for protection from being led astray?",
+        "options": [
+          "Ihdinas-Siratal-Mustaqim",
+          "Maliki Yawmid-Din",
+          "Iyyāka nasta’īn",
+          "Iyyāka na’budu"
+        ],
+        "correctAnswer": "Ihdinas-Siratal-Mustaqim"
+      },
+      {
+        "question": "What does the phrase 'Iyyāka na’budu' in Surah Al-Fatiha indicate?",
+        "options": [
+          "We worship You alone",
+          "We seek Your forgiveness",
+          "We ask for guidance",
+          "We trust in Your will"
+        ],
+        "correctAnswer": "We worship You alone"
+      },
+      {
+        "question": "What does the phrase 'Siratal-Ladhīna An’amta ‘Alayhim' in Surah Al-Fatiha refer to?",
+        "options": [
+          "The path of those who have received Allah's blessings",
+          "The path of those who have gone astray",
+          "The path of the disbelievers",
+          "The path of the believers in the afterlife"
+        ],
+        "correctAnswer": "The path of those who have received Allah's blessings"
+      },
+      {
+        "question": "What is the meaning of the word 'Alhamdulillahi' in Surah Al-Fatiha?",
+        "options": [
+          "All praise is due to Allah",
+          "We seek Your mercy",
+          "We worship You alone",
+          "We ask for guidance"
+        ],
+        "correctAnswer": "All praise is due to Allah"
+      },
+      {
+        "question": "In Surah Al-Fatiha, which phrase emphasizes the uniqueness of Allah?",
+        "options": [
+          "Iyyāka na’budu",
+          "Ar-Rahman Ar-Raheem",
+          "Ihdinas-Siratal-Mustaqim",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Iyyāka na’budu"
+      },
+      {
+        "question": "What does 'Ar-Rahman' in Surah Al-Fatiha signify?",
+        "options": [
+          "Allah's mercy",
+          "Allah's knowledge",
+          "Allah's sovereignty",
+          "Allah's justice"
+        ],
+        "correctAnswer": "Allah's mercy"
+      },
+      {
+        "question": "Which phrase in Surah Al-Fatiha requests guidance on the straight path?",
+        "options": [
+          "Ihdinas-Siratal-Mustaqim",
+          "Alhamdulillahi Rabbil 'Alamin",
+          "Iyyāka na’budu",
+          "Maliki Yawmid-Din"
+        ],
+        "correctAnswer": "Ihdinas-Siratal-Mustaqim"
+      },
+      {
+        "question": "What does 'Maliki Yawmid-Din' in Surah Al-Fatiha indicate?",
+        "options": [
+          "Master of the Day of Judgment",
+          "Sustainer of all living beings",
+          "Creator of the heavens",
+          "Provider of sustenance"
+        ],
+        "correctAnswer": "Master of the Day of Judgment"
+      },
+      {
+        "question": "Which part of Surah Al-Fatiha expresses dependence on Allah alone?",
+        "options": [
+          "Iyyāka na’budu",
+          "Iyyāka nasta’īn",
+          "Ar-Rahman Ar-Raheem",
+          "Ihdinas-Siratal-Mustaqim"
+        ],
+        "correctAnswer": "Iyyāka nasta’īn"
+      },
+      {
+        "question": "Which group in Surah Al-Fatiha has been described as those who have earned Allah's anger?",
+        "options": [
+          "The disbelievers",
+          "The hypocrites",
+          "The wrongdoers",
+          "The righteous"
+        ],
+        "correctAnswer": "The disbelievers"
+      },
+      {
+        "question": "What does 'Ihdinas-Siratal-Mustaqim' ask from Allah?",
+        "options": [
+          "Guidance to the straight path",
+          "Forgiveness for sins",
+          "Mercy in the afterlife",
+          "Protection from harm"
+        ],
+        "correctAnswer": "Guidance to the straight path"
+      },
+      {
+        "question": "In Surah Al-Fatiha, which phrase describes Allah as the Merciful?",
+        "options": [
+          "Ar-Rahman Ar-Raheem",
+          "Iyyāka na’budu",
+          "Maliki Yawmid-Din",
+          "Ihdinas-Siratal-Mustaqim"
+        ],
+        "correctAnswer": "Ar-Rahman Ar-Raheem"
+      }
+    ]
+  },
+  {
+    "juz": 2,
+    "description": "Juz 2 content description...",
+    "questions": [
+      {
+        "question": "Question 1 related to Juz 2",
+        "options": [
+          "Option 1",
+          "Option 2",
+          "Option 3",
+          "Option 4"
+        ],
+        "correctAnswer": "Option 2"
+      },
+      {
+        "question": "Question 2 related to Juz 2",
+        "options": [
+          "Option X",
+          "Option Y",
+          "Option Z",
+          "Option W"
+        ],
+        "correctAnswer": "Option Y"
+      }
+    ]
+  }
+]

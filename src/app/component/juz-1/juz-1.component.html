@@ -1,0 +1,50 @@
+<main>
+    <!-- <div class="backbtn" (click)="onBack()">
+        <i class="bi bi-arrow-left" style="display: flex;"></i>
+    </div> -->
+    <div style="display: flex;align-items: center;justify-content: space-between;">
+        <div>
+            <h1>Hi,John</h1>
+            <p>Let's make this day productive</p>
+        </div>
+        <div style="height: 50px;width: 50px;border-radius: 50%;border: 2px solid #ccc;overflow: hidden;">
+            <img src="../../../assets/images/quiz/quranicworld/imagesandlogo/userprofiledefault.png" alt=""
+                style="width: 100%;">
+        </div>
+    </div>
+
+    <div class="user-details">
+        <ul>
+            <li>
+                <img src="../../../assets/images/quiz/quranicworld/imagesandlogo/trophy.png" alt="">
+                <div>
+                    <p>Ranking</p>
+                    <span [ngStyle]="{'color': getRankingColor(ranking)}">{{ranking}}</span>
+                </div>
+            </li>
+            <li>
+                <img src="../../../assets/images/quiz/quranicworld/imagesandlogo/coin.png" alt="">
+                <div>
+                    <p>Points</p>
+                    <span>{{ formatPoints(points) }}</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="categories mt-4" id="selectedCat">
+        <h3>Lets Play</h3>
+        <ul class="category-list mt-3">
+            <li *ngFor="let list of quizCategories" [class.selected]="selectedCat === list" (click)="selectCat(list)">
+                <img src="{{list.icon}}" alt="">
+                <p style="white-space:nowrap" class="oneLineText category-name">{{list.name}}</p>
+                <p class="total-questions">{{list.totalQuestions}}</p>
+            </li>
+        </ul>
+    </div>
+
+
+    <div *ngIf="selectedCat" class="proceed-btn">
+        <button (click)="proceedToQuiz()">Let's start</button>
+    </div>
+</main>

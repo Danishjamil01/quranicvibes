@@ -1,0 +1,67 @@
+<main>
+    <div style="width: 100%;display: flex;align-items: center;justify-content: center;">
+        <div style="width: 10%;">
+            <i class="bi bi-x"></i>
+        </div>
+        <div class="quiz-progress"
+            style="width: 90%;display: flex;gap: 5px;align-items: center; border: 1px solid #ccc;height: 30px;border-radius: 25px;display: flex;align-items: center;padding: 10px;">
+            <div style="height: 10px;width: 100%;border: 1px solid #ccc;border-radius: 25px;background-color: #ccc;">
+                <div [style.width.%]="(currentQuestionIndex / totalQuestions) * 100"
+                    style="height: 100%;border-radius: 25px;background-color: #4caf50;"></div>
+            </div>
+
+            <div>
+                <span style="white-space: nowrap;font-size: 12px;">{{ currentQuestionIndex + 1 }} / {{
+                    allJuz1questions[0]?.questions.length
+                    }}</span>
+            </div>
+
+        </div>
+    </div>
+    <div style="display: flex;align-items: center;justify-content: space-between;margin-top: 12px;">
+        <p style="text-align: end;margin: 0;padding: 0;">Skipped:{{skippedQuestions}}</p>
+        <p style="text-align: end;margin: 0;padding: 0;">Attemped:{{attempedQuestions}}</p>
+    </div>
+    <div class="question-container">
+        <p>{{ allJuz1questions[0].questions[currentQuestionIndex]?.question }}</p>
+
+        <div class="countdown-timer">
+            <div class="progress-circle" [style.height.px]="size" [style.width.px]="size">
+                <svg viewBox="0 0 36 36">
+                    <path class="circle-bg" d="M18 2.0845
+                       a 15.9155 15.9155 0 0 1 0 31.831
+                       a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+                    <path class="circle" [attr.stroke-dasharray]="circumference" [attr.stroke-dashoffset]="offset" d="M18 2.0845
+                       a 15.9155 15.9155 0 0 1 0 31.831
+                       a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+                </svg>
+                <div class="progress-text">{{ countdown }}s</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="options-container">
+        <ul class="options-list">
+            <!-- Loop through options -->
+            <li *ngFor="let option of allJuz1questions[0]?.questions[currentQuestionIndex]?.options">
+                <button [ngClass]="{
+                  'btn-success': isSelected(option) && isCorrect(option, allJuz1questions[0]?.questions[currentQuestionIndex]?.correctAnswer),
+                  'btn-danger': isWrong(option, allJuz1questions[0]?.questions[currentQuestionIndex]?.correctAnswer),
+                  'disabled': disableOptions() && !isSelected(option)
+                }" [disabled]="disableOptions()"
+                    (click)="selectOption(option, allJuz1questions[0]?.questions[currentQuestionIndex]?.correctAnswer)">
+                    {{ option }}
+                </button>
+            </li>
+        </ul>
+        <div>
+            <div class="next-btn">
+                <button (click)="showNextQuestion()"
+                    [disabled]="currentQuestionIndex === allJuz1questions[0]?.questions.length - 1">Next</button>
+            </div>
+            <div class="prev-btn">
+                <button (click)="showPrevQuestion()" [disabled]="currentQuestionIndex === 0">Previous</button>
+            </div>
+        </div>
+    </div>
+</main>

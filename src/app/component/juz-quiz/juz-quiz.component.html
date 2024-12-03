@@ -1,0 +1,48 @@
+<!-- <div class="juz-quiz">
+    <h2>Juz Quiz</h2>
+    <div *ngFor="let juz of juzContent">
+      <div class="juz-section">
+        <h3>Juz {{ juz.juz }}</h3>
+        <p>{{ juz.description }}</p>
+  
+        <div *ngFor="let question of juz.questions">
+          <div class="question">
+            <p>{{ question.question }}</p>
+            <div *ngFor="let option of question.options">
+              <label>
+                <input type="radio" name="question-{{ juz.juz }}" [value]="option">
+                {{ option }}
+              </label>
+            </div>
+          </div>
+        </div>
+  
+        <button (click)="submitQuiz(juz)">Submit</button>
+      </div>
+    </div>
+  </div>
+   -->
+
+
+<main style="background: #fff;min-height: 100vh;padding: 10px;">
+    <br>
+    <div class="backbtn" (click)="onBack()">
+        <i class="bi bi-arrow-left" style="display: flex;"></i>
+    </div>
+    <h3 style="font-family: Roboto;text-align: center;">Choose A Juz You Want</h3>
+
+    <ul class="juz-list">
+        <li *ngFor="let list of allJuz" [class.selected]="selectedJuz === list" (click)="selectJuz(list)"><span
+                style="font-family: playwrite;" *ngIf="selectedJuz !== list">
+                {{ list.juz }} — <span style="font-family: Lateeff;">{{ list.juzname }}</span>
+            </span>
+            <span style="font-family: playwrite" *ngIf="selectedJuz === list">
+                {{ list.englishjuz }}
+            </span>
+        </li>
+    </ul>
+
+    <div *ngIf="selectedJuz" class="proceed-btn">
+        <button (click)="proceedToQuiz()">Start Quiz</button>
+    </div>
+</main>

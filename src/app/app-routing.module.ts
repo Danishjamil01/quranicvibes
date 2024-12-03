@@ -38,36 +38,77 @@ import { IslamiccultureComponent } from './islamicculture/islamicculture.compone
 import { IslamicgeographyComponent } from './islamicgeography/islamicgeography.component';
 import { RamadanComponent } from './ramadan/ramadan.component';
 import { IslamicfestivalComponent } from './islamicfestival/islamicfestival.component';
+import { AyatQuizComponent } from './component/ayat-quiz/ayat-quiz.component';
+import { CharactersInQuranComponent } from './component/characters-in-quran/characters-in-quran.component';
+import { HistoricalEventsComponent } from './component/historical-events/historical-events.component';
+import { JuzQuizComponent } from './component/juz-quiz/juz-quiz.component';
+import { RevelationContextComponent } from './component/revelation-context/revelation-context.component';
+import { SurahQuizComponent } from './component/surah-quiz/surah-quiz.component';
+import { TafsirAndMeaningsComponent } from './component/tafsir-and-meanings/tafsir-and-meanings.component';
+import { ThematicQuizComponent } from './component/thematic-quiz/thematic-quiz.component';
+import { Juz1Component } from './component/juz-1/juz-1.component';
+import { Juz2Component } from './component/juz-2/juz-2.component';
+import { Juz3Component } from './component/juz-3/juz-3.component';
+import { Juz4Component } from './component/juz-4/juz-4.component';
+import { Juz5Component } from './component/juz-5/juz-5.component';
+import { Juz6Component } from './component/juz-6/juz-6.component';
+import { Juz7Component } from './component/juz-7/juz-7.component';
+import { Juz8Component } from './component/juz-8/juz-8.component';
+import { Juz10Component } from './component/juz-10/juz-10.component';
+import { Juz11Component } from './component/juz-11/juz-11.component';
+import { Juz12Component } from './component/juz-12/juz-12.component';
+import { Juz13Component } from './component/juz-13/juz-13.component';
+import { Juz14Component } from './component/juz-14/juz-14.component';
+import { Juz15Component } from './component/juz-15/juz-15.component';
+import { Juz16Component } from './component/juz-16/juz-16.component';
+import { Juz17Component } from './component/juz-17/juz-17.component';
+import { Juz9Component } from './component/juz-9/juz-9.component';
+import { Juz18Component } from './component/juz-18/juz-18.component';
+import { Juz19Component } from './component/juz-19/juz-19.component';
+import { Juz20Component } from './component/juz-20/juz-20.component';
+import { Juz21Component } from './component/juz-21/juz-21.component';
+import { Juz22Component } from './component/juz-22/juz-22.component';
+import { Juz23Component } from './component/juz-23/juz-23.component';
+import { Juz24Component } from './component/juz-24/juz-24.component';
+import { Juz25Component } from './component/juz-25/juz-25.component';
+import { Juz26Component } from './component/juz-26/juz-26.component';
+import { Juz27Component } from './component/juz-27/juz-27.component';
+import { Juz28Component } from './component/juz-28/juz-28.component';
+import { Juz29Component } from './component/juz-29/juz-29.component';
+import { Juz30Component } from './component/juz-30/juz-30.component';
+import { ConceptualQuestionsComponent } from './component/conceptual-questions/conceptual-questions.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
-  {path:'' ,redirectTo:'/splash', pathMatch:'full'},
-  {path:'welcome' , component:WelcomeComponent},
-  {path:'splash' , component:SplashScreenComponent},
-  {path:'freesignup' , component:SignupfreeComponent},
-  {path:'login' , component:LoginComponent},
-  {path:'phonelogin', component:PhoneloginComponent},
-  {path:'createpass', component:CreatepasswordComponent},
-  {path:'dob', component:DobComponent},
-  {path:'singer', component:ChoosesingerComponent},
-  {path:'home', component:HomeComponent},
-  {path:'all', component:HomeComponent},
-  {path:'bottomtab', component:BottomTabComponent},
-  {path:'search', component:SearchComponent},
-  {path:'liabrary', component:LiabraryComponent},
-  {path:'premium', component:PremiumComponent},
-  {path:'artistsonglist', component:ArtistSongListComponent},
-  {path:'shorts', component:ShortsComponent},
-  {path:'bayans', component:BayansComponent},
-  {path:'shows', component:ShowsComponent},
-  {path:'fsinger', component:FSingerComponent},
-  {path:'vibe', component:VibeComponent},
-  {path:'scholar', component:ScholarComponent},
-  {path:'podcast', component:PodcastComponent},
-  {path:'podcast', component:PodcastComponent},
-  {path:'allchapter',component:AllChapterComponent},
-  {path:'readquran',component:ReadQuranComponent},
-  {path:'readbyjuz',component:ReadByJuzComponent},
-  {path:'alljuz',component:AlljuzComponent},
+  { path: '', redirectTo: '/splash', pathMatch: 'full' },
+  { path: 'welcome', component: WelcomeComponent },
+  { path: 'splash', component: SplashScreenComponent },
+  { path: 'freesignup', component: SignupfreeComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'phonelogin', component: PhoneloginComponent },
+  { path: 'createpass', component: CreatepasswordComponent },
+  { path: 'dob', component: DobComponent },
+  { path: 'singer', component: ChoosesingerComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'all', component: HomeComponent },
+  { path: 'bottomtab', component: BottomTabComponent },
+  { path: 'search', component: SearchComponent },
+  { path: 'liabrary', component: LiabraryComponent },
+  { path: 'premium', component: PremiumComponent },
+  { path: 'artistsonglist', component: ArtistSongListComponent },
+  { path: 'shorts', component: ShortsComponent },
+  { path: 'bayans', component: BayansComponent },
+  { path: 'shows', component: ShowsComponent },
+  { path: 'fsinger', component: FSingerComponent },
+  { path: 'vibe', component: VibeComponent },
+  { path: 'scholar', component: ScholarComponent },
+  { path: 'podcast', component: PodcastComponent },
+  { path: 'podcast', component: PodcastComponent },
+  { path: 'allchapter', component: AllChapterComponent },
+  { path: 'readquran', component: ReadQuranComponent },
+  { path: 'readbyjuz', component: ReadByJuzComponent },
+  { path: 'alljuz', component: AlljuzComponent },
   { path: 'quiz/:id', component: QuizComponent },
   { path: 'quizcontent', component: QuizcontentComponent },
   { path: 'allprophets', component: ProphetListComponent },
@@ -81,7 +122,45 @@ const routes: Routes = [
   { path: 'islamicgeography', component: IslamicgeographyComponent },
   { path: 'ramadan', component: RamadanComponent },
   { path: 'islamicfestival', component: IslamicfestivalComponent },
-
+  { path: 'juz-quiz', component: JuzQuizComponent },
+  { path: 'surah-quiz', component: SurahQuizComponent },
+  { path: 'thematic-quiz', component: ThematicQuizComponent },
+  { path: 'ayat-quiz', component: AyatQuizComponent },
+  { path: 'historical-events', component: HistoricalEventsComponent },
+  { path: 'characters-in-quran', component: CharactersInQuranComponent },
+  { path: 'revelation-context', component: RevelationContextComponent },
+  { path: 'tafsir-and-meanings', component: TafsirAndMeaningsComponent },
+  { path: 'juz-1', component: Juz1Component },
+  { path: 'juz-2', component: Juz2Component },
+  { path: 'juz-3', component: Juz3Component },
+  { path: 'juz-4', component: Juz4Component },
+  { path: 'juz-5', component: Juz5Component },
+  { path: 'juz-6', component: Juz6Component },
+  { path: 'juz-7', component: Juz7Component },
+  { path: 'juz-8', component: Juz8Component },
+  { path: 'juz-9', component: Juz9Component },
+  { path: 'juz-10', component: Juz10Component },
+  { path: 'juz-11', component: Juz11Component },
+  { path: 'juz-12', component: Juz12Component },
+  { path: 'juz-13', component: Juz13Component },
+  { path: 'juz-14', component: Juz14Component },
+  { path: 'juz-15', component: Juz15Component },
+  { path: 'juz-16', component: Juz16Component },
+  { path: 'juz-17', component: Juz17Component },
+  { path: 'juz-18', component: Juz18Component },
+  { path: 'juz-19', component: Juz19Component },
+  { path: 'juz-20', component: Juz20Component },
+  { path: 'juz-21', component: Juz21Component },
+  { path: 'juz-22', component: Juz22Component },
+  { path: 'juz-23', component: Juz23Component },
+  { path: 'juz-24', component: Juz24Component },
+  { path: 'juz-25', component: Juz25Component },
+  { path: 'juz-26', component: Juz26Component },
+  { path: 'juz-27', component: Juz27Component },
+  { path: 'juz-28', component: Juz28Component },
+  { path: 'juz-29', component: Juz29Component },
+  { path: 'juz-30', component: Juz30Component },
+  { path: 'conceptual-questions', component: ConceptualQuestionsComponent },
 ];
 
 @NgModule({

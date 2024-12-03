@@ -1,0 +1,39 @@
+.main-section {
+    min-height: 100vh;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+
+    .logo {
+        text-align: center;
+        padding-top: 40px;
+
+        img {
+            width: 200px;
+        }
+    }
+
+    .signup-container {
+        padding: 10px 20px;
+
+        form {
+            input {
+                width: 100%;
+                margin-top: 10px;
+                border-radius: 8px;
+                padding: 13px 8px;
+                border: 1px solid rgba(21, 87, 128,0.4);
+                outline: none;
+            }
+
+            button {
+                width: 100%;
+                border-radius: 30px;
+                padding: 15px;
+                border: 1px solid #155780;
+                background: #155780;
+                color: #fff;
+            }
+        }
+    }
+}

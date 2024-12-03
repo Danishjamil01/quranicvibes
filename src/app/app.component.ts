@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { TabVisibilityService } from './services/tab-visibility.service';
 @Component({
   selector: 'app-root',
@@ -10,9 +10,15 @@ export class AppComponent {
 
   isVisible: boolean = true;
 
-  constructor(private TabVisibilityService: TabVisibilityService) {
-    this.TabVisibilityService.getVisibility().subscribe(isVisible => {
+  constructor(
+    private tabVisibilityService: TabVisibilityService,
+    private cdr: ChangeDetectorRef
+  ) { }
+
+  ngOnInit(): void {
+    this.tabVisibilityService.getVisibility().subscribe(isVisible => {
       this.isVisible = isVisible;
+      this.cdr.detectChanges(); // Ensures Angular picks up the change
     });
   }
 }
