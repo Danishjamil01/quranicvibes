@@ -1,7 +1,7 @@
-<section style="background-color: #000;height: auto;">
+<!-- <section style="background-color: #000;height: auto;">
   <div class="banner-tabs">
     <div class="profile">
-      <li (click)="openProfile()">D</li>
+      <li (click)="openProfile()"><img src="../../../assets/images/profile/1.png" alt="" style="width: 100%;"></li>
     </div>
     <div class="tabList">
       <button *ngFor="let button of tabs" [class.selected]="button === selectedTab" (click)="selectTab(button)">
@@ -12,8 +12,7 @@
 
   <section *ngIf="isShowAll" style="margin-top: 70px;">
     <div class="something-else" style="padding:12px  15px  0;">
-      <h2 style="color: #fff;">Try something else</h2>
-
+      <h2 style="color: #fff;">Trending Now</h2>
       <div class="mt-4" style="display: flex;overflow-x: scroll;gap: 20px;">
         <div class="new-hits" *ngFor="let collection of newhits">
           <div class="poster">
@@ -23,6 +22,12 @@
             <p class="twoLineText" style="color: #9f9f9f;font-size: 13px;">{{collection.about}}</p>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="popular-artist">
+      <div style="display: flex;justify-content: space-between;align-items: center;">
+        <p style="color:#fff">Popular Artist</p><span style="color:rgb(34, 170, 34)">See All</span>
       </div>
     </div>
 
@@ -124,7 +129,6 @@
         <div class="description mt-2">
           <p class="oneLineText" style="color: #9f9f9f;font-size: 12px;">{{song.description}}</p>
         </div>
-        <!-- <img src="../../../assets/images/morelikesong/3.png" alt=""> -->
       </div>
     </div>
   </section>
@@ -136,7 +140,6 @@
 
 
 
-<!-- <img src="../../../assets/images/fresh/4.png" alt=""> -->
 
 
 
@@ -163,4 +166,37 @@
       <li><i style="font-size: 20px;" class="bi bi-clock-history"></i> <span>Settings and privacy</span></li>
     </div>
   </div>
-</div>
+</div> -->
+
+
+
+
+<main style="padding: 15px 12px;">
+  <div class="home-header">
+    <div style="display:flex;align-items: center;gap: 15px;color:#fff">
+      <div class="profile">
+        <li (click)="openProfile()"><img src="../../../assets/images/profile/1.png" alt="" style="width: 100%;"></li>
+      </div>
+      <div>
+        <p>Good Morning</p>
+        <p>John Doe</p>
+      </div>
+    </div>
+    <div class="serach-section">
+      <i class="fi fi-rr-search"></i>
+      <i class="fi fi-rr-bell"></i>
+    </div>
+  </div>
+
+  <div class="trending-section">
+    <div style="display:flex;align-items: center;justify-content: space-between;color:#fff">
+      <h3>Trending Now</h3>
+      <span>See All</span>
+    </div>
+    <div>
+      <img src="" alt="">
+      <p class="description"></p>
+      <p class="singer"></p>
+    </div>
+  </div>
+</main>

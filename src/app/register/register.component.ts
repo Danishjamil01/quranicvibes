@@ -31,6 +31,7 @@ export class RegisterComponent implements OnInit {
   showPass(id: string) {
     this.showPassField[id] = !this.showPassField[id];
   }
+  
   authenticateInput(users: RegisterUsers) {
     let message: string = "";
     if (users.firstname === '' || users.firstname == null) {
